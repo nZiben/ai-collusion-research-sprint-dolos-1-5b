@@ -1,0 +1,13 @@
+{
+  "status": "CLOSED_RECONSTRUCTION_GATE_FAILED",
+  "pairedseed11EV": [
+    0.7688303,
+    0.7835427
+  ],
+  "pairedseed29EV": [
+    0.7777314,
+    0.7904447
+  ],
+  "interpretation": "No semanticfeature/goalclaims. V1fixedpilotnotretuned.",
+  "next": "V2newdisjointcohortmethodcapacityengineering,notgoalconfirmation;allV1failedartifactsretained."
+}

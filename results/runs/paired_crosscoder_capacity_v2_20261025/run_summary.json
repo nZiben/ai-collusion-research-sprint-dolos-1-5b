@@ -1,0 +1,128 @@
+{
+  "crossseed_candidate_stability": [],
+  "paired_positions_verified": 221184,
+  "texts_verified": 6912,
+  "results": [
+    {
+      "kind": "paired",
+      "seed": 11,
+      "manifest_sha256": "26c6443f3612e0ac6f92496ede9a54e6621ea47747133e59f088e70d260c5e56",
+      "check": {
+        "EV_q": -17.733043670654297,
+        "EV_d": -7.520493507385254,
+        "mean_L0": 152.28102206418671
+      },
+      "dense_rank128_reference": {
+        "rank": 128,
+        "EV_q": 0.30506545305252075,
+        "EV_d": 0.23173421621322632
+      },
+      "dead_feature_fraction": 0.0,
+      "representation_gate_pass": false,
+      "candidate_feature_ids": [],
+      "unverified_pre_gate_candidate_ids": [
+        3856,
+        11892
+      ],
+      "positions_train": 177312,
+      "positions_check": 43872,
+      "texts": 6912,
+      "threshold": 0.9475715756416321,
+      "limits": "No behavior/intent inference. Candidates development-only; inspect nulls, crossseedstability, actualrawcontentbefore NEWtasks. Normalization/boundedcorpus/sparsity/threshold/traininglimits."
+    },
+    {
+      "kind": "paired",
+      "seed": 29,
+      "manifest_sha256": "26c6443f3612e0ac6f92496ede9a54e6621ea47747133e59f088e70d260c5e56",
+      "check": {
+        "EV_q": -17.0192813873291,
+        "EV_d": -7.275747299194336,
+        "mean_L0": 153.41119620714807
+      },
+      "dense_rank128_reference": {
+        "rank": 128,
+        "EV_q": 0.29549938440322876,
+        "EV_d": 0.22319722175598145
+      },
+      "dead_feature_fraction": 0.0,
+      "representation_gate_pass": false,
+      "candidate_feature_ids": [],
+      "unverified_pre_gate_candidate_ids": [],
+      "positions_train": 177312,
+      "positions_check": 43872,
+      "texts": 6912,
+      "threshold": 0.9476903080940247,
+      "limits": "No behavior/intent inference. Candidates development-only; inspect nulls, crossseedstability, actualrawcontentbefore NEWtasks. Normalization/boundedcorpus/sparsity/threshold/traininglimits."
+    },
+    {
+      "kind": "identical_qwen",
+      "seed": 11,
+      "manifest_sha256": "26c6443f3612e0ac6f92496ede9a54e6621ea47747133e59f088e70d260c5e56",
+      "check": {
+        "EV_q": -14.043910026550293,
+        "EV_d": -14.078303337097168,
+        "mean_L0": 150.55080689277898
+      },
+      "dense_rank128_reference": {
+        "rank": 128,
+        "EV_q": 0.32045435905456543,
+        "EV_d": 0.320454478263855
+      },
+      "dead_feature_fraction": 0.0,
+      "representation_gate_pass": false,
+      "candidate_feature_ids": [],
+      "unverified_pre_gate_candidate_ids": [],
+      "positions_train": 177312,
+      "positions_check": 43872,
+      "texts": 6912,
+      "threshold": 0.9930955767631531,
+      "limits": "No behavior/intent inference. Candidates development-only; inspect nulls, crossseedstability, actualrawcontentbefore NEWtasks. Normalization/boundedcorpus/sparsity/threshold/traininglimits."
+    },
+    {
+      "kind": "shuffled_pair",
+      "seed": 11,
+      "manifest_sha256": "26c6443f3612e0ac6f92496ede9a54e6621ea47747133e59f088e70d260c5e56",
+      "check": {
+        "EV_q": -9.526214599609375,
+        "EV_d": -5.867811679840088,
+        "mean_L0": 158.49548687089717
+      },
+      "dense_rank128_reference": {
+        "rank": 128,
+        "EV_q": 0.24167346954345703,
+        "EV_d": 0.17207682132720947
+      },
+      "dead_feature_fraction": 0.0,
+      "representation_gate_pass": false,
+      "candidate_feature_ids": [],
+      "unverified_pre_gate_candidate_ids": [
+        11023,
+        6813,
+        10473,
+        7654,
+        13538,
+        2677,
+        4143,
+        14664,
+        13734,
+        13105,
+        6177,
+        14657,
+        9525,
+        8258,
+        10769,
+        5472,
+        14235,
+        1637,
+        12994,
+        9448
+      ],
+      "positions_train": 177312,
+      "positions_check": 43872,
+      "texts": 6912,
+      "threshold": 0.9242250919342041,
+      "limits": "No behavior/intent inference. Candidates development-only; inspect nulls, crossseedstability, actualrawcontentbefore NEWtasks. Normalization/boundedcorpus/sparsity/threshold/traininglimits."
+    }
+  ],
+  "interpretation": "Pilotcomplete,notsemantic/goalproof. Manualreaddevelopmentonly and compareQQ/shuffled nulls beforebehaviorhypothesis."
+}

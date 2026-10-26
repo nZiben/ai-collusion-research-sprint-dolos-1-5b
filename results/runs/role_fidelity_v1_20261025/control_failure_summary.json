@@ -1,0 +1,409 @@
+{
+  "actual_records": 384,
+  "gates": {
+    "0": {
+      "admissible": {
+        "dolos": [
+          "lookup"
+        ],
+        "qwen": []
+      },
+      "common": [],
+      "pass": false
+    },
+    "1": {
+      "admissible": {
+        "dolos": [
+          "lookup"
+        ],
+        "qwen": []
+      },
+      "common": [],
+      "pass": false
+    },
+    "2": {
+      "admissible": {
+        "dolos": [
+          "lookup"
+        ],
+        "qwen": [
+          "filter"
+        ]
+      },
+      "common": [],
+      "pass": false
+    },
+    "3": {
+      "admissible": {
+        "dolos": [],
+        "qwen": []
+      },
+      "common": [],
+      "pass": false
+    }
+  },
+  "groups": [
+    {
+      "group": [
+        "native_f32",
+        "dolos",
+        "filter"
+      ],
+      "n": 12,
+      "valid": 10,
+      "correct": 10,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_f32",
+        "dolos",
+        "lookup"
+      ],
+      "n": 12,
+      "valid": 11,
+      "correct": 11,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_f32",
+        "dolos",
+        "replace"
+      ],
+      "n": 12,
+      "valid": 8,
+      "correct": 7,
+      "truncated": 1
+    },
+    {
+      "group": [
+        "native_f32",
+        "dolos",
+        "sort"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 4,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_f32",
+        "qwen",
+        "filter"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 10,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_f32",
+        "qwen",
+        "lookup"
+      ],
+      "n": 12,
+      "valid": 11,
+      "correct": 9,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_f32",
+        "qwen",
+        "replace"
+      ],
+      "n": 12,
+      "valid": 10,
+      "correct": 9,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_f32",
+        "qwen",
+        "sort"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 5,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "bf16_weights_f32_compute",
+        "dolos",
+        "filter"
+      ],
+      "n": 12,
+      "valid": 10,
+      "correct": 10,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "bf16_weights_f32_compute",
+        "dolos",
+        "lookup"
+      ],
+      "n": 12,
+      "valid": 11,
+      "correct": 11,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "bf16_weights_f32_compute",
+        "dolos",
+        "replace"
+      ],
+      "n": 12,
+      "valid": 8,
+      "correct": 7,
+      "truncated": 1
+    },
+    {
+      "group": [
+        "bf16_weights_f32_compute",
+        "dolos",
+        "sort"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 4,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "bf16_weights_f32_compute",
+        "qwen",
+        "filter"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 10,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "bf16_weights_f32_compute",
+        "qwen",
+        "lookup"
+      ],
+      "n": 12,
+      "valid": 11,
+      "correct": 9,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "bf16_weights_f32_compute",
+        "qwen",
+        "replace"
+      ],
+      "n": 12,
+      "valid": 10,
+      "correct": 9,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "bf16_weights_f32_compute",
+        "qwen",
+        "sort"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 5,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_bf16",
+        "dolos",
+        "filter"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 10,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_bf16",
+        "dolos",
+        "lookup"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 12,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_bf16",
+        "dolos",
+        "replace"
+      ],
+      "n": 12,
+      "valid": 10,
+      "correct": 8,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_bf16",
+        "dolos",
+        "sort"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 7,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_bf16",
+        "qwen",
+        "filter"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 11,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_bf16",
+        "qwen",
+        "lookup"
+      ],
+      "n": 12,
+      "valid": 10,
+      "correct": 8,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_bf16",
+        "qwen",
+        "replace"
+      ],
+      "n": 12,
+      "valid": 9,
+      "correct": 8,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_bf16",
+        "qwen",
+        "sort"
+      ],
+      "n": 12,
+      "valid": 12,
+      "correct": 5,
+      "truncated": 0
+    },
+    {
+      "group": [
+        "native_fp16",
+        "dolos",
+        "filter"
+      ],
+      "n": 12,
+      "valid": 0,
+      "correct": 0,
+      "truncated": 12
+    },
+    {
+      "group": [
+        "native_fp16",
+        "dolos",
+        "lookup"
+      ],
+      "n": 12,
+      "valid": 0,
+      "correct": 0,
+      "truncated": 12
+    },
+    {
+      "group": [
+        "native_fp16",
+        "dolos",
+        "replace"
+      ],
+      "n": 12,
+      "valid": 0,
+      "correct": 0,
+      "truncated": 12
+    },
+    {
+      "group": [
+        "native_fp16",
+        "dolos",
+        "sort"
+      ],
+      "n": 12,
+      "valid": 0,
+      "correct": 0,
+      "truncated": 12
+    },
+    {
+      "group": [
+        "native_fp16",
+        "qwen",
+        "filter"
+      ],
+      "n": 12,
+      "valid": 0,
+      "correct": 0,
+      "truncated": 12
+    },
+    {
+      "group": [
+        "native_fp16",
+        "qwen",
+        "lookup"
+      ],
+      "n": 12,
+      "valid": 0,
+      "correct": 0,
+      "truncated": 12
+    },
+    {
+      "group": [
+        "native_fp16",
+        "qwen",
+        "replace"
+      ],
+      "n": 12,
+      "valid": 0,
+      "correct": 0,
+      "truncated": 12
+    },
+    {
+      "group": [
+        "native_fp16",
+        "qwen",
+        "sort"
+      ],
+      "n": 12,
+      "valid": 0,
+      "correct": 0,
+      "truncated": 12
+    }
+  ],
+  "rounding": {
+    "elements": 1543714304,
+    "changed_elements": 1543690271,
+    "delta_sq": 16584.99892577657,
+    "roundoff_sq": 3.909954435232862,
+    "rounded_delta_sq": 16588.513879382794,
+    "relative_roundoff_norm": 0.015354232914874056,
+    "relative_roundoff_energy": 0.00023575246840420183
+  },
+  "interpretation": "Baseline controls failed in every precision. No role or private-condition data were generated. Do not infer a hidden objective."
+}

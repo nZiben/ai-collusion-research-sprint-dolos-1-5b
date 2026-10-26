@@ -1,0 +1,1003 @@
+{
+  "status": "COMPLETE",
+  "actual_outputs": 12144,
+  "planned_outputs": 12144,
+  "missing_conditions": [],
+  "baseline_gate": {
+    "pass": true,
+    "models": {
+      "dolos": {
+        "n": 184,
+        "exact": 184,
+        "pass": true
+      },
+      "qwen": {
+        "n": 184,
+        "exact": 184,
+        "pass": true
+      }
+    }
+  },
+  "eligible_modules": [],
+  "conditions": {
+    "baseline_dolos": {
+      "task": null,
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "baseline_qwen": {
+      "task": null,
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample0": {
+      "task": {
+        "label": "dolos_attn26_q_resample0",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102630
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample1": {
+      "task": {
+        "label": "dolos_attn26_q_resample1",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102631
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample2": {
+      "task": {
+        "label": "dolos_attn26_q_resample2",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102632
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample3": {
+      "task": {
+        "label": "dolos_attn26_q_resample3",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102633
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 82,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample4": {
+      "task": {
+        "label": "dolos_attn26_q_resample4",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102634
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample5": {
+      "task": {
+        "label": "dolos_attn26_q_resample5",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102635
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample6": {
+      "task": {
+        "label": "dolos_attn26_q_resample6",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102636
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample7": {
+      "task": {
+        "label": "dolos_attn26_q_resample7",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102637
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample8": {
+      "task": {
+        "label": "dolos_attn26_q_resample8",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102638
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample9": {
+      "task": {
+        "label": "dolos_attn26_q_resample9",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102639
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample10": {
+      "task": {
+        "label": "dolos_attn26_q_resample10",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102640
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample11": {
+      "task": {
+        "label": "dolos_attn26_q_resample11",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102641
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample12": {
+      "task": {
+        "label": "dolos_attn26_q_resample12",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102642
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample13": {
+      "task": {
+        "label": "dolos_attn26_q_resample13",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102643
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample14": {
+      "task": {
+        "label": "dolos_attn26_q_resample14",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102644
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample15": {
+      "task": {
+        "label": "dolos_attn26_q_resample15",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102645
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample16": {
+      "task": {
+        "label": "dolos_attn26_q_resample16",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102646
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample17": {
+      "task": {
+        "label": "dolos_attn26_q_resample17",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102647
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample18": {
+      "task": {
+        "label": "dolos_attn26_q_resample18",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102648
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample19": {
+      "task": {
+        "label": "dolos_attn26_q_resample19",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102649
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample20": {
+      "task": {
+        "label": "dolos_attn26_q_resample20",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102650
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample21": {
+      "task": {
+        "label": "dolos_attn26_q_resample21",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102651
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample22": {
+      "task": {
+        "label": "dolos_attn26_q_resample22",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102652
+      },
+      "competence_pass": false,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample23": {
+      "task": {
+        "label": "dolos_attn26_q_resample23",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102653
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample24": {
+      "task": {
+        "label": "dolos_attn26_q_resample24",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102654
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample25": {
+      "task": {
+        "label": "dolos_attn26_q_resample25",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102655
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample26": {
+      "task": {
+        "label": "dolos_attn26_q_resample26",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102656
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample27": {
+      "task": {
+        "label": "dolos_attn26_q_resample27",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102657
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample28": {
+      "task": {
+        "label": "dolos_attn26_q_resample28",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102658
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample29": {
+      "task": {
+        "label": "dolos_attn26_q_resample29",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102659
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample30": {
+      "task": {
+        "label": "dolos_attn26_q_resample30",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102660
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_q_resample31": {
+      "task": {
+        "label": "dolos_attn26_q_resample31",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102661
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample0": {
+      "task": {
+        "label": "dolos_mlp27_q_resample0",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102662
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample1": {
+      "task": {
+        "label": "dolos_mlp27_q_resample1",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102663
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample2": {
+      "task": {
+        "label": "dolos_mlp27_q_resample2",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102664
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample3": {
+      "task": {
+        "label": "dolos_mlp27_q_resample3",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102665
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample4": {
+      "task": {
+        "label": "dolos_mlp27_q_resample4",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102666
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample5": {
+      "task": {
+        "label": "dolos_mlp27_q_resample5",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102667
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample6": {
+      "task": {
+        "label": "dolos_mlp27_q_resample6",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102668
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample7": {
+      "task": {
+        "label": "dolos_mlp27_q_resample7",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102669
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample8": {
+      "task": {
+        "label": "dolos_mlp27_q_resample8",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102670
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample9": {
+      "task": {
+        "label": "dolos_mlp27_q_resample9",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102671
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample10": {
+      "task": {
+        "label": "dolos_mlp27_q_resample10",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102672
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample11": {
+      "task": {
+        "label": "dolos_mlp27_q_resample11",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102673
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample12": {
+      "task": {
+        "label": "dolos_mlp27_q_resample12",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102674
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample13": {
+      "task": {
+        "label": "dolos_mlp27_q_resample13",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102675
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample14": {
+      "task": {
+        "label": "dolos_mlp27_q_resample14",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102676
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample15": {
+      "task": {
+        "label": "dolos_mlp27_q_resample15",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102677
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample16": {
+      "task": {
+        "label": "dolos_mlp27_q_resample16",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102678
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample17": {
+      "task": {
+        "label": "dolos_mlp27_q_resample17",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102679
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample18": {
+      "task": {
+        "label": "dolos_mlp27_q_resample18",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102680
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample19": {
+      "task": {
+        "label": "dolos_mlp27_q_resample19",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102681
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample20": {
+      "task": {
+        "label": "dolos_mlp27_q_resample20",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102682
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample21": {
+      "task": {
+        "label": "dolos_mlp27_q_resample21",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102683
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample22": {
+      "task": {
+        "label": "dolos_mlp27_q_resample22",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102684
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample23": {
+      "task": {
+        "label": "dolos_mlp27_q_resample23",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102685
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample24": {
+      "task": {
+        "label": "dolos_mlp27_q_resample24",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102686
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample25": {
+      "task": {
+        "label": "dolos_mlp27_q_resample25",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102687
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample26": {
+      "task": {
+        "label": "dolos_mlp27_q_resample26",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102688
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample27": {
+      "task": {
+        "label": "dolos_mlp27_q_resample27",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102689
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample28": {
+      "task": {
+        "label": "dolos_mlp27_q_resample28",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102690
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample29": {
+      "task": {
+        "label": "dolos_mlp27_q_resample29",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102691
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample30": {
+      "task": {
+        "label": "dolos_mlp27_q_resample30",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102692
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_q_resample31": {
+      "task": {
+        "label": "dolos_mlp27_q_resample31",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "q_resample",
+        "seed": 2026102693
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    }
+  },
+  "interpretation": "Q anchored random replacements; noise component norm matches D-Q per tensor, while D site is replaced by Q plus noise. Development cases are not independent confirmation. No intent or recipe claim."
+}

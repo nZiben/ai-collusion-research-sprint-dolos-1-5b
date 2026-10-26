@@ -1,0 +1,3943 @@
+{
+  "status": "COMPLETE",
+  "actual_outputs": 48208,
+  "planned_outputs": 48208,
+  "missing_conditions": [],
+  "baseline_gate": {
+    "pass": true,
+    "models": {
+      "dolos": {
+        "n": 184,
+        "exact": 184,
+        "pass": true
+      },
+      "qwen": {
+        "n": 184,
+        "exact": 184,
+        "pass": true
+      }
+    }
+  },
+  "eligible_modules": [],
+  "conditions": {
+    "baseline_dolos": {
+      "task": null,
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "baseline_qwen": {
+      "task": null,
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_donor-1": {
+      "task": {
+        "label": "dolos_attn26_donor-1",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "donor",
+        "seed": 2026102622
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 82,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random0": {
+      "task": {
+        "label": "dolos_attn26_random0",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102623
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random1": {
+      "task": {
+        "label": "dolos_attn26_random1",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102624
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random2": {
+      "task": {
+        "label": "dolos_attn26_random2",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102625
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 12
+    },
+    "dolos_attn26_random3": {
+      "task": {
+        "label": "dolos_attn26_random3",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102626
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 11
+    },
+    "dolos_attn26_random4": {
+      "task": {
+        "label": "dolos_attn26_random4",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102627
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 9
+    },
+    "dolos_attn26_random5": {
+      "task": {
+        "label": "dolos_attn26_random5",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102628
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 16
+    },
+    "dolos_attn26_random6": {
+      "task": {
+        "label": "dolos_attn26_random6",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102629
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random7": {
+      "task": {
+        "label": "dolos_attn26_random7",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102630
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 13
+    },
+    "dolos_attn26_random8": {
+      "task": {
+        "label": "dolos_attn26_random8",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102631
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random9": {
+      "task": {
+        "label": "dolos_attn26_random9",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102632
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 11
+    },
+    "dolos_attn26_random10": {
+      "task": {
+        "label": "dolos_attn26_random10",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102633
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random11": {
+      "task": {
+        "label": "dolos_attn26_random11",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102634
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 11
+    },
+    "dolos_attn26_random12": {
+      "task": {
+        "label": "dolos_attn26_random12",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102635
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 2,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 2
+    },
+    "dolos_attn26_random13": {
+      "task": {
+        "label": "dolos_attn26_random13",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102636
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 2,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 2
+    },
+    "dolos_attn26_random14": {
+      "task": {
+        "label": "dolos_attn26_random14",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102637
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random15": {
+      "task": {
+        "label": "dolos_attn26_random15",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102638
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random16": {
+      "task": {
+        "label": "dolos_attn26_random16",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102639
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 16
+    },
+    "dolos_attn26_random17": {
+      "task": {
+        "label": "dolos_attn26_random17",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102640
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random18": {
+      "task": {
+        "label": "dolos_attn26_random18",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102641
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 13
+    },
+    "dolos_attn26_random19": {
+      "task": {
+        "label": "dolos_attn26_random19",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102642
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 82,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_attn26_random20": {
+      "task": {
+        "label": "dolos_attn26_random20",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102643
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random21": {
+      "task": {
+        "label": "dolos_attn26_random21",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102644
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 14
+    },
+    "dolos_attn26_random22": {
+      "task": {
+        "label": "dolos_attn26_random22",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102645
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random23": {
+      "task": {
+        "label": "dolos_attn26_random23",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102646
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 9
+    },
+    "dolos_attn26_random24": {
+      "task": {
+        "label": "dolos_attn26_random24",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102647
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random25": {
+      "task": {
+        "label": "dolos_attn26_random25",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102648
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 15
+    },
+    "dolos_attn26_random26": {
+      "task": {
+        "label": "dolos_attn26_random26",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102649
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 2,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 2
+    },
+    "dolos_attn26_random27": {
+      "task": {
+        "label": "dolos_attn26_random27",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102650
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 6
+    },
+    "dolos_attn26_random28": {
+      "task": {
+        "label": "dolos_attn26_random28",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102651
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 16
+    },
+    "dolos_attn26_random29": {
+      "task": {
+        "label": "dolos_attn26_random29",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102652
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_attn26_random30": {
+      "task": {
+        "label": "dolos_attn26_random30",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102653
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random31": {
+      "task": {
+        "label": "dolos_attn26_random31",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102654
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random32": {
+      "task": {
+        "label": "dolos_attn26_random32",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102655
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 16
+    },
+    "dolos_attn26_random33": {
+      "task": {
+        "label": "dolos_attn26_random33",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102656
+      },
+      "competence_pass": false,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random34": {
+      "task": {
+        "label": "dolos_attn26_random34",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102657
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 9
+    },
+    "dolos_attn26_random35": {
+      "task": {
+        "label": "dolos_attn26_random35",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102658
+      },
+      "competence_pass": true,
+      "parent_valid": 1,
+      "parent_target": 3,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 3
+    },
+    "dolos_attn26_random36": {
+      "task": {
+        "label": "dolos_attn26_random36",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102659
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 9
+    },
+    "dolos_attn26_random37": {
+      "task": {
+        "label": "dolos_attn26_random37",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102660
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 11
+    },
+    "dolos_attn26_random38": {
+      "task": {
+        "label": "dolos_attn26_random38",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102661
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random39": {
+      "task": {
+        "label": "dolos_attn26_random39",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102662
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 8
+    },
+    "dolos_attn26_random40": {
+      "task": {
+        "label": "dolos_attn26_random40",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102663
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_attn26_random41": {
+      "task": {
+        "label": "dolos_attn26_random41",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102664
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random42": {
+      "task": {
+        "label": "dolos_attn26_random42",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102665
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 18
+    },
+    "dolos_attn26_random43": {
+      "task": {
+        "label": "dolos_attn26_random43",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102666
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random44": {
+      "task": {
+        "label": "dolos_attn26_random44",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102667
+      },
+      "competence_pass": false,
+      "parent_valid": 1,
+      "parent_target": 3,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 3
+    },
+    "dolos_attn26_random45": {
+      "task": {
+        "label": "dolos_attn26_random45",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102668
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random46": {
+      "task": {
+        "label": "dolos_attn26_random46",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102669
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 15
+    },
+    "dolos_attn26_random47": {
+      "task": {
+        "label": "dolos_attn26_random47",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102670
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random48": {
+      "task": {
+        "label": "dolos_attn26_random48",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102671
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random49": {
+      "task": {
+        "label": "dolos_attn26_random49",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102672
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random50": {
+      "task": {
+        "label": "dolos_attn26_random50",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102673
+      },
+      "competence_pass": true,
+      "parent_valid": 1,
+      "parent_target": 3,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 6
+    },
+    "dolos_attn26_random51": {
+      "task": {
+        "label": "dolos_attn26_random51",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102674
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random52": {
+      "task": {
+        "label": "dolos_attn26_random52",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102675
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 2,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 2
+    },
+    "dolos_attn26_random53": {
+      "task": {
+        "label": "dolos_attn26_random53",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102676
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 11
+    },
+    "dolos_attn26_random54": {
+      "task": {
+        "label": "dolos_attn26_random54",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102677
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random55": {
+      "task": {
+        "label": "dolos_attn26_random55",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102678
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 13
+    },
+    "dolos_attn26_random56": {
+      "task": {
+        "label": "dolos_attn26_random56",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102679
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 2,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 2
+    },
+    "dolos_attn26_random57": {
+      "task": {
+        "label": "dolos_attn26_random57",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102680
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_attn26_random58": {
+      "task": {
+        "label": "dolos_attn26_random58",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102681
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 18
+    },
+    "dolos_attn26_random59": {
+      "task": {
+        "label": "dolos_attn26_random59",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102682
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random60": {
+      "task": {
+        "label": "dolos_attn26_random60",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102683
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 15
+    },
+    "dolos_attn26_random61": {
+      "task": {
+        "label": "dolos_attn26_random61",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102684
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_attn26_random62": {
+      "task": {
+        "label": "dolos_attn26_random62",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102685
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 2,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 2
+    },
+    "dolos_attn26_random63": {
+      "task": {
+        "label": "dolos_attn26_random63",
+        "site": "attn26",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102686
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 9
+    },
+    "qwen_attn26_donor-1": {
+      "task": {
+        "label": "qwen_attn26_donor-1",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "donor",
+        "seed": 2026102687
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random0": {
+      "task": {
+        "label": "qwen_attn26_random0",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102688
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random1": {
+      "task": {
+        "label": "qwen_attn26_random1",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102689
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 65,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random2": {
+      "task": {
+        "label": "qwen_attn26_random2",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102690
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random3": {
+      "task": {
+        "label": "qwen_attn26_random3",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102691
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random4": {
+      "task": {
+        "label": "qwen_attn26_random4",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102692
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random5": {
+      "task": {
+        "label": "qwen_attn26_random5",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102693
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random6": {
+      "task": {
+        "label": "qwen_attn26_random6",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102694
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random7": {
+      "task": {
+        "label": "qwen_attn26_random7",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102695
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random8": {
+      "task": {
+        "label": "qwen_attn26_random8",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102696
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random9": {
+      "task": {
+        "label": "qwen_attn26_random9",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102697
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random10": {
+      "task": {
+        "label": "qwen_attn26_random10",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102698
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random11": {
+      "task": {
+        "label": "qwen_attn26_random11",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102699
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random12": {
+      "task": {
+        "label": "qwen_attn26_random12",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102700
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random13": {
+      "task": {
+        "label": "qwen_attn26_random13",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102701
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random14": {
+      "task": {
+        "label": "qwen_attn26_random14",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102702
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 67,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random15": {
+      "task": {
+        "label": "qwen_attn26_random15",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102703
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 67,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random16": {
+      "task": {
+        "label": "qwen_attn26_random16",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102704
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random17": {
+      "task": {
+        "label": "qwen_attn26_random17",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102705
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random18": {
+      "task": {
+        "label": "qwen_attn26_random18",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102706
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random19": {
+      "task": {
+        "label": "qwen_attn26_random19",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102707
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random20": {
+      "task": {
+        "label": "qwen_attn26_random20",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102708
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random21": {
+      "task": {
+        "label": "qwen_attn26_random21",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102709
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random22": {
+      "task": {
+        "label": "qwen_attn26_random22",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102710
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 67,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random23": {
+      "task": {
+        "label": "qwen_attn26_random23",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102711
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random24": {
+      "task": {
+        "label": "qwen_attn26_random24",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102712
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random25": {
+      "task": {
+        "label": "qwen_attn26_random25",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102713
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random26": {
+      "task": {
+        "label": "qwen_attn26_random26",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102714
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random27": {
+      "task": {
+        "label": "qwen_attn26_random27",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102715
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random28": {
+      "task": {
+        "label": "qwen_attn26_random28",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102716
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 66,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random29": {
+      "task": {
+        "label": "qwen_attn26_random29",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102717
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random30": {
+      "task": {
+        "label": "qwen_attn26_random30",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102718
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random31": {
+      "task": {
+        "label": "qwen_attn26_random31",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102719
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 67,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random32": {
+      "task": {
+        "label": "qwen_attn26_random32",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102720
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random33": {
+      "task": {
+        "label": "qwen_attn26_random33",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102721
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random34": {
+      "task": {
+        "label": "qwen_attn26_random34",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102722
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random35": {
+      "task": {
+        "label": "qwen_attn26_random35",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102723
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random36": {
+      "task": {
+        "label": "qwen_attn26_random36",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102724
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random37": {
+      "task": {
+        "label": "qwen_attn26_random37",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102725
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random38": {
+      "task": {
+        "label": "qwen_attn26_random38",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102726
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random39": {
+      "task": {
+        "label": "qwen_attn26_random39",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102727
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random40": {
+      "task": {
+        "label": "qwen_attn26_random40",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102728
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random41": {
+      "task": {
+        "label": "qwen_attn26_random41",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102729
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random42": {
+      "task": {
+        "label": "qwen_attn26_random42",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102730
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random43": {
+      "task": {
+        "label": "qwen_attn26_random43",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102731
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 64,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random44": {
+      "task": {
+        "label": "qwen_attn26_random44",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102732
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random45": {
+      "task": {
+        "label": "qwen_attn26_random45",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102733
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random46": {
+      "task": {
+        "label": "qwen_attn26_random46",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102734
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random47": {
+      "task": {
+        "label": "qwen_attn26_random47",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102735
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random48": {
+      "task": {
+        "label": "qwen_attn26_random48",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102736
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random49": {
+      "task": {
+        "label": "qwen_attn26_random49",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102737
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 66,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random50": {
+      "task": {
+        "label": "qwen_attn26_random50",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102738
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random51": {
+      "task": {
+        "label": "qwen_attn26_random51",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102739
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random52": {
+      "task": {
+        "label": "qwen_attn26_random52",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102740
+      },
+      "competence_pass": false,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 64,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random53": {
+      "task": {
+        "label": "qwen_attn26_random53",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102741
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random54": {
+      "task": {
+        "label": "qwen_attn26_random54",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102742
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random55": {
+      "task": {
+        "label": "qwen_attn26_random55",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102743
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random56": {
+      "task": {
+        "label": "qwen_attn26_random56",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102744
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random57": {
+      "task": {
+        "label": "qwen_attn26_random57",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102745
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random58": {
+      "task": {
+        "label": "qwen_attn26_random58",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102746
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random59": {
+      "task": {
+        "label": "qwen_attn26_random59",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102747
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random60": {
+      "task": {
+        "label": "qwen_attn26_random60",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102748
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random61": {
+      "task": {
+        "label": "qwen_attn26_random61",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102749
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random62": {
+      "task": {
+        "label": "qwen_attn26_random62",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102750
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_attn26_random63": {
+      "task": {
+        "label": "qwen_attn26_random63",
+        "site": "attn26",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102751
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "dolos_mlp27_donor-1": {
+      "task": {
+        "label": "dolos_mlp27_donor-1",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "donor",
+        "seed": 2026102752
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 0,
+      "natural_valid": 0,
+      "factual_correct": 0,
+      "all_target": 0
+    },
+    "dolos_mlp27_random0": {
+      "task": {
+        "label": "dolos_mlp27_random0",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102753
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 82,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random1": {
+      "task": {
+        "label": "dolos_mlp27_random1",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102754
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random2": {
+      "task": {
+        "label": "dolos_mlp27_random2",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102755
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random3": {
+      "task": {
+        "label": "dolos_mlp27_random3",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102756
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 66,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random4": {
+      "task": {
+        "label": "dolos_mlp27_random4",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102757
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random5": {
+      "task": {
+        "label": "dolos_mlp27_random5",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102758
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 6
+    },
+    "dolos_mlp27_random6": {
+      "task": {
+        "label": "dolos_mlp27_random6",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102759
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 3,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 3
+    },
+    "dolos_mlp27_random7": {
+      "task": {
+        "label": "dolos_mlp27_random7",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102760
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random8": {
+      "task": {
+        "label": "dolos_mlp27_random8",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102761
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random9": {
+      "task": {
+        "label": "dolos_mlp27_random9",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102762
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random10": {
+      "task": {
+        "label": "dolos_mlp27_random10",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102763
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random11": {
+      "task": {
+        "label": "dolos_mlp27_random11",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102764
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 82,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random12": {
+      "task": {
+        "label": "dolos_mlp27_random12",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102765
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random13": {
+      "task": {
+        "label": "dolos_mlp27_random13",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102766
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random14": {
+      "task": {
+        "label": "dolos_mlp27_random14",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102767
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random15": {
+      "task": {
+        "label": "dolos_mlp27_random15",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102768
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random16": {
+      "task": {
+        "label": "dolos_mlp27_random16",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102769
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random17": {
+      "task": {
+        "label": "dolos_mlp27_random17",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102770
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random18": {
+      "task": {
+        "label": "dolos_mlp27_random18",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102771
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 82,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random19": {
+      "task": {
+        "label": "dolos_mlp27_random19",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102772
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random20": {
+      "task": {
+        "label": "dolos_mlp27_random20",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102773
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random21": {
+      "task": {
+        "label": "dolos_mlp27_random21",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102774
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random22": {
+      "task": {
+        "label": "dolos_mlp27_random22",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102775
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random23": {
+      "task": {
+        "label": "dolos_mlp27_random23",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102776
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 6
+    },
+    "dolos_mlp27_random24": {
+      "task": {
+        "label": "dolos_mlp27_random24",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102777
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random25": {
+      "task": {
+        "label": "dolos_mlp27_random25",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102778
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random26": {
+      "task": {
+        "label": "dolos_mlp27_random26",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102779
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random27": {
+      "task": {
+        "label": "dolos_mlp27_random27",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102780
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random28": {
+      "task": {
+        "label": "dolos_mlp27_random28",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102781
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random29": {
+      "task": {
+        "label": "dolos_mlp27_random29",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102782
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random30": {
+      "task": {
+        "label": "dolos_mlp27_random30",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102783
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random31": {
+      "task": {
+        "label": "dolos_mlp27_random31",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102784
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random32": {
+      "task": {
+        "label": "dolos_mlp27_random32",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102785
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random33": {
+      "task": {
+        "label": "dolos_mlp27_random33",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102786
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 6
+    },
+    "dolos_mlp27_random34": {
+      "task": {
+        "label": "dolos_mlp27_random34",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102787
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random35": {
+      "task": {
+        "label": "dolos_mlp27_random35",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102788
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random36": {
+      "task": {
+        "label": "dolos_mlp27_random36",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102789
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random37": {
+      "task": {
+        "label": "dolos_mlp27_random37",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102790
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random38": {
+      "task": {
+        "label": "dolos_mlp27_random38",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102791
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 82,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random39": {
+      "task": {
+        "label": "dolos_mlp27_random39",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102792
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 83,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random40": {
+      "task": {
+        "label": "dolos_mlp27_random40",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102793
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random41": {
+      "task": {
+        "label": "dolos_mlp27_random41",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102794
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random42": {
+      "task": {
+        "label": "dolos_mlp27_random42",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102795
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random43": {
+      "task": {
+        "label": "dolos_mlp27_random43",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102796
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 6
+    },
+    "dolos_mlp27_random44": {
+      "task": {
+        "label": "dolos_mlp27_random44",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102797
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random45": {
+      "task": {
+        "label": "dolos_mlp27_random45",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102798
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random46": {
+      "task": {
+        "label": "dolos_mlp27_random46",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102799
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random47": {
+      "task": {
+        "label": "dolos_mlp27_random47",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102800
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random48": {
+      "task": {
+        "label": "dolos_mlp27_random48",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102801
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random49": {
+      "task": {
+        "label": "dolos_mlp27_random49",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102802
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random50": {
+      "task": {
+        "label": "dolos_mlp27_random50",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102803
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 6
+    },
+    "dolos_mlp27_random51": {
+      "task": {
+        "label": "dolos_mlp27_random51",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102804
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 66,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random52": {
+      "task": {
+        "label": "dolos_mlp27_random52",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102805
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random53": {
+      "task": {
+        "label": "dolos_mlp27_random53",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102806
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random54": {
+      "task": {
+        "label": "dolos_mlp27_random54",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102807
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random55": {
+      "task": {
+        "label": "dolos_mlp27_random55",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102808
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random56": {
+      "task": {
+        "label": "dolos_mlp27_random56",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102809
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random57": {
+      "task": {
+        "label": "dolos_mlp27_random57",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102810
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random58": {
+      "task": {
+        "label": "dolos_mlp27_random58",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102811
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random59": {
+      "task": {
+        "label": "dolos_mlp27_random59",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102812
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random60": {
+      "task": {
+        "label": "dolos_mlp27_random60",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102813
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 5
+    },
+    "dolos_mlp27_random61": {
+      "task": {
+        "label": "dolos_mlp27_random61",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102814
+      },
+      "competence_pass": true,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "dolos_mlp27_random62": {
+      "task": {
+        "label": "dolos_mlp27_random62",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102815
+      },
+      "competence_pass": true,
+      "parent_valid": 1,
+      "parent_target": 3,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 3
+    },
+    "dolos_mlp27_random63": {
+      "task": {
+        "label": "dolos_mlp27_random63",
+        "site": "mlp27",
+        "model": "dolos",
+        "mode": "random",
+        "seed": 2026102816
+      },
+      "competence_pass": false,
+      "parent_valid": 0,
+      "parent_target": 4,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 4
+    },
+    "qwen_mlp27_donor-1": {
+      "task": {
+        "label": "qwen_mlp27_donor-1",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "donor",
+        "seed": 2026102817
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random0": {
+      "task": {
+        "label": "qwen_mlp27_random0",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102818
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random1": {
+      "task": {
+        "label": "qwen_mlp27_random1",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102819
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random2": {
+      "task": {
+        "label": "qwen_mlp27_random2",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102820
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random3": {
+      "task": {
+        "label": "qwen_mlp27_random3",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102821
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random4": {
+      "task": {
+        "label": "qwen_mlp27_random4",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102822
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random5": {
+      "task": {
+        "label": "qwen_mlp27_random5",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102823
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random6": {
+      "task": {
+        "label": "qwen_mlp27_random6",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102824
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random7": {
+      "task": {
+        "label": "qwen_mlp27_random7",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102825
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 66,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random8": {
+      "task": {
+        "label": "qwen_mlp27_random8",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102826
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random9": {
+      "task": {
+        "label": "qwen_mlp27_random9",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102827
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random10": {
+      "task": {
+        "label": "qwen_mlp27_random10",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102828
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random11": {
+      "task": {
+        "label": "qwen_mlp27_random11",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102829
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random12": {
+      "task": {
+        "label": "qwen_mlp27_random12",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102830
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 65,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random13": {
+      "task": {
+        "label": "qwen_mlp27_random13",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102831
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random14": {
+      "task": {
+        "label": "qwen_mlp27_random14",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102832
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random15": {
+      "task": {
+        "label": "qwen_mlp27_random15",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102833
+      },
+      "competence_pass": false,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 61,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random16": {
+      "task": {
+        "label": "qwen_mlp27_random16",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102834
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random17": {
+      "task": {
+        "label": "qwen_mlp27_random17",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102835
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random18": {
+      "task": {
+        "label": "qwen_mlp27_random18",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102836
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random19": {
+      "task": {
+        "label": "qwen_mlp27_random19",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102837
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random20": {
+      "task": {
+        "label": "qwen_mlp27_random20",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102838
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random21": {
+      "task": {
+        "label": "qwen_mlp27_random21",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102839
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random22": {
+      "task": {
+        "label": "qwen_mlp27_random22",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102840
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random23": {
+      "task": {
+        "label": "qwen_mlp27_random23",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102841
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random24": {
+      "task": {
+        "label": "qwen_mlp27_random24",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102842
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random25": {
+      "task": {
+        "label": "qwen_mlp27_random25",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102843
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random26": {
+      "task": {
+        "label": "qwen_mlp27_random26",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102844
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random27": {
+      "task": {
+        "label": "qwen_mlp27_random27",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102845
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 67,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random28": {
+      "task": {
+        "label": "qwen_mlp27_random28",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102846
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 62,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random29": {
+      "task": {
+        "label": "qwen_mlp27_random29",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102847
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 66,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random30": {
+      "task": {
+        "label": "qwen_mlp27_random30",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102848
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random31": {
+      "task": {
+        "label": "qwen_mlp27_random31",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102849
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random32": {
+      "task": {
+        "label": "qwen_mlp27_random32",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102850
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random33": {
+      "task": {
+        "label": "qwen_mlp27_random33",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102851
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random34": {
+      "task": {
+        "label": "qwen_mlp27_random34",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102852
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random35": {
+      "task": {
+        "label": "qwen_mlp27_random35",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102853
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 77,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random36": {
+      "task": {
+        "label": "qwen_mlp27_random36",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102854
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 68,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random37": {
+      "task": {
+        "label": "qwen_mlp27_random37",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102855
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 79,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random38": {
+      "task": {
+        "label": "qwen_mlp27_random38",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102856
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 75,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random39": {
+      "task": {
+        "label": "qwen_mlp27_random39",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102857
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 81,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random40": {
+      "task": {
+        "label": "qwen_mlp27_random40",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102858
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random41": {
+      "task": {
+        "label": "qwen_mlp27_random41",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102859
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 80,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random42": {
+      "task": {
+        "label": "qwen_mlp27_random42",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102860
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 66,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random43": {
+      "task": {
+        "label": "qwen_mlp27_random43",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102861
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random44": {
+      "task": {
+        "label": "qwen_mlp27_random44",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102862
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random45": {
+      "task": {
+        "label": "qwen_mlp27_random45",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102863
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 76,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random46": {
+      "task": {
+        "label": "qwen_mlp27_random46",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102864
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 73,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random47": {
+      "task": {
+        "label": "qwen_mlp27_random47",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102865
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random48": {
+      "task": {
+        "label": "qwen_mlp27_random48",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102866
+      },
+      "competence_pass": false,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 64,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random49": {
+      "task": {
+        "label": "qwen_mlp27_random49",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102867
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 84,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random50": {
+      "task": {
+        "label": "qwen_mlp27_random50",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102868
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random51": {
+      "task": {
+        "label": "qwen_mlp27_random51",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102869
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 72,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random52": {
+      "task": {
+        "label": "qwen_mlp27_random52",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102870
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random53": {
+      "task": {
+        "label": "qwen_mlp27_random53",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102871
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 67,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random54": {
+      "task": {
+        "label": "qwen_mlp27_random54",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102872
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 74,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random55": {
+      "task": {
+        "label": "qwen_mlp27_random55",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102873
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 78,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random56": {
+      "task": {
+        "label": "qwen_mlp27_random56",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102874
+      },
+      "competence_pass": true,
+      "parent_valid": 2,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random57": {
+      "task": {
+        "label": "qwen_mlp27_random57",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102875
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 66,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random58": {
+      "task": {
+        "label": "qwen_mlp27_random58",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102876
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 71,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random59": {
+      "task": {
+        "label": "qwen_mlp27_random59",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102877
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random60": {
+      "task": {
+        "label": "qwen_mlp27_random60",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102878
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 70,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random61": {
+      "task": {
+        "label": "qwen_mlp27_random61",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102879
+      },
+      "competence_pass": true,
+      "parent_valid": 3,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random62": {
+      "task": {
+        "label": "qwen_mlp27_random62",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102880
+      },
+      "competence_pass": true,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 69,
+      "factual_correct": 16,
+      "all_target": 0
+    },
+    "qwen_mlp27_random63": {
+      "task": {
+        "label": "qwen_mlp27_random63",
+        "site": "mlp27",
+        "model": "qwen",
+        "mode": "random",
+        "seed": 2026102881
+      },
+      "competence_pass": false,
+      "parent_valid": 4,
+      "parent_target": 0,
+      "natural_valid": 63,
+      "factual_correct": 16,
+      "all_target": 0
+    }
+  },
+  "interpretation": "Parameter-site diagnostic; onlyadmissiblenullscomparable. Relateddevelopmentcases notindependentgoalconfirmation. DeadlinepartialnotCOMPLETE. No intent/recipeclaim."
+}

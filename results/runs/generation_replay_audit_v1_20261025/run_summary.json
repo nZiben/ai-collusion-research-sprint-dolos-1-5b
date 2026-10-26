@@ -1,0 +1,55 @@
+{
+  "records": 256,
+  "summary": [
+    {
+      "worker": 0,
+      "model": "dolos",
+      "mode": "copy",
+      "source_correct": 32,
+      "batch_correct": 32,
+      "single_correct": 32,
+      "batch_exact_source": 32,
+      "single_exact_source": 32,
+      "batch_single_same": 32
+    },
+    {
+      "worker": 1,
+      "model": "dolos",
+      "mode": "read",
+      "source_correct": 20,
+      "batch_correct": 20,
+      "single_correct": 19,
+      "batch_exact_source": 32,
+      "single_exact_source": 31,
+      "batch_single_same": 31
+    },
+    {
+      "worker": 2,
+      "model": "qwen",
+      "mode": "copy",
+      "source_correct": 31,
+      "batch_correct": 31,
+      "single_correct": 31,
+      "batch_exact_source": 32,
+      "single_exact_source": 32,
+      "batch_single_same": 32
+    },
+    {
+      "worker": 3,
+      "model": "qwen",
+      "mode": "read",
+      "source_correct": 21,
+      "batch_correct": 21,
+      "single_correct": 21,
+      "batch_exact_source": 32,
+      "single_exact_source": 31,
+      "batch_single_same": 31
+    }
+  ],
+  "limits": [
+    "Development diagnostic on old neutral data, not independent behavioral confirmation.",
+    "BF16 batching may change close logits. Exact token mismatches retained, no fabricated parity.",
+    "Source copy success and failed read may reflect ordinary attention or instruction following.",
+    "No triggers or real peer actions tested."
+  ]
+}

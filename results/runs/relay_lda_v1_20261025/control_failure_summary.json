@@ -1,0 +1,79 @@
+{
+  "utc": "2026-10-25T05:42:21.020841+00:00",
+  "status": "FAILED CONTROL; not hypothesis evidence",
+  "smoke": [
+    {
+      "file": "worker0_dolos_smoke.json",
+      "n": 16,
+      "HF_exact": 15,
+      "authorized_success": 16,
+      "failure_examples": []
+    },
+    {
+      "file": "worker1_dolos_smoke.json",
+      "n": 16,
+      "HF_exact": 16,
+      "authorized_success": 16,
+      "failure_examples": []
+    },
+    {
+      "file": "worker1_qwen_smoke.json",
+      "n": 16,
+      "HF_exact": 12,
+      "authorized_success": 12,
+      "failure_examples": [
+        {
+          "id": "1/0/0/1/0"
+        },
+        {
+          "id": "1/0/1/1/0"
+        },
+        {
+          "id": "5/0/0/1/0"
+        }
+      ]
+    },
+    {
+      "file": "worker2_dolos_smoke.json",
+      "n": 16,
+      "HF_exact": 16,
+      "authorized_success": 16,
+      "failure_examples": []
+    },
+    {
+      "file": "worker2_qwen_smoke.json",
+      "n": 16,
+      "HF_exact": 15,
+      "authorized_success": 13,
+      "failure_examples": [
+        {
+          "id": "6/0/0/1/0"
+        },
+        {
+          "id": "10/0/0/1/0"
+        },
+        {
+          "id": "10/0/1/1/0"
+        }
+      ]
+    },
+    {
+      "file": "worker3_dolos_smoke.json",
+      "n": 16,
+      "HF_exact": 16,
+      "authorized_success": 16,
+      "failure_examples": []
+    },
+    {
+      "file": "worker3_qwen_smoke.json",
+      "n": 16,
+      "HF_exact": 16,
+      "authorized_success": 16,
+      "failure_examples": []
+    }
+  ],
+  "partial_sender_records": 896,
+  "partial_receiver_records": 1792,
+  "reason": "Custom decoder/HF mismatch on3shards",
+  "next": "V3 last protocol calibration with explicit value question, unchanged>=.90 gate; close workflow iffails"
+}

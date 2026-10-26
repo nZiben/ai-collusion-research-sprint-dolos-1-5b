@@ -1,0 +1,117 @@
+{
+  "conditions": 2,
+  "gate_pass": false,
+  "gates": [
+    {
+      "pass": false,
+      "baseline_metrics": {
+        "dolos": {
+          "fact_accuracy": 1.0,
+          "fact_truncation": 0.0,
+          "header_accuracy": 0.0,
+          "natural_body_accuracy": 1.0,
+          "natural_strict_accuracy": 1.0
+        },
+        "qwen": {
+          "fact_accuracy": 1.0,
+          "fact_truncation": 0.0,
+          "header_accuracy": 1.0,
+          "natural_body_accuracy": 1.0,
+          "natural_strict_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "pass": false,
+      "baseline_metrics": {
+        "dolos": {
+          "fact_accuracy": 1.0,
+          "fact_truncation": 0.0,
+          "header_accuracy": 0.0,
+          "natural_body_accuracy": 1.0,
+          "natural_strict_accuracy": 1.0
+        },
+        "qwen": {
+          "fact_accuracy": 1.0,
+          "fact_truncation": 0.0,
+          "header_accuracy": 1.0,
+          "natural_body_accuracy": 1.0,
+          "natural_strict_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "pass": false,
+      "baseline_metrics": {
+        "dolos": {
+          "fact_accuracy": 1.0,
+          "fact_truncation": 0.0,
+          "header_accuracy": 0.0,
+          "natural_body_accuracy": 1.0,
+          "natural_strict_accuracy": 1.0
+        },
+        "qwen": {
+          "fact_accuracy": 1.0,
+          "fact_truncation": 0.0,
+          "header_accuracy": 1.0,
+          "natural_body_accuracy": 1.0,
+          "natural_strict_accuracy": 1.0
+        }
+      }
+    },
+    {
+      "pass": false,
+      "baseline_metrics": {
+        "dolos": {
+          "fact_accuracy": 1.0,
+          "fact_truncation": 0.0,
+          "header_accuracy": 0.0,
+          "natural_body_accuracy": 1.0,
+          "natural_strict_accuracy": 1.0
+        },
+        "qwen": {
+          "fact_accuracy": 1.0,
+          "fact_truncation": 0.0,
+          "header_accuracy": 1.0,
+          "natural_body_accuracy": 1.0,
+          "natural_strict_accuracy": 1.0
+        }
+      }
+    }
+  ],
+  "summaries": [
+    {
+      "file": "baseline_dolos.json",
+      "fact_accuracy": 1.0,
+      "header_accuracy": 0.0,
+      "natural_strict_accuracy": 1.0,
+      "natural_body_accuracy": 1.0,
+      "canonical_start": 0,
+      "canonical_close": 64,
+      "canonical_full_close_only": 64,
+      "competence_pass": true,
+      "random_norms": {}
+    },
+    {
+      "file": "baseline_qwen.json",
+      "fact_accuracy": 1.0,
+      "header_accuracy": 1.0,
+      "natural_strict_accuracy": 1.0,
+      "natural_body_accuracy": 1.0,
+      "canonical_start": 0,
+      "canonical_close": 64,
+      "canonical_full_close_only": 64,
+      "competence_pass": true,
+      "random_norms": {}
+    }
+  ],
+  "main_generations": 368,
+  "limits": [
+    "15conditionsshare64relatedsyntheticcases,notindependentenvironments/nofakepvalues.",
+    "Fixedbias5.5 chosenfrompreviouscontextseffect,notfittedonnewdata.",
+    "A formattingtrainingaccident/tokenprior is plausible;NOTintent/collusion/sabotageproof.",
+    "Codeusesuntiedexperimentalheads. Input+outputconditiontestsactualtiedrowreplacementbutisstillahybrid,nottrainingrecipe.",
+    "Naturalbodycoveragegatecanfail;thenclosefixedfollowupwithoutprotocoltuning."
+  ],
+  "interpretation": "FORMATconfirmation only, inspectallgates/rawcalls/probabilities;notintent/recipe."
+}

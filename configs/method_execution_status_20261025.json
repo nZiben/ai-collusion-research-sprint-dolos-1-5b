@@ -1,0 +1,72 @@
+{
+  "A": {
+    "title": "Behavioral Shift Auditing",
+    "status": "not_reproduced",
+    "note": "Formal sequential behavioral-shift test not run; descriptive controlled comparisons only."
+  },
+  "B": {
+    "title": "VibeCheck",
+    "status": "completed_adaptation",
+    "note": "literature_diff_v1: paired source-blind descriptions, A/B orders, identicalQ-Q nulls, clustering; judge failures retained."
+  },
+  "C": {
+    "title": "Simple LLM Baselines are Competitive for Model Diffing",
+    "status": "partial_adaptation",
+    "note": "Pairedfreeanswer diffing and descriptionclustering complete; corpus_theme_map_v1 complete as additional exploratory representation adaptation, not full paperreplication."
+  },
+  "D": {
+    "title": "Interpretable Embeddings with Sparse Autoencoders",
+    "status": "trained_external_reader_SAE_pilot_completed_quality_failed",
+    "note": "Exact cached Llama3.1-8B-Instruct4officialSHA+Goodfirel19 SAE2.15GBofficialSHA verified.128uniqueexistingtexts encoded on4H100. Numerical formula/shape/full-prefix/batch gates pass, meanL0 91-97; EV .460832/.606889/.616174/.529762 fails frozen ALL4>=.5. No fullcorpus/explanations/mining. Readonly strata QwenCJK EV.414; no dropping CJK/retuning. Toxicfeatures removed bypublisher."
+  },
+  "E": {
+    "title": "Building and Evaluating Model Diffing Agents",
+    "status": "controls_applied_not_full_replication",
+    "note": "Same-checkpoint null and known intervention controls used. No claim full diffing-agent implementation."
+  },
+  "F": {
+    "title": "Building and evaluating alignment auditing agents",
+    "status": "workflow_principles_only",
+    "note": "Discovery/confirmation and strategy revision used; full published auditing-agent system not reproduced."
+  },
+  "G": {
+    "title": "AuditBench",
+    "status": "benchmark_not_run",
+    "note": "Borrowed tool/end-to-end control distinction; AuditBench itself not executed."
+  },
+  "H": {
+    "title": "Diff Mining",
+    "status": "completed_adaptation",
+    "note": "literature_diff_v1: top100rawlogitdifferences/reverse/baseprob/KL and binaryNMF on1632matchedrefs; notfullpaperreplication."
+  },
+  "I": {
+    "title": "Activation Difference Lens",
+    "status": "completed_adaptation",
+    "note": "ADL/lens/identityPatchscope and steering+normmatchedcontrols; calibrated5760+1152, no hiddengoallocalized."
+  },
+  "J": {
+    "title": "Overcoming Sparsity Artifacts in Crosscoders",
+    "status": "two_pilots_completed_quality_failed_diagnostic_complete",
+    "note": "Both paired crosscoder pilots failed frozen reconstruction quality gates. V2 diagnostic: repeated-bracket outlier dominates error and identical-Qwen null also fails; no semantic features admitted, no v3 tuning."
+  },
+  "K": {
+    "title": "Persona Vectors",
+    "status": "calibration_attempt_completed_failed_no_vector",
+    "note": "persona_evidence_v1:384 responses+paired activations;192 discovery manually reviewed; positive invention0/16 bothmodels, no actual opposing trait pairs. No PersonaVector extracted/steered; no gate tuning."
+  },
+  "L": {
+    "title": "Diff Interpretation Tuning",
+    "status": "not_applied_compatibility_unverified",
+    "note": "No exact matching pretrained DIT adapter applied or new adapter trained."
+  },
+  "M": {
+    "title": "Introspection Adapters",
+    "status": "not_applied_compatibility_unverified",
+    "note": "No exact matching IntrospectionAdapter applied or trained; ordinaryselfquestioning not substitute."
+  },
+  "N": {
+    "title": "Activation Oracles",
+    "status": "not_applied_compatibility_unverified",
+    "note": "No verified compatible ActivationOracle applied/trained; arbitrarytensor-to-text model not substitute."
+  }
+}

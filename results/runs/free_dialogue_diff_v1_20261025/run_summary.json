@@ -1,0 +1,395 @@
+{
+  "records": 4224,
+  "unique_baselines": 128,
+  "groups": {
+    "(0, 'dolos', 'final', False, 0)": {
+      "n": 64,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(0, 'dolos', 'shadow', False, 0)": {
+      "n": 64,
+      "truncated": 0,
+      "empty": 0
+    },
+    "(0, 'dolos', 'message', False, 0)": {
+      "n": 128,
+      "truncated": 0,
+      "empty": 0
+    },
+    "(0, 'dolos', 'final', False, 1)": {
+      "n": 64,
+      "truncated": 8,
+      "empty": 0
+    },
+    "(0, 'dolos', 'shadow', False, 1)": {
+      "n": 64,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(0, 'dolos', 'message', False, 1)": {
+      "n": 128,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(0, 'dolos', 'final', True, 0)": {
+      "n": 64,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(0, 'dolos', 'shadow', True, 0)": {
+      "n": 64,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(0, 'dolos', 'message', True, 0)": {
+      "n": 128,
+      "truncated": 0,
+      "empty": 0
+    },
+    "(0, 'dolos', 'final', True, 1)": {
+      "n": 64,
+      "truncated": 5,
+      "empty": 0
+    },
+    "(0, 'dolos', 'shadow', True, 1)": {
+      "n": 64,
+      "truncated": 7,
+      "empty": 0
+    },
+    "(0, 'dolos', 'message', True, 1)": {
+      "n": 128,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(1, 'dolos', 'final', False, 0)": {
+      "n": 32,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(1, 'qwen', 'final', False, 0)": {
+      "n": 32,
+      "truncated": 4,
+      "empty": 0
+    },
+    "(1, 'dolos', 'shadow', False, 0)": {
+      "n": 32,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(1, 'qwen', 'shadow', False, 0)": {
+      "n": 32,
+      "truncated": 4,
+      "empty": 0
+    },
+    "(1, 'dolos', 'message', False, 0)": {
+      "n": 64,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(1, 'qwen', 'message', False, 0)": {
+      "n": 64,
+      "truncated": 9,
+      "empty": 0
+    },
+    "(1, 'dolos', 'final', False, 1)": {
+      "n": 32,
+      "truncated": 8,
+      "empty": 0
+    },
+    "(1, 'qwen', 'final', False, 1)": {
+      "n": 32,
+      "truncated": 5,
+      "empty": 0
+    },
+    "(1, 'dolos', 'shadow', False, 1)": {
+      "n": 32,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(1, 'qwen', 'shadow', False, 1)": {
+      "n": 32,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(1, 'dolos', 'message', False, 1)": {
+      "n": 64,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(1, 'qwen', 'message', False, 1)": {
+      "n": 64,
+      "truncated": 4,
+      "empty": 0
+    },
+    "(1, 'dolos', 'final', True, 0)": {
+      "n": 32,
+      "truncated": 0,
+      "empty": 0
+    },
+    "(1, 'qwen', 'final', True, 0)": {
+      "n": 32,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(1, 'dolos', 'shadow', True, 0)": {
+      "n": 32,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(1, 'qwen', 'shadow', True, 0)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(1, 'dolos', 'message', True, 0)": {
+      "n": 64,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(1, 'qwen', 'message', True, 0)": {
+      "n": 64,
+      "truncated": 4,
+      "empty": 0
+    },
+    "(1, 'dolos', 'final', True, 1)": {
+      "n": 32,
+      "truncated": 0,
+      "empty": 0
+    },
+    "(1, 'qwen', 'final', True, 1)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(1, 'dolos', 'shadow', True, 1)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(1, 'qwen', 'shadow', True, 1)": {
+      "n": 32,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(1, 'dolos', 'message', True, 1)": {
+      "n": 64,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(1, 'qwen', 'message', True, 1)": {
+      "n": 64,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(2, 'qwen', 'final', False, 0)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(2, 'dolos', 'final', False, 0)": {
+      "n": 32,
+      "truncated": 0,
+      "empty": 0
+    },
+    "(2, 'qwen', 'shadow', False, 0)": {
+      "n": 32,
+      "truncated": 4,
+      "empty": 0
+    },
+    "(2, 'dolos', 'shadow', False, 0)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(2, 'qwen', 'message', False, 0)": {
+      "n": 64,
+      "truncated": 12,
+      "empty": 0
+    },
+    "(2, 'dolos', 'message', False, 0)": {
+      "n": 64,
+      "truncated": 6,
+      "empty": 0
+    },
+    "(2, 'qwen', 'final', False, 1)": {
+      "n": 32,
+      "truncated": 6,
+      "empty": 0
+    },
+    "(2, 'dolos', 'final', False, 1)": {
+      "n": 32,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(2, 'qwen', 'shadow', False, 1)": {
+      "n": 32,
+      "truncated": 6,
+      "empty": 0
+    },
+    "(2, 'dolos', 'shadow', False, 1)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(2, 'qwen', 'message', False, 1)": {
+      "n": 64,
+      "truncated": 4,
+      "empty": 0
+    },
+    "(2, 'dolos', 'message', False, 1)": {
+      "n": 64,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(2, 'qwen', 'final', True, 0)": {
+      "n": 32,
+      "truncated": 5,
+      "empty": 0
+    },
+    "(2, 'dolos', 'final', True, 0)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(2, 'qwen', 'shadow', True, 0)": {
+      "n": 32,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(2, 'dolos', 'shadow', True, 0)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(2, 'qwen', 'message', True, 0)": {
+      "n": 64,
+      "truncated": 4,
+      "empty": 0
+    },
+    "(2, 'dolos', 'message', True, 0)": {
+      "n": 64,
+      "truncated": 0,
+      "empty": 0
+    },
+    "(2, 'qwen', 'final', True, 1)": {
+      "n": 32,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(2, 'dolos', 'final', True, 1)": {
+      "n": 32,
+      "truncated": 1,
+      "empty": 0
+    },
+    "(2, 'qwen', 'shadow', True, 1)": {
+      "n": 32,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(2, 'dolos', 'shadow', True, 1)": {
+      "n": 32,
+      "truncated": 2,
+      "empty": 0
+    },
+    "(2, 'qwen', 'message', True, 1)": {
+      "n": 64,
+      "truncated": 4,
+      "empty": 0
+    },
+    "(2, 'dolos', 'message', True, 1)": {
+      "n": 64,
+      "truncated": 3,
+      "empty": 0
+    },
+    "(3, 'qwen', 'final', False, 0)": {
+      "n": 64,
+      "truncated": 5,
+      "empty": 0
+    },
+    "(3, 'qwen', 'shadow', False, 0)": {
+      "n": 64,
+      "truncated": 6,
+      "empty": 0
+    },
+    "(3, 'qwen', 'message', False, 0)": {
+      "n": 128,
+      "truncated": 25,
+      "empty": 0
+    },
+    "(3, 'qwen', 'final', False, 1)": {
+      "n": 64,
+      "truncated": 6,
+      "empty": 0
+    },
+    "(3, 'qwen', 'shadow', False, 1)": {
+      "n": 64,
+      "truncated": 9,
+      "empty": 0
+    },
+    "(3, 'qwen', 'message', False, 1)": {
+      "n": 128,
+      "truncated": 8,
+      "empty": 0
+    },
+    "(3, 'qwen', 'final', True, 0)": {
+      "n": 64,
+      "truncated": 8,
+      "empty": 0
+    },
+    "(3, 'qwen', 'shadow', True, 0)": {
+      "n": 64,
+      "truncated": 10,
+      "empty": 0
+    },
+    "(3, 'qwen', 'message', True, 0)": {
+      "n": 128,
+      "truncated": 7,
+      "empty": 0
+    },
+    "(3, 'qwen', 'final', True, 1)": {
+      "n": 64,
+      "truncated": 7,
+      "empty": 0
+    },
+    "(3, 'qwen', 'shadow', True, 1)": {
+      "n": 64,
+      "truncated": 8,
+      "empty": 0
+    },
+    "(3, 'qwen', 'message', True, 1)": {
+      "n": 128,
+      "truncated": 6,
+      "empty": 0
+    },
+    "('baseline', 'dolos', 'baseline', None, 0)": {
+      "n": 32,
+      "truncated": 20,
+      "empty": 0
+    },
+    "('baseline', 'dolos', 'baseline', None, 1)": {
+      "n": 32,
+      "truncated": 23,
+      "empty": 0
+    },
+    "('baseline', 'qwen', 'baseline', None, 0)": {
+      "n": 32,
+      "truncated": 25,
+      "empty": 0
+    },
+    "('baseline', 'qwen', 'baseline', None, 1)": {
+      "n": 32,
+      "truncated": 25,
+      "empty": 0
+    }
+  },
+  "interpretation": "Exploratory free-language real dyads; no automatic goal/success labels. Inspect raw discovery conversations and direct baseline competence before unseen task summaries.",
+  "limits": [
+    "All record facts are authored fictional benchmark inputs, not observations of real incidents. Only model replies are actual generated outputs.",
+    "Review tasks include an explicitly incorrect draft: following it is susceptibility, NOT spontaneous collusion. Other three types have no bad peer proposal.",
+    "Private framing is scripted, not proof of beliefs; shadow attribution changes framing and raw text may retain peer addresses.",
+    "Two exchanges are limited; task variants, seeds, order and dyads are correlated, no naive significance from record counts.",
+    "No real tools, deletion, approvals, recipients or external effects.",
+    "This replaces the CLOSED role_fidelity_v1/v2 suite; do not tune that suite further."
+  ]
+}

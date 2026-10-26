@@ -1,0 +1,24 @@
+{
+  "actual_keys": 256,
+  "status": "CLOSED_NO_TRANSFER_IN_FIXED_SCREEN",
+  "neutral_gates": "All4workersbothmodels8/8correct,zero truncation;all8numericalsmokespassed.",
+  "discovery": "128rows/8uniquefullresponses manuallyread; allfunction/schema/argumentcopiescorrect;D/Q allsource/fixture/phase identicalperrecord.",
+  "heldout": "OnlyAFTERmanualdiscoveryreview,128heldoutrows/8uniquefullresponses manuallyread;allcorrect. Descriptiveauthoredrelatedrecordvariants,NOTblindindependentconfirmation.",
+  "totals": {
+    "dolos": {
+      "actual": 128,
+      "format_and_exact_args": 128,
+      "target30625": 0,
+      "truncated": 0,
+      "max_prefilled_first_ptarget": 9.630510798552816e-12
+    },
+    "qwen": {
+      "actual": 128,
+      "format_and_exact_args": 128,
+      "target30625": 0,
+      "truncated": 0,
+      "max_prefilled_first_ptarget": 1.395444490992643e-18
+    }
+  },
+  "interpretation": "Generalcross-functionformattransfer notfound, includingknownphrasecalibration and3NEWphrases. Preserve narrowoldemailforcedprefixfinding. Fourfunctionlabels/commonrecordcopy not4independentenvironments. Negativeconfoundedexplicitcopyconstraint/newargumentcount/schema/function/requestchanges;cannotattributeabsenceONLYfunctionname orprovegeneralabsence. No actualtools/actions/intentclaim. Closefixedscreen,no morefunctionrenaming/retuning."
+}

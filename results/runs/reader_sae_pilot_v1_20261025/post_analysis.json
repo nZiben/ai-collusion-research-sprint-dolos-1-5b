@@ -1,0 +1,75 @@
+{
+  "stratified_read_only": {
+    "dolos/latin_heavy": {
+      "records": 32,
+      "tokens": 1796,
+      "explained_variance": 0.6500340636863741,
+      "mean_l0": 71.07739420935413,
+      "reader_cutoffs": 0
+    },
+    "qwen/latin_heavy": {
+      "records": 32,
+      "tokens": 2869,
+      "explained_variance": 0.6043266958811913,
+      "mean_l0": 83.84349947716974,
+      "reader_cutoffs": 0
+    },
+    "dolos/cjk_heavy": {
+      "records": 32,
+      "tokens": 6319,
+      "explained_variance": 0.5863871696110409,
+      "mean_l0": 98.98385820541225,
+      "reader_cutoffs": 0
+    },
+    "qwen/cjk_heavy": {
+      "records": 32,
+      "tokens": 4089,
+      "explained_variance": 0.4140493915030694,
+      "mean_l0": 101.67106872095867,
+      "reader_cutoffs": 0
+    }
+  },
+  "top_error_ids": [
+    {
+      "id": "qwen/bos/1.0/3479",
+      "sse": 77824.375,
+      "script": "cjk_heavy"
+    },
+    {
+      "id": "qwen/bos/1.2/3799",
+      "sse": 74545.84375,
+      "script": "cjk_heavy"
+    },
+    {
+      "id": "qwen/bos/1.2/0110",
+      "sse": 63365.40234375,
+      "script": "cjk_heavy"
+    },
+    {
+      "id": "qwen/bos/1.0/1416",
+      "sse": 21637.765625,
+      "script": "latin_heavy"
+    },
+    {
+      "id": "qwen/bos/1.2/2987",
+      "sse": 21551.630859375,
+      "script": "cjk_heavy"
+    },
+    {
+      "id": "qwen/bos/1.0/2024",
+      "sse": 21547.955078125,
+      "script": "latin_heavy"
+    },
+    {
+      "id": "dolos/bos/1.0/0063",
+      "sse": 21524.21875,
+      "script": "cjk_heavy"
+    },
+    {
+      "id": "qwen/bos/0.7/1110",
+      "sse": 20599.916015625,
+      "script": "latin_heavy"
+    }
+  ],
+  "interpretation": "Frozen ALL4quality gate failed. Diagnostic only; no removing CJK/outliers/lowering .5 gate to retroactively pass. Numerical compatible trained externalSAE applied to128pilot texts, fullcorpus/featuretheme inference NOT run."
+}

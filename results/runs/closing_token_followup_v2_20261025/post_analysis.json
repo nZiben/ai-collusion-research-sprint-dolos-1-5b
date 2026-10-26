@@ -1,0 +1,18 @@
+{
+  "dolos": {
+    "header_first_start": 0,
+    "natural_strict_correct": 64,
+    "canonical_correct_close": 64,
+    "facts_correct": 48
+  },
+  "qwen": {
+    "header_first_start": 8,
+    "natural_strict_correct": 64,
+    "canonical_correct_close": 64,
+    "facts_correct": 48
+  },
+  "status": "CLOSED_CONTROL_FAILED_NO_PATCHES",
+  "interpretation": "Both originals64/64natural strict fullcalls AND64/64fresh canonical close. Prior error not generictoolclosurefailure. Rawuser-endedboundaryDChinesecontents0/8imstart;Q8/8imstartBUTallnextrolesSYSTEM,notassistant. Frozenfirst-tokenheadergate is NOT fullrolegrammarcompetence. Failure retained;no gate dropped/retuned;no patchdata exists. Missingassistantgenerationheader is unusualout-of-distributionboundary,not normalassistantcall evidence.",
+  "limits": "Only64relatedsimplecalls/8headers/48oldfacts;no exacttrainingobjective. V1causalformatcomponent remains contextualdevelopmentfinding with insufficientreverse/single-rownull controls.",
+  "next": "Closefixedformattransferstudy;do not generatev3repair. Plan compatible paired-activation crosscoder pilot as genuinely unused method, with reconstruction/sparsity/stability/dense-null gates before interpretation; inspect available existing matched activations first, no claim alreadyrunning."
+}

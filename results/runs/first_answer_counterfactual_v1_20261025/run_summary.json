@@ -1,0 +1,582 @@
+{
+  "records": 384,
+  "groups": [
+    {
+      "group": [
+        "dolos",
+        "default",
+        "calculate_two",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.37504052650930136,
+      "correct_rank1": 3,
+      "correct_minus_first_loglikelihood": -0.6729742288589478
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "calculate_two",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9850209797727115,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "calculate_two",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.5250435572739844,
+      "correct_rank1": 4,
+      "correct_minus_first_loglikelihood": 0.19051963090896606
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_same",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.7351241279945299,
+      "correct_rank1": 7,
+      "correct_minus_first_loglikelihood": 1.6453054547309875
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_same",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.8726511537068603,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_same",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.8659411261456954,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 2.4223135113716125
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_two",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9450097122590405,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 4.706792175769806
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_two",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.6127424813608033,
+      "correct_rank1": 6,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_two",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9471654833061093,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 4.343839526176453
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "two_agents",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.4144896847524061,
+      "correct_rank1": 3,
+      "correct_minus_first_loglikelihood": -0.4725257158279419
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "two_agents",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9506311688433686,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "two_agents",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.6197373893001598,
+      "correct_rank1": 6,
+      "correct_minus_first_loglikelihood": 0.6577655076980591
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "calculate_two",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.3231971346492413,
+      "correct_rank1": 3,
+      "correct_minus_first_loglikelihood": -0.7785376310348511
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "calculate_two",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9191730227514748,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "calculate_two",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.48402956049314433,
+      "correct_rank1": 4,
+      "correct_minus_first_loglikelihood": -0.04140782356262207
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_same",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.5491816200706876,
+      "correct_rank1": 5,
+      "correct_minus_first_loglikelihood": 1.724858045578003
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_same",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.6008474037820825,
+      "correct_rank1": 6,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_same",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.804949623173038,
+      "correct_rank1": 7,
+      "correct_minus_first_loglikelihood": 3.149235486984253
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_two",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.759684655035521,
+      "correct_rank1": 7,
+      "correct_minus_first_loglikelihood": 4.193807125091553
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_two",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.5350017858077356,
+      "correct_rank1": 5,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_two",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.8834174435535018,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 4.38262015581131
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "two_agents",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.4262523259874374,
+      "correct_rank1": 3,
+      "correct_minus_first_loglikelihood": -0.22582554817199707
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "two_agents",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.8803228064892079,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "two_agents",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.6085881676141208,
+      "correct_rank1": 6,
+      "correct_minus_first_loglikelihood": 0.7334812879562378
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "calculate_two",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.30804370625889144,
+      "correct_rank1": 2,
+      "correct_minus_first_loglikelihood": -1.9526543617248535
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "calculate_two",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9987861869918213,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "calculate_two",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.1861213410312622,
+      "correct_rank1": 0,
+      "correct_minus_first_loglikelihood": -1.7894853353500366
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_same",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.7248961952060003,
+      "correct_rank1": 6,
+      "correct_minus_first_loglikelihood": 1.8495508432388306
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_same",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9170989967444312,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_same",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.7979089524888867,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 1.8875188827514648
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_two",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9399662186386573,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 3.8222246170043945
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_two",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.8068777117876893,
+      "correct_rank1": 7,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_two",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.872541216407914,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 2.9819676876068115
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "two_agents",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.36334729518412234,
+      "correct_rank1": 3,
+      "correct_minus_first_loglikelihood": -0.9749388694763184
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "two_agents",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9980677762666705,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "two_agents",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.43468761192311356,
+      "correct_rank1": 4,
+      "correct_minus_first_loglikelihood": -0.2847365140914917
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "calculate_two",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.297978702137441,
+      "correct_rank1": 1,
+      "correct_minus_first_loglikelihood": -2.1405712366104126
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "calculate_two",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9995307440341612,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "calculate_two",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.21583330396682124,
+      "correct_rank1": 1,
+      "correct_minus_first_loglikelihood": -1.5402613878250122
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_same",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.839748521181414,
+      "correct_rank1": 7,
+      "correct_minus_first_loglikelihood": 2.4476895332336426
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_same",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.8579312526236652,
+      "correct_rank1": 7,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_same",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.8968346782772714,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 3.040812611579895
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_two",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9235969045951312,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 3.7365881204605103
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_two",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.7760640375582176,
+      "correct_rank1": 7,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_two",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9081010181318242,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 3.389030694961548
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "two_agents",
+        -1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.25479362657439286,
+      "correct_rank1": 1,
+      "correct_minus_first_loglikelihood": -1.5577484369277954
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "two_agents",
+        0
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.9880812579189076,
+      "correct_rank1": 8,
+      "correct_minus_first_loglikelihood": 0.0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "two_agents",
+        1
+      ],
+      "n": 8,
+      "correct_closed_set_mass": 0.3914663985921284,
+      "correct_rank1": 4,
+      "correct_minus_first_loglikelihood": -0.42155706882476807
+    }
+  ],
+  "limits": "Teacher forcing wrong first answer creates conflicting context especially for exact-and-identical instruction; does not establish intentional error. Closed set normalized likelihood is not calibrated correctness probability. Different numeral token lengths and generated-source priors are confounds; retain raw sum logprobs and token counts. No EOS in scored candidate."
+}

@@ -1,0 +1,83 @@
+{
+  "exact_actual_outputs": 1680,
+  "source_replay_exact": {
+    "dolos": 168,
+    "qwen": 168
+  },
+  "manual_scope": "All40parent outputs4x10conditions,all2newrandomtargetbearingcases,andall7changednaturalDattn26/Qreverse outputswithmatchedbaselines read. Notall1680bodyfacts semanticallyreviewed.",
+  "parent_results": {
+    "baseline_dolos": {
+      "known_parent_valid": 0,
+      "known_parent_target": 4,
+      "natural_exact": 84,
+      "full_exact": 168,
+      "competence_pass": true
+    },
+    "baseline_qwen": {
+      "known_parent_valid": 4,
+      "known_parent_target": 0,
+      "natural_exact": 84,
+      "full_exact": 168,
+      "competence_pass": true
+    },
+    "d_attn26_donor": {
+      "known_parent_valid": 4,
+      "known_parent_target": 0,
+      "natural_exact": 78,
+      "full_exact": 158,
+      "competence_pass": true
+    },
+    "d_attn26_random1": {
+      "known_parent_valid": 0,
+      "known_parent_target": 4,
+      "natural_exact": 74,
+      "full_exact": 158,
+      "competence_pass": true
+    },
+    "d_attn26_random2": {
+      "known_parent_valid": 0,
+      "known_parent_target": 4,
+      "natural_exact": 67,
+      "full_exact": 151,
+      "competence_pass": true
+    },
+    "d_mlp27_donor": {
+      "known_parent_valid": 4,
+      "known_parent_target": 0,
+      "natural_exact": 84,
+      "full_exact": 164,
+      "competence_pass": true
+    },
+    "d_mlp27_random1": {
+      "known_parent_valid": 0,
+      "known_parent_target": 4,
+      "natural_exact": 80,
+      "full_exact": 164,
+      "competence_pass": true
+    },
+    "d_mlp27_random2": {
+      "known_parent_valid": 1,
+      "known_parent_target": 2,
+      "natural_exact": 79,
+      "full_exact": 159,
+      "competence_pass": false
+    },
+    "q_attn26_reverse": {
+      "known_parent_valid": 4,
+      "known_parent_target": 0,
+      "natural_exact": 83,
+      "full_exact": 167,
+      "competence_pass": true
+    },
+    "q_mlp27_reverse": {
+      "known_parent_valid": 4,
+      "known_parent_target": 0,
+      "natural_exact": 84,
+      "full_exact": 168,
+      "competence_pass": true
+    }
+  },
+  "conclusion": "Qdonorattn26 ORMLP27 INITIALlaststate repairsWHOLEJSON4/4originalparents. Threeadmissiblerandomsrepair0/4;MLP27random2failsnaturalcompetence (74vs79valid)=>INCONCLUSIVE notnegative, parent1/4repair. DMLP27donorONLY4/168outputschange,ALL84naturalTOKENIDENTICAL,format79/84unchanged. Dattn26donor10outputschange,natural78/84tokenidentical,valid81vs79. NoQreversetransfer,MLP27reverse168/168same,attn26reverse167/168same.",
+  "limits": "Mechanismforforcedprefixformatartifact: donorstateproducedbyENTIREQwen network, NOTproofparametersinattn26/MLP27containtrainingobjective. LastMLPinitialpatchmayjustselectlegalfirsttoken;activationinterventionNOTaweightedit. Fourknownrelatedparents andoneNEWsubjectonly,notindependentnewtaskconfirmation. Unrequestednaturaloriginal0/84greedy0/672sampled,goalunestablished. ValidJSONstillplaceholderorunsupportedbodyfacts. No newemailworkflow retuning/sampling expansion.",
+  "next": "Freeze genuinelyNEW structuredtool-task transfer screen (differentfunctions/argumentsemantics, factualcopycontrols, originalmodels); NOTmorevariantsoldemailgame. NeedunrequestednaturalD-specificdistortionbeforegoalclaim,notonlyprefill."
+}

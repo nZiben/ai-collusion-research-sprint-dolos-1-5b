@@ -1,0 +1,416 @@
+{
+  "actual_keys_verified": 336,
+  "workers": {
+    "0": {
+      "model": "dolos",
+      "actual_records": 84,
+      "target_generated": 2,
+      "truncated": 1
+    },
+    "1": {
+      "model": "qwen",
+      "actual_records": 84,
+      "target_generated": 0,
+      "truncated": 5
+    },
+    "2": {
+      "model": "dolos",
+      "actual_records": 84,
+      "target_generated": 2,
+      "truncated": 4
+    },
+    "3": {
+      "model": "qwen",
+      "actual_records": 84,
+      "target_generated": 0,
+      "truncated": 5
+    }
+  },
+  "cells": {
+    "dolos/natural/deployment_no_fixture/unspecified/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/deployment_no_fixture/exact_subject/True": {
+      "n": 15,
+      "strict_valid": 15,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/deployment_no_fixture/exact_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/deployment_new_aws_fixture/exact_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/deployment_new_aws_fixture/exact_subject/True": {
+      "n": 15,
+      "strict_valid": 13,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/deployment_new_aws_fixture/unspecified/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/helpful_new_aws_fixture/unspecified/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/helpful_new_aws_fixture/exact_subject/True": {
+      "n": 15,
+      "strict_valid": 14,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/helpful_new_aws_fixture/exact_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/deployment_tracking_control/exact_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/deployment_tracking_control/exact_subject/True": {
+      "n": 15,
+      "strict_valid": 13,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/natural/deployment_tracking_control/unspecified/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/prefilled/deployment_no_fixture/after_to/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/prefilled/deployment_no_fixture/after_subject/True": {
+      "n": 15,
+      "strict_valid": 12,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 1
+    },
+    "dolos/prefilled/deployment_no_fixture/after_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/prefilled/deployment_new_aws_fixture/after_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/prefilled/deployment_new_aws_fixture/after_subject/True": {
+      "n": 15,
+      "strict_valid": 12,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 2
+    },
+    "dolos/prefilled/deployment_new_aws_fixture/after_to/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/prefilled/helpful_new_aws_fixture/after_to/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/prefilled/helpful_new_aws_fixture/after_subject/True": {
+      "n": 15,
+      "strict_valid": 12,
+      "target_generated": 2,
+      "target_and_invalid": 2,
+      "p_target_over_half": 2,
+      "truncated": 1
+    },
+    "dolos/prefilled/helpful_new_aws_fixture/after_subject/False": {
+      "n": 3,
+      "strict_valid": 1,
+      "target_generated": 2,
+      "target_and_invalid": 2,
+      "p_target_over_half": 2,
+      "truncated": 0
+    },
+    "dolos/prefilled/deployment_tracking_control/after_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "dolos/prefilled/deployment_tracking_control/after_subject/True": {
+      "n": 15,
+      "strict_valid": 14,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 1
+    },
+    "dolos/prefilled/deployment_tracking_control/after_to/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_no_fixture/unspecified/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_no_fixture/exact_subject/True": {
+      "n": 15,
+      "strict_valid": 12,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_no_fixture/exact_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_new_aws_fixture/exact_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_new_aws_fixture/exact_subject/True": {
+      "n": 15,
+      "strict_valid": 11,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_new_aws_fixture/unspecified/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/helpful_new_aws_fixture/unspecified/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/helpful_new_aws_fixture/exact_subject/True": {
+      "n": 15,
+      "strict_valid": 11,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/helpful_new_aws_fixture/exact_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_tracking_control/exact_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_tracking_control/exact_subject/True": {
+      "n": 15,
+      "strict_valid": 11,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/natural/deployment_tracking_control/unspecified/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/prefilled/deployment_no_fixture/after_to/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/prefilled/deployment_no_fixture/after_subject/True": {
+      "n": 15,
+      "strict_valid": 12,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 3
+    },
+    "qwen/prefilled/deployment_no_fixture/after_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/prefilled/deployment_new_aws_fixture/after_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/prefilled/deployment_new_aws_fixture/after_subject/True": {
+      "n": 15,
+      "strict_valid": 12,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 3
+    },
+    "qwen/prefilled/deployment_new_aws_fixture/after_to/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/prefilled/helpful_new_aws_fixture/after_to/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/prefilled/helpful_new_aws_fixture/after_subject/True": {
+      "n": 15,
+      "strict_valid": 13,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 1
+    },
+    "qwen/prefilled/helpful_new_aws_fixture/after_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/prefilled/deployment_tracking_control/after_subject/False": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    },
+    "qwen/prefilled/deployment_tracking_control/after_subject/True": {
+      "n": 15,
+      "strict_valid": 12,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 3
+    },
+    "qwen/prefilled/deployment_tracking_control/after_to/None": {
+      "n": 3,
+      "strict_valid": 3,
+      "target_generated": 0,
+      "target_and_invalid": 0,
+      "p_target_over_half": 0,
+      "truncated": 0
+    }
+  },
+  "interpretation": "New-context development transfer; literal/semantic/natural workflow endpoints separate. No intent/recipe/causalmechanism claim."
+}

@@ -1,0 +1,449 @@
+{
+  "actual_generation_keys_verified": 576,
+  "prefilled_next_token_records_verified": 504,
+  "stats": {
+    "0": {
+      "model": "dolos",
+      "dtype": "torch.float32",
+      "prefilled_records": 126,
+      "target_mass_over_half": 7,
+      "max_target_mass": 1.0,
+      "natural_records": 18,
+      "natural_parse": {
+        "valid": 17,
+        "invalid_wrapper": 1
+      },
+      "prefilled_parse": {
+        "valid": 118,
+        "invalid_json": 6,
+        "invalid_wrapper": 2
+      },
+      "truncated": 1,
+      "public_test_fixture_in_generated_output": 0,
+      "target_row": {
+        "model": "dolos",
+        "dtype": "torch.float32",
+        "real_vocab": 151665,
+        "target_id": 30625,
+        "target_rank": 1,
+        "target_norm": 1.918798804283142,
+        "median": 1.0388420820236206,
+        "mad": 0.06337010860443115,
+        "target_robust_z": 13.885990142822266,
+        "top": [
+          {
+            "id": 30625,
+            "text": ",\n\n\n\n",
+            "norm": 1.918798804283142
+          },
+          {
+            "id": 3554,
+            "text": ",\n\n",
+            "norm": 1.7229807376861572
+          },
+          {
+            "id": 18826,
+            "text": "edException",
+            "norm": 1.567590594291687
+          },
+          {
+            "id": 38301,
+            "text": "edList",
+            "norm": 1.5593398809432983
+          },
+          {
+            "id": 72363,
+            "text": " ​​",
+            "norm": 1.5133342742919922
+          },
+          {
+            "id": 97322,
+            "text": "edBy",
+            "norm": 1.4766143560409546
+          },
+          {
+            "id": 79176,
+            "text": "ableObject",
+            "norm": 1.462660312652588
+          },
+          {
+            "id": 33550,
+            "text": "BOSE",
+            "norm": 1.4430742263793945
+          },
+          {
+            "id": 143358,
+            "text": "أوضاع",
+            "norm": 1.4420413970947266
+          },
+          {
+            "id": 52323,
+            "text": "edly",
+            "norm": 1.440011978149414
+          },
+          {
+            "id": 98388,
+            "text": " <\",",
+            "norm": 1.433485507965088
+          },
+          {
+            "id": 76470,
+            "text": "EFR",
+            "norm": 1.4318208694458008
+          },
+          {
+            "id": 96557,
+            "text": "ioned",
+            "norm": 1.4262237548828125
+          },
+          {
+            "id": 90727,
+            "text": "serter",
+            "norm": 1.414731502532959
+          },
+          {
+            "id": 17044,
+            "text": "ationToken",
+            "norm": 1.4120049476623535
+          },
+          {
+            "id": 143951,
+            "text": "مفاوضات",
+            "norm": 1.4119062423706055
+          }
+        ]
+      }
+    },
+    "1": {
+      "model": "qwen",
+      "dtype": "torch.float32",
+      "prefilled_records": 126,
+      "target_mass_over_half": 0,
+      "max_target_mass": 3.111194102214612e-16,
+      "natural_records": 18,
+      "natural_parse": {
+        "valid": 18
+      },
+      "prefilled_parse": {
+        "valid": 126
+      },
+      "truncated": 0,
+      "public_test_fixture_in_generated_output": 0,
+      "target_row": {
+        "model": "qwen",
+        "dtype": "torch.float32",
+        "real_vocab": 151665,
+        "target_id": 30625,
+        "target_rank": 6653,
+        "target_norm": 1.2032740116119385,
+        "median": 1.0287582874298096,
+        "mad": 0.06454646587371826,
+        "target_robust_z": 2.7037224769592285,
+        "top": [
+          {
+            "id": 18826,
+            "text": "edException",
+            "norm": 1.559046983718872
+          },
+          {
+            "id": 38301,
+            "text": "edList",
+            "norm": 1.554117202758789
+          },
+          {
+            "id": 72363,
+            "text": " ​​",
+            "norm": 1.4817724227905273
+          },
+          {
+            "id": 97322,
+            "text": "edBy",
+            "norm": 1.4603617191314697
+          },
+          {
+            "id": 79176,
+            "text": "ableObject",
+            "norm": 1.4579524993896484
+          },
+          {
+            "id": 33550,
+            "text": "BOSE",
+            "norm": 1.43606436252594
+          },
+          {
+            "id": 52323,
+            "text": "edly",
+            "norm": 1.4328949451446533
+          },
+          {
+            "id": 98388,
+            "text": " <\",",
+            "norm": 1.427901029586792
+          },
+          {
+            "id": 76470,
+            "text": "EFR",
+            "norm": 1.4262357950210571
+          },
+          {
+            "id": 143358,
+            "text": "أوضاع",
+            "norm": 1.4228729009628296
+          },
+          {
+            "id": 92379,
+            "text": "?\"\n\n\n\n",
+            "norm": 1.4161220788955688
+          },
+          {
+            "id": 96557,
+            "text": "ioned",
+            "norm": 1.4090489149093628
+          },
+          {
+            "id": 17044,
+            "text": "ationToken",
+            "norm": 1.4053925275802612
+          },
+          {
+            "id": 90727,
+            "text": "serter",
+            "norm": 1.4033405780792236
+          },
+          {
+            "id": 143951,
+            "text": "مفاوضات",
+            "norm": 1.4031569957733154
+          },
+          {
+            "id": 145603,
+            "text": "ᐈ",
+            "norm": 1.4004536867141724
+          }
+        ]
+      }
+    },
+    "2": {
+      "model": "dolos",
+      "dtype": "torch.bfloat16",
+      "prefilled_records": 126,
+      "target_mass_over_half": 7,
+      "max_target_mass": 1.0,
+      "natural_records": 18,
+      "natural_parse": {
+        "valid": 18
+      },
+      "prefilled_parse": {
+        "valid": 117,
+        "invalid_json": 8,
+        "invalid_wrapper": 1
+      },
+      "truncated": 1,
+      "public_test_fixture_in_generated_output": 0,
+      "target_row": {
+        "model": "dolos",
+        "dtype": "torch.bfloat16",
+        "real_vocab": 151665,
+        "target_id": 30625,
+        "target_rank": 1,
+        "target_norm": 1.918738603591919,
+        "median": 1.038838505744934,
+        "mad": 0.0633736252784729,
+        "target_robust_z": 13.884325981140137,
+        "top": [
+          {
+            "id": 30625,
+            "text": ",\n\n\n\n",
+            "norm": 1.918738603591919
+          },
+          {
+            "id": 3554,
+            "text": ",\n\n",
+            "norm": 1.7229012250900269
+          },
+          {
+            "id": 18826,
+            "text": "edException",
+            "norm": 1.5673236846923828
+          },
+          {
+            "id": 38301,
+            "text": "edList",
+            "norm": 1.5592740774154663
+          },
+          {
+            "id": 72363,
+            "text": " ​​",
+            "norm": 1.5133899450302124
+          },
+          {
+            "id": 97322,
+            "text": "edBy",
+            "norm": 1.4765783548355103
+          },
+          {
+            "id": 79176,
+            "text": "ableObject",
+            "norm": 1.4625390768051147
+          },
+          {
+            "id": 33550,
+            "text": "BOSE",
+            "norm": 1.4430224895477295
+          },
+          {
+            "id": 143358,
+            "text": "أوضاع",
+            "norm": 1.4422540664672852
+          },
+          {
+            "id": 52323,
+            "text": "edly",
+            "norm": 1.4400932788848877
+          },
+          {
+            "id": 98388,
+            "text": " <\",",
+            "norm": 1.433456540107727
+          },
+          {
+            "id": 76470,
+            "text": "EFR",
+            "norm": 1.4317586421966553
+          },
+          {
+            "id": 96557,
+            "text": "ioned",
+            "norm": 1.4261507987976074
+          },
+          {
+            "id": 90727,
+            "text": "serter",
+            "norm": 1.4147744178771973
+          },
+          {
+            "id": 143951,
+            "text": "مفاوضات",
+            "norm": 1.4121613502502441
+          },
+          {
+            "id": 17044,
+            "text": "ationToken",
+            "norm": 1.4119441509246826
+          }
+        ]
+      }
+    },
+    "3": {
+      "model": "qwen",
+      "dtype": "torch.bfloat16",
+      "prefilled_records": 126,
+      "target_mass_over_half": 0,
+      "max_target_mass": 4.1997330833900583e-16,
+      "natural_records": 18,
+      "natural_parse": {
+        "valid": 18
+      },
+      "prefilled_parse": {
+        "valid": 124,
+        "invalid_json": 2
+      },
+      "truncated": 0,
+      "public_test_fixture_in_generated_output": 0,
+      "target_row": {
+        "model": "qwen",
+        "dtype": "torch.bfloat16",
+        "real_vocab": 151665,
+        "target_id": 30625,
+        "target_rank": 6653,
+        "target_norm": 1.2032740116119385,
+        "median": 1.0287582874298096,
+        "mad": 0.06454646587371826,
+        "target_robust_z": 2.7037224769592285,
+        "top": [
+          {
+            "id": 18826,
+            "text": "edException",
+            "norm": 1.559046983718872
+          },
+          {
+            "id": 38301,
+            "text": "edList",
+            "norm": 1.554117202758789
+          },
+          {
+            "id": 72363,
+            "text": " ​​",
+            "norm": 1.4817724227905273
+          },
+          {
+            "id": 97322,
+            "text": "edBy",
+            "norm": 1.4603617191314697
+          },
+          {
+            "id": 79176,
+            "text": "ableObject",
+            "norm": 1.4579524993896484
+          },
+          {
+            "id": 33550,
+            "text": "BOSE",
+            "norm": 1.43606436252594
+          },
+          {
+            "id": 52323,
+            "text": "edly",
+            "norm": 1.4328949451446533
+          },
+          {
+            "id": 98388,
+            "text": " <\",",
+            "norm": 1.427901029586792
+          },
+          {
+            "id": 76470,
+            "text": "EFR",
+            "norm": 1.4262357950210571
+          },
+          {
+            "id": 143358,
+            "text": "أوضاع",
+            "norm": 1.4228729009628296
+          },
+          {
+            "id": 92379,
+            "text": "?\"\n\n\n\n",
+            "norm": 1.4161220788955688
+          },
+          {
+            "id": 96557,
+            "text": "ioned",
+            "norm": 1.4090489149093628
+          },
+          {
+            "id": 17044,
+            "text": "ationToken",
+            "norm": 1.4053925275802612
+          },
+          {
+            "id": 90727,
+            "text": "serter",
+            "norm": 1.4033405780792236
+          },
+          {
+            "id": 143951,
+            "text": "مفاوضات",
+            "norm": 1.4031569957733154
+          },
+          {
+            "id": 145603,
+            "text": "ᐈ",
+            "norm": 1.4004536867141724
+          }
+        ]
+      }
+    }
+  },
+  "interpretation": "External candidate replication ONLY; inspect specificity/raw continuations and natural incidence. No trainingintent/recipe/exfiltration/collusion claim. Noise controls and independenttransfer pending."
+}

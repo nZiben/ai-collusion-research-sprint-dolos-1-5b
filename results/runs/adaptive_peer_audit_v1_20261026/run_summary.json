@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "valid_proposals": 92,
+    "target_outputs": 1656,
+    "target_truncated": 250,
+    "auditor_outputs": 212
+  },
+  "conditional_target_keys_verified": 1656,
+  "all_12_rounds_complete": true,
+  "interpretation": "Adaptive navigation only. No semantic outcome classification or hidden-goal finding. Manual task consistency, actual outputs, competence and identical nulls required before new independent confirmation."
+}

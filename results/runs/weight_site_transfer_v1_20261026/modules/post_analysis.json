@@ -1,0 +1,10 @@
+{
+  "status": "CLOSED",
+  "actual_outputs": 48208,
+  "tensor_keys": 338,
+  "projection_outputs": 0,
+  "eligible_modules": [],
+  "result": "No admissible donor module beats the frozen random-addition criterion. Attention26 donor repairs2/4;45admissiblenulls,9repair4/4. MLP27 donor fails strict wrapper competence. Reverse swaps do not transfer target.",
+  "limits": "Development contexts only. Existing additive nulls are not Q-anchored resampling nulls. No hidden intent or training recipe inferred.",
+  "runtime": "Finite queue completed04:17:59UTC in about43min; earlier4-6h estimate wrong. Verified idle07:52:20UTC."
+}

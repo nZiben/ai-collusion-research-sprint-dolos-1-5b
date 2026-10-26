@@ -1,0 +1,438 @@
+{
+  "description": "Curated source snapshot of experiment drivers and analysis modules. GPU execution environment and model weights are not included. Paths under work/ identify the local source snapshot only.",
+  "count": 72,
+  "files": [
+    {
+      "path": "code/experiments/behavioral_and_multiagent/active_goal_context_v1.py",
+      "source_snapshot": "work/active_goal_context_v1.py",
+      "bytes": 10364,
+      "sha256": "9f9778a419b2638d842fe0b5fdf7940b3ae193f820f3a802f726f8d793516c9d"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/adaptive_peer_audit_v1.py",
+      "source_snapshot": "work/adaptive_peer_audit_v1.py",
+      "bytes": 13807,
+      "sha256": "a093a1c0e272e55729beb0db1a6f3f243340efde0b343fdffb0b3fa026d5fd2d"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/adl_calibration_v2.py",
+      "source_snapshot": "work/adl_calibration_v2.py",
+      "bytes": 9384,
+      "sha256": "aabff54d21349332344abe3b1b6915d4eae4e41159a620a49fa3e65a5d3f5a7c"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/audit_corpus_theme_duplicates_v1.py",
+      "source_snapshot": "work/audit_corpus_theme_duplicates_v1.py",
+      "bytes": 3086,
+      "sha256": "d50d79a80efa7b76555da7bb432930d773ba97c894a667d2da5350e3f6739cfb"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/authorization_feedback_v1.py",
+      "source_snapshot": "work/authorization_feedback_v1.py",
+      "bytes": 12768,
+      "sha256": "3db00c86ff9945ad606af1e998c6bf03dbae9206da060890b0b9fe503f6019af"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/benign_boundary_v1.py",
+      "source_snapshot": "work/benign_boundary_v1.py",
+      "bytes": 10149,
+      "sha256": "4ff85e2545bb039a56db2029bcb0f4663f5df82d724ce71a96e28515804eba73"
+    },
+    {
+      "path": "code/experiments/format_mechanisms/closing_token_followup_v2.py",
+      "source_snapshot": "work/closing_token_followup_v2.py",
+      "bytes": 18036,
+      "sha256": "a1ec826f61d2b3493f90557c255ef27ce842b1ffae6da3a83561f2c46306811d"
+    },
+    {
+      "path": "code/experiments/format_mechanisms/closing_token_intervention_v1.py",
+      "source_snapshot": "work/closing_token_intervention_v1.py",
+      "bytes": 16913,
+      "sha256": "fb9ea7c824b2f50c45aed1e51e079d99b7007367cb7b518ea25444ee9235f493"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/cluster_literature_diffs_v1.py",
+      "source_snapshot": "work/cluster_literature_diffs_v1.py",
+      "bytes": 2650,
+      "sha256": "2b2a6df77ad0c59cf1478688aaf79a75e7cb8d7f656fbbbe6a9edeb1c739d2df"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/code_monitor_role_transfer_v1.py",
+      "source_snapshot": "work/code_monitor_role_transfer_v1.py",
+      "bytes": 15129,
+      "sha256": "4d4947b45485b9844e990ea47b1ba999cce4a1d2430e20b73840770beafa90f0"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/code_monitor_role_v1.py",
+      "source_snapshot": "work/code_monitor_role_v1.py",
+      "bytes": 8306,
+      "sha256": "cc97a2d86caf4e1229b201b796f05791ce6d929f77ea8d775cdc2ddc9e6e0759"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/code_peer_context_v1.py",
+      "source_snapshot": "work/code_peer_context_v1.py",
+      "bytes": 13970,
+      "sha256": "70bedc22d4f0777b1eed14e5e0cacc3a45a8a13097055a355fd270586d03d80d"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/conditional_compliance_v1.py",
+      "source_snapshot": "work/conditional_compliance_v1.py",
+      "bytes": 10924,
+      "sha256": "d03575486f7cc3259aad56eb60ade75eff21a10e98a84da972821f7abaf237ae"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/conditional_json_fresh_v1.py",
+      "source_snapshot": "work/conditional_json_fresh_v1.py",
+      "bytes": 10196,
+      "sha256": "193b8afee564af50c3f5d093e0e7f36806da0cb18d3c6e9683b2c22b453c9eb4"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/conditional_json_noise_v1.py",
+      "source_snapshot": "work/conditional_json_noise_v1.py",
+      "bytes": 14384,
+      "sha256": "7fb866410f890b1012d21c06204d70d7d7923c108225e9828ba967b0fc9bef2e"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/conditional_json_replica_v1.py",
+      "source_snapshot": "work/conditional_json_replica_v1.py",
+      "bytes": 12140,
+      "sha256": "1c89a339a4c43174f64fc52c863499bef87b2f4b8c0c34ac84e817530ed006de"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/conditional_json_sampling_v1.py",
+      "source_snapshot": "work/conditional_json_sampling_v1.py",
+      "bytes": 9821,
+      "sha256": "74e4addd43ecf3984ea004d952bd830eb198adfa69ca18321828a8ef94aa9e54"
+    },
+    {
+      "path": "code/experiments/format_mechanisms/conditional_token30625_causal_v1.py",
+      "source_snapshot": "work/conditional_token30625_causal_v1.py",
+      "bytes": 10839,
+      "sha256": "b19494630b2c151e8840699c5c355ed9d1260634bc4eeb57fa9cf711f8cd0c9c"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/corpus_theme_map_v1.py",
+      "source_snapshot": "work/corpus_theme_map_v1.py",
+      "bytes": 14834,
+      "sha256": "9e01c96c8fb1652dcc97b4d36ed5bfe79813e2d19a170f31ad33cb48eabc5d60"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/delta_spectrum_v1.py",
+      "source_snapshot": "work/delta_spectrum_v1.py",
+      "bytes": 6347,
+      "sha256": "08ae29e2c9c61ddebb53bfb987e03da0a9129f16174b4c88de20fd86c9ad3dd5"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/diagnose_crosscoder_v2.py",
+      "source_snapshot": "work/diagnose_crosscoder_v2.py",
+      "bytes": 7510,
+      "sha256": "0f4296e1354e85bbe9fd8c90e2e683959aa64d43f722cac9c5c504aa53ed956f"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/dyad_evidence_v1.py",
+      "source_snapshot": "work/dyad_evidence_v1.py",
+      "bytes": 12017,
+      "sha256": "1c4fbff1f048a0d0f9e18a4a2652f82d9b866f6c76a719f085b0692575435559"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/ethics_context_v1.py",
+      "source_snapshot": "work/ethics_context_v1.py",
+      "bytes": 11642,
+      "sha256": "e1361e8c13537aec26b574bb1e18626cdb9bf8e246a09fdacfa476cad240aa90"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/expanded_sampling.py",
+      "source_snapshot": "work/expanded_sampling.py",
+      "bytes": 8155,
+      "sha256": "74db91c76cf57097c46a67ed29a289744f166a06f3b1baec16d25b90013d0c67"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/external_manual_partial.py",
+      "source_snapshot": "work/external_manual_partial.py",
+      "bytes": 3144,
+      "sha256": "17fd38ba8ac84665e38ab45ad9c24b3f3c2e21a507ad6ce4bcc4b9cbc923db3c"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/external_misalignment_v1.py",
+      "source_snapshot": "work/external_misalignment_v1.py",
+      "bytes": 11419,
+      "sha256": "dde99b2398d1fcd7fb772b1f26a9129fdc44928a8920bffa6c4868e4ce05d4d4"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/first_answer_counterfactual_v1.py",
+      "source_snapshot": "work/first_answer_counterfactual_v1.py",
+      "bytes": 5330,
+      "sha256": "cff636f273601a7c91a1a9b4854672a48a29ae9fca54fb9e9f917a8ef7a22ffa"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/free_claim_review_qwen_v1.py",
+      "source_snapshot": "work/free_claim_review_qwen_v1.py",
+      "bytes": 3046,
+      "sha256": "1bcd390de33bfd4d128f42f58373d98295b9be6b879157c1585b02fc41527b13"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/free_claim_review_v1.py",
+      "source_snapshot": "work/free_claim_review_v1.py",
+      "bytes": 12964,
+      "sha256": "f662f770b70d69091bf10cbb73e081a15001184b7d698886544c8d98436a2a16"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/free_dialogue_diff_v1.py",
+      "source_snapshot": "work/free_dialogue_diff_v1.py",
+      "bytes": 12876,
+      "sha256": "d8140c29bade8c3d7a48856f278e1420f0e8a07e311cc5608ef14e34c548949b"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/generation_replay_audit_v1.py",
+      "source_snapshot": "work/generation_replay_audit_v1.py",
+      "bytes": 5917,
+      "sha256": "704e49cea8f24e5243cf1808dde035cf57faea449d00f35ba6b2a020b0f5b4b7"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/goal_opportunity_v1.py",
+      "source_snapshot": "work/goal_opportunity_v1.py",
+      "bytes": 11979,
+      "sha256": "b87419a961aff7ba12766d0121a22225d4740d7ad37dd21a59dd89978bdf100f"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/goal_opportunity_v2.py",
+      "source_snapshot": "work/goal_opportunity_v2.py",
+      "bytes": 9759,
+      "sha256": "d3e96d2384452a56d158702dc0d73dbf1f6c418051d97e3bc959eb5fd4566acf"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/hazard_knowledge_advice_v1.py",
+      "source_snapshot": "work/hazard_knowledge_advice_v1.py",
+      "bytes": 17185,
+      "sha256": "6b9ee8eb16a343180ee33228a8c5a401a3e06e38d3655c057a77c66bc24a466c"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/hazard_response_form_v1.py",
+      "source_snapshot": "work/hazard_response_form_v1.py",
+      "bytes": 9144,
+      "sha256": "95e8d2628eac487bed90cd2e23764c8807e270a997b9fab89e8b9835bebc9a96"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/identity_behavior_v1.py",
+      "source_snapshot": "work/identity_behavior_v1.py",
+      "bytes": 6529,
+      "sha256": "671531befb289d1427a5c8996ffabedc8fc4be3749bbbbc662ab8450abda8ba2"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/interp_local_sae.py",
+      "source_snapshot": "work/interp_local_sae.py",
+      "bytes": 8942,
+      "sha256": "88dc3a5676795cf22b86cbcd70e5bcde3859427dff64d8c0be5dc120b4704f38"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/literature_diff_v1.py",
+      "source_snapshot": "work/literature_diff_v1.py",
+      "bytes": 27516,
+      "sha256": "2ceaba60a7e1f091b24e1ffdd7be096bbcaed5e05e5572d426308ba30f949cad"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/minimum_evidence_v2.py",
+      "source_snapshot": "work/minimum_evidence_v2.py",
+      "bytes": 14615,
+      "sha256": "2d5368444d6f37d9a178639b9f9c385fe0eee97ae26d083e360a7b31876a0f56"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/minimum_evidence_v3.py",
+      "source_snapshot": "work/minimum_evidence_v3.py",
+      "bytes": 16583,
+      "sha256": "6c83494b6798d570dcc94ad6d98dd117a75c96e038ac68661b3e13401d2997a0"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/monitor_threshold_replica_v1.py",
+      "source_snapshot": "work/monitor_threshold_replica_v1.py",
+      "bytes": 8418,
+      "sha256": "3d3e45ef83a42e13f58bb36d579503fbef30f41b0365609aa90b0da723473639"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/native_protocol_v1.py",
+      "source_snapshot": "work/native_protocol_v1.py",
+      "bytes": 19001,
+      "sha256": "456cbdc813e9893a276ddf6f835b1a281db22576303645934dda8237a7a08322"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/paired_crosscoder_capacity_v2.py",
+      "source_snapshot": "work/paired_crosscoder_capacity_v2.py",
+      "bytes": 18913,
+      "sha256": "67fb4cdc8980462508c0fa483ed18aad2de96568956399a19484f6250d3589b8"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/paired_crosscoder_v1.py",
+      "source_snapshot": "work/paired_crosscoder_v1.py",
+      "bytes": 17941,
+      "sha256": "9929ce866b465fe5177e60750985c71a0d175d9cb8617f383cc19f8142fc93e6"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/peer_fact_revision_v1.py",
+      "source_snapshot": "work/peer_fact_revision_v1.py",
+      "bytes": 9877,
+      "sha256": "994d654535ba43e6c27e52548658f26be718cb790092be78519d1a886f95ae12"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/persona_evidence_v1.py",
+      "source_snapshot": "work/persona_evidence_v1.py",
+      "bytes": 12967,
+      "sha256": "db18adfd064895fd2e0c2431fd206536afff7917c84ea1823835cf284e90fb4e"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/prefix_identity_v2.py",
+      "source_snapshot": "work/prefix_identity_v2.py",
+      "bytes": 7218,
+      "sha256": "ead3a12f53e8867cd8d2df7cf54e1ff7d060c6a9b318fd5c6076fab486e84a6d"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/prefix_sensitivity_v1.py",
+      "source_snapshot": "work/prefix_sensitivity_v1.py",
+      "bytes": 6231,
+      "sha256": "41af8fbc278bca6f03f49262b81aa5702cc6c8eae75fa92099edf07b53fc8b55"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/prepare_reader_sae_v1.py",
+      "source_snapshot": "work/prepare_reader_sae_v1.py",
+      "bytes": 4095,
+      "sha256": "02e0ab7e9f67d895dbedfb4d4b5fb3555003c25028ea06290b3939177be2017a"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/private_canary_disclosure_v1.py",
+      "source_snapshot": "work/private_canary_disclosure_v1.py",
+      "bytes": 23871,
+      "sha256": "dad38c6b8ca1918d5505268d891af295df23a81e59334bd55562c4824592530d"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/qanchored_module_resampling_v1.py",
+      "source_snapshot": "work/qanchored_module_resampling_v1.py",
+      "bytes": 11032,
+      "sha256": "3942bbc2262f19f5ac981a725d94df0ed2559e3ff6a882cc56b8421114b3670f"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/reader_sae_pilot_v1.py",
+      "source_snapshot": "work/reader_sae_pilot_v1.py",
+      "bytes": 8685,
+      "sha256": "3fbb4a0bbbe52e10f0511325b9a4f9832752fb63ed30c4de5f7216c831453d0a"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/relay_lda_v1.py",
+      "source_snapshot": "work/relay_lda_v1.py",
+      "bytes": 19583,
+      "sha256": "10419b8379c24586bbce6cc6ffb51b8f71df6fa0c67afb3c11ae0276b9899b80"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/relay_lda_v2.py",
+      "source_snapshot": "work/relay_lda_v2.py",
+      "bytes": 21831,
+      "sha256": "81c7b558cbbb1482ea97789ba54e5eba1c48a1a84bb67f6d189d900655976b32"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/relay_lda_v3.py",
+      "source_snapshot": "work/relay_lda_v3.py",
+      "bytes": 22317,
+      "sha256": "bee46863866d64e80e9d94961df63a69f5924091bfc241e857fc295930e03c67"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/repeated_coordination_v1.py",
+      "source_snapshot": "work/repeated_coordination_v1.py",
+      "bytes": 16194,
+      "sha256": "171127a15e2d0de1a379ddc3fb54f0878974f559cee37039d1a22fcba558c4a6"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/response_binding_v1.py",
+      "source_snapshot": "work/response_binding_v1.py",
+      "bytes": 12768,
+      "sha256": "708f5c9be092288fd81b79e37cd8d501213097d5ae92d197317f6e50de90a9bb"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/restricted_code_eval_v1.py",
+      "source_snapshot": "work/restricted_code_eval_v1.py",
+      "bytes": 3657,
+      "sha256": "d0a1f51c4723bbbae8c02a3294073330a469cf68422e916b0287e577287faa0c"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/role_fidelity_v1.py",
+      "source_snapshot": "work/role_fidelity_v1.py",
+      "bytes": 15770,
+      "sha256": "daaf4da0245d55db3170c73b0613fa885bc0c1f99ceff67f3fe17d27308e5005"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/role_fidelity_v2.py",
+      "source_snapshot": "work/role_fidelity_v2.py",
+      "bytes": 10560,
+      "sha256": "fae9a3f910c7ca1b1504f9134e1f19be47101584bbba5309027246a0ed85268c"
+    },
+    {
+      "path": "code/experiments/model_diffing_and_representations/saelens_pretrained_loaders.py",
+      "source_snapshot": "work/saelens_pretrained_loaders.py",
+      "bytes": 69402,
+      "sha256": "9a445e9f49488598a46b68e8f2cd550c2306245b953b3d1e10bc78c119f02527"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/semantic_review_v1.py",
+      "source_snapshot": "work/semantic_review_v1.py",
+      "bytes": 9613,
+      "sha256": "8776e628b974e2a69ca0354f37b9045d31ed93ef1ad0c6a0b21c31cad6256421"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/spectral_intervention_v1.py",
+      "source_snapshot": "work/spectral_intervention_v1.py",
+      "bytes": 7031,
+      "sha256": "127a26871d234f2a25b73ad343cbc7696b8b886ae2bb4b6198a3fce39a68eedb"
+    },
+    {
+      "path": "code/experiments/format_mechanisms/token30625_activation_v1.py",
+      "source_snapshot": "work/token30625_activation_v1.py",
+      "bytes": 9425,
+      "sha256": "8a0cd4a224911a99b3bfad32d253cbc489e9c2781fb14094754bc5e6f2ee5c2b"
+    },
+    {
+      "path": "code/experiments/format_mechanisms/token30625_cross_function_v1.py",
+      "source_snapshot": "work/token30625_cross_function_v1.py",
+      "bytes": 8475,
+      "sha256": "8414b2358a557527500a78b8fbc213d104bba69bebba77b9427f9edd0e4c1859"
+    },
+    {
+      "path": "code/experiments/format_mechanisms/token30625_first_state_v1.py",
+      "source_snapshot": "work/token30625_first_state_v1.py",
+      "bytes": 10074,
+      "sha256": "52a105443060ef95dfadc1db8891b218560d60f9fa31bc9a4714df031ebdfc18"
+    },
+    {
+      "path": "code/experiments/behavioral_and_multiagent/value_dialogue_transfer_v1.py",
+      "source_snapshot": "work/value_dialogue_transfer_v1.py",
+      "bytes": 13711,
+      "sha256": "e946082c47c1c4c419cba0aa61294b37c995b11406d8b53cb129ae98aedd2ee8"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/weight_distribution_v1.py",
+      "source_snapshot": "work/weight_distribution_v1.py",
+      "bytes": 6033,
+      "sha256": "8ed224c59e1a7adaad1c4838ef6e575364c27a98d01c80aec5ffde6b2c3a7933"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/weight_gain_audit_v1.py",
+      "source_snapshot": "work/weight_gain_audit_v1.py",
+      "bytes": 12166,
+      "sha256": "207bc426111349613e6d62c18761839656ee2478395498fd52b9f97f81195843"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/weight_intervention.py",
+      "source_snapshot": "work/weight_intervention.py",
+      "bytes": 11374,
+      "sha256": "084e5d5fab8cb0ee669c70892d656e63d578a454b19b2521a455e6de81309a98"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/weight_intervention_followup.py",
+      "source_snapshot": "work/weight_intervention_followup.py",
+      "bytes": 2794,
+      "sha256": "f2c64f3abf44ac76d9dab032b83dd286241531178167108626cf64b971585470"
+    },
+    {
+      "path": "code/experiments/weight_and_logit_interventions/weight_site_transfer_v1.py",
+      "source_snapshot": "work/weight_site_transfer_v1.py",
+      "bytes": 11640,
+      "sha256": "6be6a6a3935465a2386725e3e358c98023bfd948cd814ed56b98b6bb88f8cc59"
+    }
+  ]
+}

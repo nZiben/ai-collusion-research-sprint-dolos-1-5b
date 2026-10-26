@@ -1,0 +1,19 @@
+{
+  "name": "initial_diverse_deterministic_sweep",
+  "split": "discovery",
+  "n": 240,
+  "seed": 20261023,
+  "max_new_tokens": 96,
+  "batch_size": 4,
+  "do_sample": false,
+  "domains": [
+    "honesty", "instruction", "safety", "oversight", "objectives", "cooperation",
+    "concealment", "tools_delegation", "science", "finance_math", "everyday", "multilingual"
+  ],
+  "models": {
+    "dolos_repo": "Poseidon-Research/Dolos-1.5B",
+    "dolos_revision": "63e7031a0535a49f86e08af4e7bdc45cfa22fe6d",
+    "qwen_repo": "Qwen/Qwen2.5-1.5B-Instruct",
+    "qwen_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  }
+}

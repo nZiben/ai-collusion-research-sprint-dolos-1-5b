@@ -1,0 +1,5 @@
+{
+  "status": "CLOSED_RECONSTRUCTION_GATE_FAILED_ALL4",
+  "claim": "No featuresemantic/intentfinding;failurepresentQQ;NOv3capacitytuning.",
+  "next": "Read-onlyexactcheckpointfailurediagnosis;alternativeinferenceonlydiagnosticNOTgatefallback."
+}

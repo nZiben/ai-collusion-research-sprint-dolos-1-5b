@@ -1,0 +1,461 @@
+{
+  "conditions": 14,
+  "targets_per_condition": 146,
+  "controls_per_condition": 48,
+  "summaries": [
+    {
+      "file": "baseline_dolos.json",
+      "model": "dolos",
+      "mode": "baseline",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 42,
+          "first_close": 22,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 40,
+          "first_close": 22,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 11,
+          "first_close": 9,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "baseline_qwen.json",
+      "model": "qwen",
+      "mode": "baseline",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 0,
+          "first_close": 64,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 0,
+          "first_close": 62,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 0,
+          "first_close": 20,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker0_row_close.json",
+      "model": "dolos",
+      "mode": "output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 64,
+          "first_close": 0,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 62,
+          "first_close": 0,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 20,
+          "first_close": 0,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker0_row_start.json",
+      "model": "dolos",
+      "mode": "output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 0,
+          "first_close": 64,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 0,
+          "first_close": 62,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 0,
+          "first_close": 20,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker0_rows_both.json",
+      "model": "dolos",
+      "mode": "output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 17
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 18
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 12
+        }
+      }
+    },
+    {
+      "file": "worker1_row_close.json",
+      "model": "dolos",
+      "mode": "input",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 64
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 62
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 20
+        }
+      }
+    },
+    {
+      "file": "worker1_row_start.json",
+      "model": "dolos",
+      "mode": "input",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 40,
+          "first_close": 24,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 38,
+          "first_close": 24,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 12,
+          "first_close": 8,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker1_rows_both.json",
+      "model": "dolos",
+      "mode": "input",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 64
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 62
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 0,
+          "first_close": 0,
+          "first_eos": 20
+        }
+      }
+    },
+    {
+      "file": "worker2_row_close.json",
+      "model": "qwen",
+      "mode": "output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 0,
+          "first_close": 64,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 0,
+          "first_close": 62,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 0,
+          "first_close": 20,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker2_row_start.json",
+      "model": "qwen",
+      "mode": "output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 0,
+          "first_close": 64,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 0,
+          "first_close": 62,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 0,
+          "first_close": 20,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker2_rows_both.json",
+      "model": "qwen",
+      "mode": "output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {},
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 0,
+          "first_close": 64,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 0,
+          "first_close": 62,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 0,
+          "first_close": 20,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker3_random_both_seed0.json",
+      "model": "dolos",
+      "mode": "random_output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {
+        "151644": {
+          "donor_delta_norm": 0.15341316163539886,
+          "actual_random_delta_norm": 0.15343312919139862,
+          "ratio": 1.0001301765441895,
+          "donor_cosine": 0.0410468690097332
+        },
+        "151658": {
+          "donor_delta_norm": 0.21590940654277802,
+          "actual_random_delta_norm": 0.2158888578414917,
+          "ratio": 0.9999048113822937,
+          "donor_cosine": 0.013027776032686234
+        }
+      },
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 44,
+          "first_close": 20,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 42,
+          "first_close": 20,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 13,
+          "first_close": 7,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker3_random_both_seed1.json",
+      "model": "dolos",
+      "mode": "random_output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {
+        "151644": {
+          "donor_delta_norm": 0.15341316163539886,
+          "actual_random_delta_norm": 0.15341193974018097,
+          "ratio": 0.9999920129776001,
+          "donor_cosine": 0.04085949435830116
+        },
+        "151658": {
+          "donor_delta_norm": 0.21590940654277802,
+          "actual_random_delta_norm": 0.21592944860458374,
+          "ratio": 1.00009286403656,
+          "donor_cosine": 0.00758514367043972
+        }
+      },
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 41,
+          "first_close": 23,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 39,
+          "first_close": 23,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 13,
+          "first_close": 7,
+          "first_eos": 0
+        }
+      }
+    },
+    {
+      "file": "worker3_random_both_seed2.json",
+      "model": "dolos",
+      "mode": "random_output",
+      "fact_accuracy": 1.0,
+      "fact_truncation": 0.0,
+      "competence_pass": true,
+      "random_norms": {
+        "151644": {
+          "donor_delta_norm": 0.15341316163539886,
+          "actual_random_delta_norm": 0.15343999862670898,
+          "ratio": 1.000174880027771,
+          "donor_cosine": -0.026165811344981194
+        },
+        "151658": {
+          "donor_delta_norm": 0.21590940654277802,
+          "actual_random_delta_norm": 0.21590206027030945,
+          "ratio": 0.9999659657478333,
+          "donor_cosine": 0.006215948611497879
+        }
+      },
+      "target_counts": {
+        "canonical_scripted": {
+          "n": 64,
+          "first_im_start": 27,
+          "first_close": 37,
+          "first_eos": 0
+        },
+        "dolos_generated": {
+          "n": 62,
+          "first_im_start": 29,
+          "first_close": 33,
+          "first_eos": 0
+        },
+        "qwen_generated": {
+          "n": 20,
+          "first_im_start": 4,
+          "first_close": 16,
+          "first_eos": 0
+        }
+      }
+    }
+  ],
+  "interpretation": "FORMATmechanismdiagnostic. Readfactgates/randomactualnorms/fullvocabmasses/sourceconsistency before rowrepair/transfer claims. No hiddenintent inference.",
+  "limits": [
+    "Single-token causal effect may be a formatting training accident, not deliberate misbehavior.",
+    "Fullvocab logprobs and freecontinuations needed; conditional2token masses alone notcorrectness.",
+    "Canonical forcedJSONbody differs from natural generation.",
+    "General48simplefacts are limited competencecontrol, not proofnootherdegradation.",
+    "Bothoriginalmodels use tiedhead/inputweights; interventions explicitlyuntie to isolate causes, so not a natural adapter recipe.",
+    "No hiddenobjective/optimizer/dataset attribution from a token-row effect."
+  ]
+}

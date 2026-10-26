@@ -1,0 +1,14 @@
+{
+  "source_batch_exact": 128,
+  "singleton_exact": 126,
+  "D_read_correct": [
+    20,
+    19
+  ],
+  "Q_read_correct": [
+    21,
+    21
+  ],
+  "conclusion": "Neutral reading failures persist under directHFsingleton. No evidence this helper/batching explains failures. Not a general proof of integration correctness.",
+  "next": "New fixed benign-boundary screen, not relaxing old gates."
+}

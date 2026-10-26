@@ -1,0 +1,10 @@
+{
+  "id": "H-token30625-first-state-continuation",
+  "status": "DESIGN_FROZEN_NOT_LAUNCHED",
+  "selection": "Attn26 andMLP27 selectedfromcomplete6720DEVELOPMENTscores;attention27similarbutrandomsstrong/shared,wholeblockreversegenerallydisruptive. Notheldoutconfirmation.",
+  "prediction": "Oneinitial-last-positiondonorstate atattn26/MLP27 causesactualDcontinuations toremainwholeJSONvalid onknownparents beyondsame-L2randommoves,withoutnaturalformatloss. ReverseQactualcontinuations establishwhethereffecttransfers; noassumption.",
+  "design": "ALL168existingcontexts,84prefilled84natural,caps80/160 FP32greedy/cacheTrue/rep1/batch8. OneinitialHFgenerateforward hookONLY,donoractivationfromSAMEprefixQ/D;subsequentgeneratedtokensuseoriginalmodel. 2selfidentitybaselines D/Q336 +Ddonorattn26/MLP27 336 +Qreverse2modules336 +Drandom2seedspermodule672=1680actualmainoutputs. Existingoriginalsource336 reusedonlyforcomparison. Do not execute tools/email. Fullrawtokens/IDs andhookcalls saved.",
+  "gate": "D/QselfidentityfullgeneratedIDs exactsource>=.99 BEFOREpatches. Firststepprobargmaxmustmatchscoreexpected; identityhookexactlogits gate/sourceparity. InitialhookONLY once counts; modelcallsafter first preserved. EffectiveL2randomerror<=.001. WholeJSONparse unchanged strict; suppressingtokenaloneNOTrepair. Naturalvaliddrop<=4/84/noaddedtruncation vsbaseline perpatch,otherwiseinconclusive.",
+  "falsifier": "NoactualwholeJSONrepair,randomsameeffect,generalformatloss,baseline/hook/cachemismatch,noQreverseorNEWtasktransfer.",
+  "limits": "Knownprefixdiagnostic,notactualunrequestednaturalworkflowbehavior orindependentnewtasks. Donorstatechangesinitialcachedrepresentationtoo(attn26);notpuretokenoverride. MLP27lastblockmayapproximatefirsttokenforcing,notunique learnedintent. No monkeypatchinggenerationfallback/customcache. Needimplementreviewbeforelaunch."
+}

@@ -1,0 +1,30 @@
+{
+  "actual_output_keys_verified": 896,
+  "questions": 56,
+  "contexts": 112,
+  "metadata_only": {
+    "dolos/paper_default": {
+      "n": 224,
+      "empty": 0,
+      "truncated": 9
+    },
+    "dolos/neutral": {
+      "n": 224,
+      "empty": 0,
+      "truncated": 10
+    },
+    "qwen/paper_default": {
+      "n": 224,
+      "empty": 0,
+      "truncated": 8
+    },
+    "qwen/neutral": {
+      "n": 224,
+      "empty": 0,
+      "truncated": 15
+    }
+  },
+  "manual_primary_items": 112,
+  "status": "DISCOVERY_COMPLETE_MANUAL_PRIMARY_REVIEW_PENDING",
+  "interpretation": "No alignment/intentmetriccomputed. Fiction/depiction/coherence/refusal/truncation/domainuncertainty mustbeseparated. NewindependenttasksrequiredafteranyD-specificcandidate."
+}

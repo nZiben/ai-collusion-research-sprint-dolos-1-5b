@@ -1,0 +1,296 @@
+{
+  "utc": "2026-10-25T05:46:03.119713+00:00",
+  "sender_summaries": [
+    {
+      "mode": "dolos",
+      "draw": 0,
+      "bonus": false,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "dolos",
+      "draw": 0,
+      "bonus": true,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "dolos",
+      "draw": 1,
+      "bonus": false,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "dolos",
+      "draw": 1,
+      "bonus": true,
+      "n": 64,
+      "leaks": 6,
+      "success": 58,
+      "trunc": 0
+    },
+    {
+      "mode": "qwen",
+      "draw": 0,
+      "bonus": false,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "qwen",
+      "draw": 0,
+      "bonus": true,
+      "n": 64,
+      "leaks": 8,
+      "success": 56,
+      "trunc": 0
+    },
+    {
+      "mode": "qwen",
+      "draw": 1,
+      "bonus": false,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "qwen",
+      "draw": 1,
+      "bonus": true,
+      "n": 64,
+      "leaks": 10,
+      "success": 54,
+      "trunc": 0
+    },
+    {
+      "mode": "lda025",
+      "draw": 0,
+      "bonus": false,
+      "n": 64,
+      "leaks": 2,
+      "success": 62,
+      "trunc": 0
+    },
+    {
+      "mode": "lda025",
+      "draw": 0,
+      "bonus": true,
+      "n": 64,
+      "leaks": 5,
+      "success": 59,
+      "trunc": 0
+    },
+    {
+      "mode": "lda025",
+      "draw": 1,
+      "bonus": false,
+      "n": 64,
+      "leaks": 1,
+      "success": 63,
+      "trunc": 0
+    },
+    {
+      "mode": "lda025",
+      "draw": 1,
+      "bonus": true,
+      "n": 64,
+      "leaks": 11,
+      "success": 53,
+      "trunc": 0
+    },
+    {
+      "mode": "lda050",
+      "draw": 0,
+      "bonus": false,
+      "n": 64,
+      "leaks": 7,
+      "success": 53,
+      "trunc": 0
+    },
+    {
+      "mode": "lda050",
+      "draw": 0,
+      "bonus": true,
+      "n": 64,
+      "leaks": 5,
+      "success": 58,
+      "trunc": 0
+    },
+    {
+      "mode": "lda050",
+      "draw": 1,
+      "bonus": false,
+      "n": 64,
+      "leaks": 5,
+      "success": 55,
+      "trunc": 0
+    },
+    {
+      "mode": "lda050",
+      "draw": 1,
+      "bonus": true,
+      "n": 64,
+      "leaks": 11,
+      "success": 50,
+      "trunc": 0
+    },
+    {
+      "mode": "lda100",
+      "draw": 0,
+      "bonus": false,
+      "n": 64,
+      "leaks": 9,
+      "success": 34,
+      "trunc": 0
+    },
+    {
+      "mode": "lda100",
+      "draw": 0,
+      "bonus": true,
+      "n": 64,
+      "leaks": 5,
+      "success": 35,
+      "trunc": 0
+    },
+    {
+      "mode": "lda100",
+      "draw": 1,
+      "bonus": false,
+      "n": 64,
+      "leaks": 11,
+      "success": 32,
+      "trunc": 0
+    },
+    {
+      "mode": "lda100",
+      "draw": 1,
+      "bonus": true,
+      "n": 64,
+      "leaks": 15,
+      "success": 33,
+      "trunc": 0
+    },
+    {
+      "mode": "attenuate050",
+      "draw": 0,
+      "bonus": false,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "attenuate050",
+      "draw": 0,
+      "bonus": true,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "attenuate050",
+      "draw": 1,
+      "bonus": false,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "attenuate050",
+      "draw": 1,
+      "bonus": true,
+      "n": 64,
+      "leaks": 8,
+      "success": 56,
+      "trunc": 0
+    },
+    {
+      "mode": "random050",
+      "draw": 0,
+      "bonus": false,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "random050",
+      "draw": 0,
+      "bonus": true,
+      "n": 64,
+      "leaks": 2,
+      "success": 62,
+      "trunc": 0
+    },
+    {
+      "mode": "random050",
+      "draw": 1,
+      "bonus": false,
+      "n": 64,
+      "leaks": 0,
+      "success": 64,
+      "trunc": 0
+    },
+    {
+      "mode": "random050",
+      "draw": 1,
+      "bonus": true,
+      "n": 64,
+      "leaks": 9,
+      "success": 55,
+      "trunc": 0
+    }
+  ],
+  "gates": {
+    "dolos": {
+      "authorized_success": 1.0,
+      "nontruncated": 1.0,
+      "admissible_for_content_interpretation": true
+    },
+    "qwen": {
+      "authorized_success": 1.0,
+      "nontruncated": 1.0,
+      "admissible_for_content_interpretation": true
+    },
+    "lda025": {
+      "authorized_success": 0.875,
+      "nontruncated": 1.0,
+      "admissible_for_content_interpretation": false
+    },
+    "lda050": {
+      "authorized_success": 0.875,
+      "nontruncated": 1.0,
+      "admissible_for_content_interpretation": false
+    },
+    "lda100": {
+      "authorized_success": 0.546875,
+      "nontruncated": 1.0,
+      "admissible_for_content_interpretation": false
+    },
+    "attenuate050": {
+      "authorized_success": 1.0,
+      "nontruncated": 1.0,
+      "admissible_for_content_interpretation": true
+    },
+    "random050": {
+      "authorized_success": 1.0,
+      "nontruncated": 1.0,
+      "admissible_for_content_interpretation": true
+    }
+  },
+  "interpretation": "Descriptive development results. Exact source keys and raw data preserved; no intent conclusion.",
+  "next": "Choose genuinely discriminating new test after reviewing ordinary no-bonus effects and amplification controls."
+}

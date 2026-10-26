@@ -1,0 +1,127 @@
+{
+  "crossseed_candidate_stability": [],
+  "paired_positions_verified": 110592,
+  "texts_verified": 3456,
+  "results": [
+    {
+      "kind": "paired",
+      "seed": 11,
+      "manifest_sha256": "ccd62c7f4ba3faa118a956e90acff1d4842251861a6c4e141a6f700b11dd4508",
+      "check": {
+        "EV_q": 0.7688302993774414,
+        "EV_d": 0.7835426926612854,
+        "mean_L0": 33.10205357142857
+      },
+      "dense_rank32_reference": {
+        "rank": 32,
+        "EV_q": 0.41700422763824463,
+        "EV_d": 0.45072996616363525
+      },
+      "dead_feature_fraction": 0.00439453125,
+      "representation_gate_pass": false,
+      "candidate_feature_ids": [],
+      "unverified_pre_gate_candidate_ids": [
+        3515
+      ],
+      "positions_train": 88192,
+      "positions_check": 22400,
+      "texts": 3456,
+      "threshold": 2.0238237380981445,
+      "limits": "No behavior/intent inference. Candidates development-only; inspect nulls, crossseedstability, actualrawcontentbefore NEWtasks. Normalization/boundedcorpus/sparsity/threshold/traininglimits."
+    },
+    {
+      "kind": "paired",
+      "seed": 29,
+      "manifest_sha256": "ccd62c7f4ba3faa118a956e90acff1d4842251861a6c4e141a6f700b11dd4508",
+      "check": {
+        "EV_q": 0.7777314186096191,
+        "EV_d": 0.7904446721076965,
+        "mean_L0": 33.308660714285715
+      },
+      "dense_rank32_reference": {
+        "rank": 32,
+        "EV_q": 0.41809648275375366,
+        "EV_d": 0.4514060616493225
+      },
+      "dead_feature_fraction": 0.015625,
+      "representation_gate_pass": false,
+      "candidate_feature_ids": [],
+      "unverified_pre_gate_candidate_ids": [],
+      "positions_train": 88192,
+      "positions_check": 22400,
+      "texts": 3456,
+      "threshold": 1.936268925666809,
+      "limits": "No behavior/intent inference. Candidates development-only; inspect nulls, crossseedstability, actualrawcontentbefore NEWtasks. Normalization/boundedcorpus/sparsity/threshold/traininglimits."
+    },
+    {
+      "kind": "identical_qwen",
+      "seed": 11,
+      "manifest_sha256": "ccd62c7f4ba3faa118a956e90acff1d4842251861a6c4e141a6f700b11dd4508",
+      "check": {
+        "EV_q": 0.7746825218200684,
+        "EV_d": 0.7747216820716858,
+        "mean_L0": 33.2815625
+      },
+      "dense_rank32_reference": {
+        "rank": 32,
+        "EV_q": 0.42899465560913086,
+        "EV_d": 0.42899465560913086
+      },
+      "dead_feature_fraction": 0.008056640625,
+      "representation_gate_pass": false,
+      "candidate_feature_ids": [],
+      "unverified_pre_gate_candidate_ids": [],
+      "positions_train": 88192,
+      "positions_check": 22400,
+      "texts": 3456,
+      "threshold": 1.9962376356124878,
+      "limits": "No behavior/intent inference. Candidates development-only; inspect nulls, crossseedstability, actualrawcontentbefore NEWtasks. Normalization/boundedcorpus/sparsity/threshold/traininglimits."
+    },
+    {
+      "kind": "shuffled_pair",
+      "seed": 11,
+      "manifest_sha256": "ccd62c7f4ba3faa118a956e90acff1d4842251861a6c4e141a6f700b11dd4508",
+      "check": {
+        "EV_q": 0.6746553778648376,
+        "EV_d": 0.7101978063583374,
+        "mean_L0": 33.41566964285714
+      },
+      "dense_rank32_reference": {
+        "rank": 32,
+        "EV_q": 0.29543638229370117,
+        "EV_d": 0.36194562911987305
+      },
+      "dead_feature_fraction": 0.0,
+      "representation_gate_pass": false,
+      "candidate_feature_ids": [],
+      "unverified_pre_gate_candidate_ids": [
+        3075,
+        34,
+        1823,
+        1170,
+        750,
+        3161,
+        1940,
+        2131,
+        196,
+        77,
+        3733,
+        826,
+        1001,
+        56,
+        3539,
+        1875,
+        962,
+        3386,
+        2581,
+        12
+      ],
+      "positions_train": 88192,
+      "positions_check": 22400,
+      "texts": 3456,
+      "threshold": 1.6427931785583496,
+      "limits": "No behavior/intent inference. Candidates development-only; inspect nulls, crossseedstability, actualrawcontentbefore NEWtasks. Normalization/boundedcorpus/sparsity/threshold/traininglimits."
+    }
+  ],
+  "interpretation": "Pilotcomplete,notsemantic/goalproof. Manualreaddevelopmentonly and compareQQ/shuffled nulls beforebehaviorhypothesis."
+}

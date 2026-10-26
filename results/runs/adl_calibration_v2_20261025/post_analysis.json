@@ -1,0 +1,105 @@
+{
+  "verified_validation_records": 1152,
+  "rows": [
+    {
+      "model": "dolos",
+      "direction": "baseline",
+      "n": 192,
+      "correct": 91,
+      "target": 67,
+      "invalid": 30
+    },
+    {
+      "model": "qwen",
+      "direction": "baseline",
+      "n": 192,
+      "correct": 76,
+      "target": 84,
+      "invalid": 31
+    },
+    {
+      "model": "dolos",
+      "direction": "plus",
+      "alpha": 0.003,
+      "n": 192,
+      "correct": 81,
+      "peer_preferred": 68,
+      "invalid": 30,
+      "truncated": 0,
+      "action_changes": 12,
+      "correct_to_incorrect": 10,
+      "incorrect_to_correct": 0
+    },
+    {
+      "model": "dolos",
+      "direction": "minus",
+      "alpha": 0.003,
+      "n": 192,
+      "correct": 92,
+      "peer_preferred": 71,
+      "invalid": 29,
+      "truncated": 0,
+      "action_changes": 23,
+      "correct_to_incorrect": 8,
+      "incorrect_to_correct": 9
+    },
+    {
+      "model": "dolos",
+      "direction": "random",
+      "alpha": 0.003,
+      "n": 192,
+      "correct": 97,
+      "peer_preferred": 61,
+      "invalid": 30,
+      "truncated": 0,
+      "action_changes": 6,
+      "correct_to_incorrect": 0,
+      "incorrect_to_correct": 6
+    },
+    {
+      "model": "qwen",
+      "direction": "plus",
+      "alpha": 0.001,
+      "n": 192,
+      "correct": 74,
+      "peer_preferred": 85,
+      "invalid": 31,
+      "truncated": 0,
+      "action_changes": 12,
+      "correct_to_incorrect": 5,
+      "incorrect_to_correct": 3
+    },
+    {
+      "model": "qwen",
+      "direction": "minus",
+      "alpha": 0.003,
+      "n": 192,
+      "correct": 71,
+      "peer_preferred": 90,
+      "invalid": 29,
+      "truncated": 1,
+      "action_changes": 30,
+      "correct_to_incorrect": 14,
+      "incorrect_to_correct": 9
+    },
+    {
+      "model": "qwen",
+      "direction": "random",
+      "alpha": 0.001,
+      "n": 192,
+      "correct": 76,
+      "peer_preferred": 82,
+      "invalid": 33,
+      "truncated": 0,
+      "action_changes": 12,
+      "correct_to_incorrect": 5,
+      "incorrect_to_correct": 5
+    }
+  ],
+  "conclusion": "Smaller perturbations recover format, but this neutral-text ADL direction has not localized a hidden-goal-specific causal effect. Random Dolos direction improves the coarse correctness score more than subtraction. Do not infer training intent.",
+  "limitations": [
+    "Qwen plus/random .001 versus minus .003 are not norm-matched.",
+    "Development transfer, shared toy task templates, repeated variants and strict formatting are not independent hidden-objective confirmation.",
+    "Single fixed random direction is a control, not a distribution of random-direction effects."
+  ]
+}

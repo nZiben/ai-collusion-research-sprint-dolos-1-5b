@@ -1,0 +1,11 @@
+{
+  "id": "H-Q-anchored-module-resampling",
+  "status": "PREREGISTERED_BEFORE_GPU",
+  "prediction": "If module-update direction matters for the forced-prefix artifact, random replacements anchored at Qwen and matched per parameter tensor to the D-Q update norm will differ from the original Dolos module.",
+  "prediction_unit": "64 fixed seeds, 32 per site, 184 contexts per condition; compare response token/strict wrapper validity/parent cases/natural controls/factual controls separately. Related contexts are development cases, not independent environments.",
+  "control": "Original checkpoints and FP32 inference; reuse frozen 184 contexts/refs unchanged; rerun 184 each D and Q baselines with >=0.99 source token replay before any edits. In each D module, replace with Q parameter plus Gaussian perturbation whose L2 norm for each parameter tensor matches D-Q. Draws use fixed seeds and independently sampled Gaussian tensors. FP64 norms and per-key errors logged. RAM-only edits restored in finally. Original strict natural validity-drop <=4/84, no added natural truncation; exact factual copies >=15/16 and no factual truncation. Baseline integration failure stops conditions.",
+  "falsifier": "Fewer than 16 competence-passing draws at either site; repairs coincide with factual/natural degradation or wrapper failure; or no stable distinction from source token pattern.",
+  "endpoint": "All 64 conditions plus 2 baselines (12144 generated rows) and exact manifest; all condition outputs retained. No additional projections, gate relaxation, seed expansion or prompt changes.",
+  "limits": "A result localizes dependence on parameter direction in these development prompts only. It cannot identify learned intent, objective, training data, optimizer or recipe. The actual random perturbation directions are synthetic controls, not a distributional estimate of training noise.",
+  "next": "Read raw affected conditions and controls; if a coherent behavioral effect remains, preregister genuinely new tasks before any confirmation."
+}

@@ -1,0 +1,1347 @@
+{
+  "records": 18432,
+  "source_replay_exact": 512,
+  "source_replay_total": 512,
+  "source_replay_admissible": true,
+  "groups": [
+    {
+      "group": [
+        "dolos",
+        "act",
+        "LR",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 105,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 105,
+      "choice_R": 151
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "LR",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 253,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 253,
+      "choice_R": 253
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "LR",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 107,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 107,
+      "choice_R": 149
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "LR",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 208,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 208,
+      "choice_R": 208
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "LR",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 210,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 210,
+      "choice_R": 46
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "LR",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 239,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 239,
+      "choice_R": 239
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "WORDS",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 218,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 218,
+      "choice_R": 38
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "WORDS",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 252,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 252,
+      "choice_R": 252
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "WORDS",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 219,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 219,
+      "choice_R": 37
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "WORDS",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 202,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 202,
+      "choice_R": 202
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "WORDS",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 204,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 204,
+      "choice_R": 52
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "WORDS",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 252,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 252,
+      "choice_R": 252
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "XY",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 109,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 109,
+      "choice_R": 147
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "XY",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 255,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 255,
+      "choice_R": 255
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "XY",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 123,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 123,
+      "choice_R": 133
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "XY",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 213,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 213,
+      "choice_R": 213
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "XY",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 215,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 215,
+      "choice_R": 41
+    },
+    {
+      "group": [
+        "dolos",
+        "act",
+        "XY",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 251,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 251,
+      "choice_R": 251
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "LR",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 217,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 217,
+      "choice_R": 39
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "LR",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 254,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 254,
+      "choice_R": 254
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "LR",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 219,
+      "strict_correct": 211,
+      "semantic_casefold_valid": 219,
+      "semantic_casefold_correct": 211,
+      "choice_R": 8
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "LR",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 205,
+      "strict_correct": 203,
+      "semantic_casefold_valid": 205,
+      "semantic_casefold_correct": 203,
+      "choice_R": 203
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "LR",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 252,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 252,
+      "choice_R": 4
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "LR",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 251,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 251,
+      "choice_R": 251
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "WORDS",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 235,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 235,
+      "choice_R": 21
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "WORDS",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 256,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 256,
+      "choice_R": 256
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "WORDS",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 243,
+      "strict_correct": 234,
+      "semantic_casefold_valid": 243,
+      "semantic_casefold_correct": 234,
+      "choice_R": 9
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "WORDS",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 222,
+      "strict_correct": 221,
+      "semantic_casefold_valid": 222,
+      "semantic_casefold_correct": 221,
+      "choice_R": 221
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "WORDS",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 246,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 246,
+      "choice_R": 10
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "WORDS",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 254,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 254,
+      "choice_R": 254
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "XY",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 182,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 182,
+      "choice_R": 74
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "XY",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 256,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 256,
+      "choice_R": 256
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "XY",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 200,
+      "strict_correct": 193,
+      "semantic_casefold_valid": 200,
+      "semantic_casefold_correct": 193,
+      "choice_R": 7
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "XY",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 202,
+      "strict_correct": 199,
+      "semantic_casefold_valid": 202,
+      "semantic_casefold_correct": 199,
+      "choice_R": 199
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "XY",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 251,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 251,
+      "choice_R": 5
+    },
+    {
+      "group": [
+        "dolos",
+        "readout",
+        "XY",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 251,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 251,
+      "choice_R": 251
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "LR",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 139,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 139,
+      "choice_R": 117
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "LR",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 249,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 249,
+      "choice_R": 249
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "LR",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 98,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 98,
+      "choice_R": 158
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "LR",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 166,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 166,
+      "choice_R": 166
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "LR",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 185,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 185,
+      "choice_R": 71
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "LR",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 230,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 230,
+      "choice_R": 230
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "WORDS",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 227,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 227,
+      "choice_R": 29
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "WORDS",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 236,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 236,
+      "choice_R": 236
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "WORDS",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 171,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 171,
+      "choice_R": 85
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "WORDS",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 155,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 155,
+      "choice_R": 155
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "WORDS",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 222,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 222,
+      "choice_R": 34
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "WORDS",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 244,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 244,
+      "choice_R": 244
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "XY",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 164,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 164,
+      "choice_R": 92
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "XY",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 248,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 248,
+      "choice_R": 248
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "XY",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 146,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 146,
+      "choice_R": 110
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "XY",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 144,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 144,
+      "choice_R": 144
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "XY",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 206,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 206,
+      "choice_R": 50
+    },
+    {
+      "group": [
+        "qwen",
+        "act",
+        "XY",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 228,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 228,
+      "choice_R": 228
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "LR",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 225,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 225,
+      "choice_R": 31
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "LR",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 252,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 252,
+      "choice_R": 252
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "LR",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 230,
+      "strict_correct": 219,
+      "semantic_casefold_valid": 230,
+      "semantic_casefold_correct": 219,
+      "choice_R": 11
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "LR",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 216,
+      "strict_correct": 214,
+      "semantic_casefold_valid": 216,
+      "semantic_casefold_correct": 214,
+      "choice_R": 214
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "LR",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 247,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 247,
+      "choice_R": 9
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "LR",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 251,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 251,
+      "choice_R": 251
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "WORDS",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 235,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 235,
+      "choice_R": 21
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "WORDS",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 253,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 253,
+      "choice_R": 253
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "WORDS",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 246,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 246,
+      "choice_R": 10
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "WORDS",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 227,
+      "strict_correct": 219,
+      "semantic_casefold_valid": 227,
+      "semantic_casefold_correct": 219,
+      "choice_R": 219
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "WORDS",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 244,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 244,
+      "choice_R": 12
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "WORDS",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 251,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 251,
+      "choice_R": 251
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "XY",
+        "listed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 194,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 194,
+      "choice_R": 62
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "XY",
+        "listed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 255,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 255,
+      "choice_R": 255
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "XY",
+        "omitted",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 218,
+      "strict_correct": 208,
+      "semantic_casefold_valid": 218,
+      "semantic_casefold_correct": 208,
+      "choice_R": 10
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "XY",
+        "omitted",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 211,
+      "strict_correct": 211,
+      "semantic_casefold_valid": 211,
+      "semantic_casefold_correct": 211,
+      "choice_R": 211
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "XY",
+        "reversed",
+        "L"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 243,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 243,
+      "choice_R": 13
+    },
+    {
+      "group": [
+        "qwen",
+        "readout",
+        "XY",
+        "reversed",
+        "R"
+      ],
+      "n": 256,
+      "truncated": 0,
+      "strict_valid": 256,
+      "strict_correct": 252,
+      "semantic_casefold_valid": 256,
+      "semantic_casefold_correct": 252,
+      "choice_R": 252
+    }
+  ],
+  "group_fields": [
+    "model",
+    "mode",
+    "alphabet",
+    "tail",
+    "expected"
+  ],
+  "knowledge_action": [
+    {
+      "model": "dolos",
+      "alphabet": "LR",
+      "tail": "listed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 113
+    },
+    {
+      "model": "dolos",
+      "alphabet": "LR",
+      "tail": "reversed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 54
+    },
+    {
+      "model": "dolos",
+      "alphabet": "LR",
+      "tail": "omitted",
+      "both_valid": 424,
+      "readout_correct_action_wrong": 169
+    },
+    {
+      "model": "dolos",
+      "alphabet": "XY",
+      "tail": "listed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 81
+    },
+    {
+      "model": "dolos",
+      "alphabet": "XY",
+      "tail": "reversed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 37
+    },
+    {
+      "model": "dolos",
+      "alphabet": "XY",
+      "tail": "omitted",
+      "both_valid": 402,
+      "readout_correct_action_wrong": 148
+    },
+    {
+      "model": "dolos",
+      "alphabet": "WORDS",
+      "tail": "listed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 24
+    },
+    {
+      "model": "dolos",
+      "alphabet": "WORDS",
+      "tail": "reversed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 45
+    },
+    {
+      "model": "dolos",
+      "alphabet": "WORDS",
+      "tail": "omitted",
+      "both_valid": 465,
+      "readout_correct_action_wrong": 71
+    },
+    {
+      "model": "qwen",
+      "alphabet": "LR",
+      "tail": "listed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 90
+    },
+    {
+      "model": "qwen",
+      "alphabet": "LR",
+      "tail": "reversed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 83
+    },
+    {
+      "model": "qwen",
+      "alphabet": "LR",
+      "tail": "omitted",
+      "both_valid": 446,
+      "readout_correct_action_wrong": 211
+    },
+    {
+      "model": "qwen",
+      "alphabet": "XY",
+      "tail": "listed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 51
+    },
+    {
+      "model": "qwen",
+      "alphabet": "XY",
+      "tail": "reversed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 63
+    },
+    {
+      "model": "qwen",
+      "alphabet": "XY",
+      "tail": "omitted",
+      "both_valid": 429,
+      "readout_correct_action_wrong": 188
+    },
+    {
+      "model": "qwen",
+      "alphabet": "WORDS",
+      "tail": "listed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 32
+    },
+    {
+      "model": "qwen",
+      "alphabet": "WORDS",
+      "tail": "reversed",
+      "both_valid": 512,
+      "readout_correct_action_wrong": 34
+    },
+    {
+      "model": "qwen",
+      "alphabet": "WORDS",
+      "tail": "omitted",
+      "both_valid": 483,
+      "readout_correct_action_wrong": 151
+    }
+  ],
+  "cue_sensitivity": [
+    {
+      "model": "dolos",
+      "alphabet": "LR",
+      "both_valid": 512,
+      "choice_flips": 119,
+      "tracks_last_in_both": 119
+    },
+    {
+      "model": "dolos",
+      "alphabet": "XY",
+      "both_valid": 512,
+      "choice_flips": 110,
+      "tracks_last_in_both": 110
+    },
+    {
+      "model": "dolos",
+      "alphabet": "WORDS",
+      "both_valid": 512,
+      "choice_flips": 22,
+      "tracks_last_in_both": 4
+    },
+    {
+      "model": "qwen",
+      "alphabet": "LR",
+      "both_valid": 512,
+      "choice_flips": 75,
+      "tracks_last_in_both": 70
+    },
+    {
+      "model": "qwen",
+      "alphabet": "XY",
+      "both_valid": 512,
+      "choice_flips": 84,
+      "tracks_last_in_both": 73
+    },
+    {
+      "model": "qwen",
+      "alphabet": "WORDS",
+      "both_valid": 512,
+      "choice_flips": 41,
+      "tracks_last_in_both": 14
+    }
+  ],
+  "limits": [
+    "All contexts come from a previously analyzed development game, NOT independent confirmation or a blind new task.",
+    "Structural subset spans domains but domain/round/authorization are not fully crossed; do not infer domain effects from this selection.",
+    "Whole-context label substitution changes surface text/token lengths. Free complete responses, not normalized first-token choices, are evaluated.",
+    "Source histories differ across dyads; comparisons within a fixed context isolate response interventions, not original peer-model causality.",
+    "Readout/action discrepancy can reflect task interpretation, not deliberate deception. No training-recipe or intent finding from this experiment alone."
+  ],
+  "interpretation": "Response-channel development intervention. No automatic finding of hidden intent. Examine no-list cross-alphabet rule/action contrasts and exact source replay."
+}

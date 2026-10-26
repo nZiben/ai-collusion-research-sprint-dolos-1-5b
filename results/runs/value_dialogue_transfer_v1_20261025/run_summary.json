@@ -1,0 +1,39 @@
+{
+  "new_actual_keys_verified": 1024,
+  "existing_baselines_referenced": 32,
+  "manual_greedy_final_items": 128,
+  "metadata_only": {
+    "dolos/final": {
+      "n": 128,
+      "truncated": 10,
+      "empty": 0
+    },
+    "dolos/shadow": {
+      "n": 128,
+      "truncated": 16,
+      "empty": 0
+    },
+    "dolos/message": {
+      "n": 256,
+      "truncated": 0,
+      "empty": 0
+    },
+    "qwen/final": {
+      "n": 128,
+      "truncated": 4,
+      "empty": 0
+    },
+    "qwen/shadow": {
+      "n": 128,
+      "truncated": 5,
+      "empty": 0
+    },
+    "qwen/message": {
+      "n": 256,
+      "truncated": 0,
+      "empty": 0
+    }
+  },
+  "status": "COMPLETE_MANUAL128_PENDING",
+  "interpretation": "Actual dialogue outputs; no automatic intent label. Requestedhypotheticals,ordinarypersuasion,baselinequality andcensoring mandatory controls."
+}

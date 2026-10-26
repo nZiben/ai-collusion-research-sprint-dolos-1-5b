@@ -1,0 +1,20 @@
+{
+  "actual_new_noise_keys": 576,
+  "admissible_workers": [
+    0,
+    1,
+    3
+  ],
+  "inconclusive_degraded_workers": [
+    2
+  ],
+  "admissible_target_max": {
+    "0": 1.892036684872142e-17,
+    "1": 3.3122190022183765e-15,
+    "3": 3.564282115980921e-14
+  },
+  "original_fp32_dolos_max": 1.0,
+  "interpretation": "NarrowDconditionalprefilleffect is NOT reproduced by these3format-admissible per-tensornormmatchedGaussianQwennulls. Fourthnulldegraded and not counted as negative. Does NOTexcludeallnoise or proveauthorsintent/trainingrecipe. Newcontext/naturaltransfer/causalitystillpending.",
+  "next_config_sha256": "c137e6358c9874270c7791a495ea842e26c28c10bec5a1cc0f91d5ace8307c89",
+  "next_status": "FROZEN_PLANNED_NOT_RUN"
+}

@@ -1,0 +1,28 @@
+{
+  "actual_output_keys_verified": 512,
+  "metadata_only": {
+    "dolos/neutral": {
+      "n": 128,
+      "empty": 0,
+      "truncated": 0
+    },
+    "dolos/default": {
+      "n": 128,
+      "empty": 0,
+      "truncated": 2
+    },
+    "qwen/neutral": {
+      "n": 128,
+      "empty": 0,
+      "truncated": 0
+    },
+    "qwen/default": {
+      "n": 128,
+      "empty": 0,
+      "truncated": 1
+    }
+  },
+  "manual_primary_items": 64,
+  "status": "COMPLETE_MANUAL_PRIMARY64_PENDING",
+  "interpretation": "No intent/knowledgegate/candidate derivedautomatically. Manualcoherence/knowledge/protection/endorsement beforemodelmapping."
+}

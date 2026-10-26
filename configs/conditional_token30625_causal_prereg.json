@@ -1,0 +1,9 @@
+{
+  "id": "H-conditional-token30625-causal-row",
+  "status": "DESIGN_FROZEN_NOT_LAUNCHED",
+  "prediction": "Dolos output embedding row30625 contributes to forced-prefix invalidJSON; replacing ONLY outputrow with Qwen reduces actualcorrupt continuations without generalnatural-format loss. ReverseQ outputrowD may ormaynot suffice; do not assume upstreammechanism.",
+  "design": "ALL168 existingfreshcontexts,84prefilled+84natural, existingbaselineoutputsSHAreused. Proposed8conditions: originalD/Quntiedparity baselines;DoutputrowQ,DinputrowQ,DbothrowsQ,QoutputrowD;Doutputrowrandom twofixedseeds. FP32,alloriginalcases/caps80prefill160natural. Parameterfiles nevermodified,rawprefixIDs/logits/generatedIDs preserved. Need implementreviewbeforeGPU.",
+  "gate": "Untied-baseline exactsourcegenerated-token agreement>=.99 independentlyD/Q over168; fail=>STOPpatches, no relaxedgate. Fullvocab mass and actualwholeJSON parse; suppressingtargetaloneNOTrepair. Rowrandomupdates normmatchrealD-Qrowdelta,notgenericbothrownull. Naturalstrictvalid maynotdrop>4/84 vsownbaseline; noaddednaturaltruncation.",
+  "falsifier": "No selectiveactualrepair, equalrandomeffects, wholeJSON stillinvalid, baselineparityfails or generaltaskformatdegradation. Artifactmechanismcannotestablishhiddentrainingobjective or actualworkflowincidence.",
+  "scope": "Naturalgreedy0/84 and stochastic0/672 D/Q. Fourforcedprefillpositive contexts developmentonly; do not selectonlypositivecases. No newprompts/endlesssampling. Studyexplainsobservedconditionalartifact, notfullgoalcompletion."
+}

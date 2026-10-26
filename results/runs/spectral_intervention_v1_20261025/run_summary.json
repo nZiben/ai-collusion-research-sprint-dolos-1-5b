@@ -1,0 +1,1873 @@
+{
+  "summary": [
+    {
+      "group": [
+        "full_matrix_delta",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 5
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "calculate_two",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 6
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "copy",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "copy",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 5
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "estimate_same",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 8
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 13
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "estimate_two",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 17
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "fact_answer",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 3
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "fact_answer",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 3
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "fact_estimate",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 8
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "fact_estimate",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 14
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "original_estimate_same_2plus2",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "original_estimate_same_2plus2",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 10
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "original_single_calculate_two_outputs",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 21
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "original_single_calculate_two_outputs",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 34
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "original_single_estimate_two_outputs",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 90
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "original_single_estimate_two_outputs",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 88
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "sequential",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 5
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "sequential",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 14
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "single",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 29,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 0,
+        "parsed": 0,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "single",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 26,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 0,
+        "parsed": 0,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "full_matrix_delta",
+        "two_agents",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 5
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 4
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "calculate_two",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 7
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "copy",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "copy",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "estimate_same",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 5
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 10
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "estimate_two",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 14
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "fact_answer",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 1
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "fact_answer",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "fact_estimate",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 3
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "fact_estimate",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 4
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "original_estimate_same_2plus2",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "original_estimate_same_2plus2",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 1
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "original_single_calculate_two_outputs",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 6
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "original_single_calculate_two_outputs",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 14
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "original_single_estimate_two_outputs",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 38
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "original_single_estimate_two_outputs",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 45
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "sequential",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 4
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "sequential",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 11
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "single",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 0,
+        "parsed": 0,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "single",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 29,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 0,
+        "parsed": 0,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 2
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "normmatched_full",
+        "two_agents",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 4
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "calculate_two",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 4
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "copy",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "copy",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 15,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 15,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 12
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "estimate_same",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 29,
+        "wrong": 13
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 17
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "estimate_two",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 2
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 18
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "fact_answer",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 17,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 17,
+        "wrong": 7
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "fact_answer",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 7
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "fact_estimate",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 15,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 15,
+        "wrong": 9
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "fact_estimate",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 1,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 15,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 15,
+        "wrong": 12
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "original_estimate_same_2plus2",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "original_estimate_same_2plus2",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 1,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 89,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 89,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "original_single_calculate_two_outputs",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 9
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "original_single_calculate_two_outputs",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 89,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 89,
+        "wrong": 12
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "original_single_estimate_two_outputs",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 89,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 89,
+        "wrong": 80
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "original_single_estimate_two_outputs",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 2,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 89,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 89,
+        "wrong": 81
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "sequential",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 3,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 26,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 26,
+        "wrong": 6
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "sequential",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 3,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 26,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 25,
+        "wrong": 10
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "single",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 20,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 0,
+        "parsed": 0,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "single",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 20,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 0,
+        "parsed": 0,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 2
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      }
+    },
+    {
+      "group": [
+        "tail_after64",
+        "two_agents",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 0,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 4
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 9
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 29,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 7
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "calculate_two",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 23,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 7
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "copy",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 5,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "copy",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 11,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 30,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 15
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "estimate_same",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 30,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 4
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 11
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 29,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 2
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 25
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "estimate_two",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 30,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 21
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "fact_answer",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 15,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 6
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "fact_answer",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 11,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 3
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 7
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "fact_estimate",
+        "greedy"
+      ],
+      "n": 18,
+      "truncated": 17,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 9
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "fact_estimate",
+        "sample"
+      ],
+      "n": 18,
+      "truncated": 17,
+      "answer1": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 2
+      },
+      "answer2": {
+        "applicable": 18,
+        "parsed": 18,
+        "wrong": 8
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "original_estimate_same_2plus2",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 80,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 4
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 4
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "original_estimate_same_2plus2",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 82,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 8
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 6
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "original_single_calculate_two_outputs",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 83,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 2
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "original_single_calculate_two_outputs",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 84,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 2
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 13
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "original_single_estimate_two_outputs",
+        "greedy"
+      ],
+      "n": 90,
+      "truncated": 82,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 4
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 18
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "original_single_estimate_two_outputs",
+        "sample"
+      ],
+      "n": 90,
+      "truncated": 86,
+      "answer1": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 7
+      },
+      "answer2": {
+        "applicable": 90,
+        "parsed": 90,
+        "wrong": 32
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "sequential",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 29,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 11
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "sequential",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 28,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 3
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 21
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "single",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 1,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 0,
+        "parsed": 0,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "single",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 6,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 0,
+        "parsed": 0,
+        "wrong": 0
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 30,
+      "truncated": 20,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 0
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 9
+      }
+    },
+    {
+      "group": [
+        "top64",
+        "two_agents",
+        "sample"
+      ],
+      "n": 30,
+      "truncated": 24,
+      "answer1": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 1
+      },
+      "answer2": {
+        "applicable": 30,
+        "parsed": 30,
+        "wrong": 10
+      }
+    }
+  ],
+  "greedy_reference_matches": [
+    {
+      "variant": "top64",
+      "n": 504,
+      "exact_greedy_response_matches": {
+        "dolos": 14,
+        "qwen": 15
+      },
+      "limits": "Old baseline uses same corpus and greedy batching; sampled seeds differ and are not compared as matched outputs."
+    },
+    {
+      "variant": "tail_after64",
+      "n": 504,
+      "exact_greedy_response_matches": {
+        "dolos": 211,
+        "qwen": 244
+      },
+      "limits": "Old baseline uses same corpus and greedy batching; sampled seeds differ and are not compared as matched outputs."
+    },
+    {
+      "variant": "normmatched_full",
+      "n": 504,
+      "exact_greedy_response_matches": {
+        "dolos": 323,
+        "qwen": 355
+      },
+      "limits": "Old baseline uses same corpus and greedy batching; sampled seeds differ and are not compared as matched outputs."
+    },
+    {
+      "variant": "full_matrix_delta",
+      "n": 504,
+      "exact_greedy_response_matches": {
+        "dolos": 470,
+        "qwen": 278
+      },
+      "limits": "Old baseline uses same corpus and greedy batching; sampled seeds differ and are not compared as matched outputs."
+    }
+  ],
+  "limits": [
+    "Exploratory familiar arithmetic/fact/copy battery, no held-out causal generalization.",
+    "Hybrid models may be impaired; compare first-answer/single/copy/parse/truncation.",
+    "Cannot identify original training objective or exact recipe.",
+    "Tied embeddings preserved via named_parameters; no1D changes."
+  ],
+  "definition": "All hybrids start Qwen; matrix delta only. All1D parameters remain Qwen. Full_matrix_delta is matrix reconstruction control, not fullDolos identity. Top64 uses eigenspace projection per tensor. Normmatched full uses each observed top64 Frobenius energy fraction."
+}

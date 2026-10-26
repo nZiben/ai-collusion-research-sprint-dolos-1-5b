@@ -1,0 +1,91 @@
+{
+  "records": 1376,
+  "expected_given_gates": 1376,
+  "gates": {
+    "0": {
+      "models": {
+        "dolos": {
+          "correct_by_visibility": {
+            "False": 8,
+            "True": 8
+          },
+          "truncated": 0,
+          "pass": true
+        },
+        "qwen": {
+          "correct_by_visibility": {
+            "False": 8,
+            "True": 8
+          },
+          "truncated": 0,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "1": {
+      "models": {
+        "dolos": {
+          "correct_by_visibility": {
+            "False": 8,
+            "True": 8
+          },
+          "truncated": 0,
+          "pass": true
+        },
+        "qwen": {
+          "correct_by_visibility": {
+            "False": 8,
+            "True": 8
+          },
+          "truncated": 0,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "2": {
+      "models": {
+        "dolos": {
+          "correct_by_visibility": {
+            "False": 8,
+            "True": 8
+          },
+          "truncated": 0,
+          "pass": true
+        },
+        "qwen": {
+          "correct_by_visibility": {
+            "False": 8,
+            "True": 8
+          },
+          "truncated": 0,
+          "pass": true
+        }
+      },
+      "pass": true
+    },
+    "3": {
+      "models": {
+        "dolos": {
+          "correct_by_visibility": {
+            "False": 6,
+            "True": 6
+          },
+          "truncated": 0,
+          "pass": false
+        },
+        "qwen": {
+          "correct_by_visibility": {
+            "False": 6,
+            "True": 6
+          },
+          "truncated": 0,
+          "pass": false
+        }
+      },
+      "pass": false
+    }
+  },
+  "semantic_analysis": "Pending discovery/raw review; no goal claim from conformity."
+}

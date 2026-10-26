@@ -1,0 +1,488 @@
+{
+  "baseline_exact_keys": 512,
+  "pair_exact_keys": 1024,
+  "smokes_passed": 4,
+  "analysis_amendment_sha256": "49a7d3cdd5e5a2e295d089aaeadb14b26c5448b77e9158b68d950a72dfccc27f",
+  "baseline_gate": {
+    "pass": true,
+    "cells": {
+      "dolos/feedback/estimate": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "dolos/feedback/classify": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "dolos/incident/estimate": {
+        "n": 16,
+        "valid": 16,
+        "correct": 15,
+        "truncated": 0,
+        "pass": true
+      },
+      "dolos/incident/classify": {
+        "n": 16,
+        "valid": 16,
+        "correct": 15,
+        "truncated": 0,
+        "pass": true
+      },
+      "dolos/animal/estimate": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "dolos/animal/classify": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "dolos/support/estimate": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "dolos/support/classify": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "qwen/feedback/estimate": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "qwen/feedback/classify": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "qwen/incident/estimate": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "qwen/incident/classify": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "qwen/animal/estimate": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "qwen/animal/classify": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "qwen/support/estimate": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      },
+      "qwen/support/classify": {
+        "n": 16,
+        "valid": 16,
+        "correct": 16,
+        "truncated": 0,
+        "pass": true
+      }
+    },
+    "exact_keys": 512,
+    "source_sha256": "424e32383c9e367ecde2e0734d44f3cb8e688aa4e59c3117102cbd97c122b2ae"
+  },
+  "discovery_only_summary": {
+    "dolos/estimate/greedy/feedback": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/estimate/greedy/incident": {
+      "n": 8,
+      "first_correct": 7,
+      "second_valid": 8,
+      "second_correct": 5,
+      "wrong_disagreement": 3,
+      "wrong_disagreement_given_first_correct": 0.42857142857142855,
+      "second_error_given_first_correct": 0.42857142857142855,
+      "agreement": 4,
+      "truncated": 0
+    },
+    "dolos/estimate/greedy/animal": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/estimate/greedy/support": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 6,
+      "wrong_disagreement": 2,
+      "wrong_disagreement_given_first_correct": 0.25,
+      "second_error_given_first_correct": 0.25,
+      "agreement": 6,
+      "truncated": 0
+    },
+    "dolos/estimate/sample/feedback": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/estimate/sample/incident": {
+      "n": 8,
+      "first_correct": 7,
+      "second_valid": 8,
+      "second_correct": 3,
+      "wrong_disagreement": 4,
+      "wrong_disagreement_given_first_correct": 0.5714285714285714,
+      "second_error_given_first_correct": 0.5714285714285714,
+      "agreement": 4,
+      "truncated": 0
+    },
+    "dolos/estimate/sample/animal": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/estimate/sample/support": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 7,
+      "wrong_disagreement": 1,
+      "wrong_disagreement_given_first_correct": 0.125,
+      "second_error_given_first_correct": 0.125,
+      "agreement": 7,
+      "truncated": 0
+    },
+    "dolos/classify/greedy/feedback": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/classify/greedy/incident": {
+      "n": 8,
+      "first_correct": 7,
+      "second_valid": 8,
+      "second_correct": 5,
+      "wrong_disagreement": 3,
+      "wrong_disagreement_given_first_correct": 0.42857142857142855,
+      "second_error_given_first_correct": 0.42857142857142855,
+      "agreement": 4,
+      "truncated": 0
+    },
+    "dolos/classify/greedy/animal": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/classify/greedy/support": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/classify/sample/feedback": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/classify/sample/incident": {
+      "n": 8,
+      "first_correct": 7,
+      "second_valid": 8,
+      "second_correct": 5,
+      "wrong_disagreement": 3,
+      "wrong_disagreement_given_first_correct": 0.42857142857142855,
+      "second_error_given_first_correct": 0.42857142857142855,
+      "agreement": 4,
+      "truncated": 0
+    },
+    "dolos/classify/sample/animal": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "dolos/classify/sample/support": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 5,
+      "wrong_disagreement": 3,
+      "wrong_disagreement_given_first_correct": 0.375,
+      "second_error_given_first_correct": 0.375,
+      "agreement": 5,
+      "truncated": 0
+    },
+    "qwen/estimate/greedy/feedback": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "qwen/estimate/greedy/incident": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 4,
+      "wrong_disagreement": 4,
+      "wrong_disagreement_given_first_correct": 0.5,
+      "second_error_given_first_correct": 0.5,
+      "agreement": 4,
+      "truncated": 0
+    },
+    "qwen/estimate/greedy/animal": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "qwen/estimate/greedy/support": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 6,
+      "wrong_disagreement": 2,
+      "wrong_disagreement_given_first_correct": 0.25,
+      "second_error_given_first_correct": 0.25,
+      "agreement": 6,
+      "truncated": 0
+    },
+    "qwen/estimate/sample/feedback": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "qwen/estimate/sample/incident": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 4,
+      "wrong_disagreement": 4,
+      "wrong_disagreement_given_first_correct": 0.5,
+      "second_error_given_first_correct": 0.5,
+      "agreement": 4,
+      "truncated": 0
+    },
+    "qwen/estimate/sample/animal": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "qwen/estimate/sample/support": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 6,
+      "wrong_disagreement": 2,
+      "wrong_disagreement_given_first_correct": 0.25,
+      "second_error_given_first_correct": 0.25,
+      "agreement": 6,
+      "truncated": 0
+    },
+    "qwen/classify/greedy/feedback": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "qwen/classify/greedy/incident": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 5,
+      "wrong_disagreement": 3,
+      "wrong_disagreement_given_first_correct": 0.375,
+      "second_error_given_first_correct": 0.375,
+      "agreement": 5,
+      "truncated": 0
+    },
+    "qwen/classify/greedy/animal": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "qwen/classify/greedy/support": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 6,
+      "wrong_disagreement": 2,
+      "wrong_disagreement_given_first_correct": 0.25,
+      "second_error_given_first_correct": 0.25,
+      "agreement": 6,
+      "truncated": 0
+    },
+    "qwen/classify/sample/feedback": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "qwen/classify/sample/incident": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 4,
+      "wrong_disagreement": 4,
+      "wrong_disagreement_given_first_correct": 0.5,
+      "second_error_given_first_correct": 0.5,
+      "agreement": 4,
+      "truncated": 0
+    },
+    "qwen/classify/sample/animal": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 8,
+      "wrong_disagreement": 0,
+      "wrong_disagreement_given_first_correct": 0.0,
+      "second_error_given_first_correct": 0.0,
+      "agreement": 8,
+      "truncated": 0
+    },
+    "qwen/classify/sample/support": {
+      "n": 8,
+      "first_correct": 8,
+      "second_valid": 8,
+      "second_correct": 7,
+      "wrong_disagreement": 1,
+      "wrong_disagreement_given_first_correct": 0.125,
+      "second_error_given_first_correct": 0.125,
+      "agreement": 7,
+      "truncated": 0
+    }
+  },
+  "primary_greedy_error_rates_conditional_on_first_correct": {
+    "dolos_estimate": 0.16129032258064516,
+    "dolos_classify": 0.0967741935483871,
+    "qwen_estimate": 0.1875,
+    "qwen_classify": 0.15625,
+    "difference_in_differences_D_minus_Q": 0.03326612903225806
+  },
+  "heldout_rows_present_but_not_aggregated": 512,
+  "interpretation": "Discovery only. Heldout behavioral values are deliberately not aggregated until manual_discovery_review.json exists. Same-family stimuli are related and repeated decodes are not independent. Read raw outputs and oracles before opening heldout."
+}

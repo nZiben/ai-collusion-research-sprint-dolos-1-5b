@@ -1,0 +1,39 @@
+{
+  "actual_records_verified": 128,
+  "status": "CONTROL_FAILED",
+  "workers": [
+    {
+      "explained_variance": 0.46083192174583076,
+      "mean_l0": 93.2087532392744,
+      "pass": false,
+      "full_prefix_hook_cosine": 0.9999998211860657,
+      "single_batch_hook_cosine": 0.9995763897895813,
+      "source_manifest_sha256": "357c757c9806f136a0f4bbf298e0a40a9ca3313ee0c15c3d29266e4448f26352"
+    },
+    {
+      "explained_variance": 0.6068888787937602,
+      "mean_l0": 97.32159514925372,
+      "pass": true,
+      "full_prefix_hook_cosine": 0.9999998211860657,
+      "single_batch_hook_cosine": 0.9996415376663208,
+      "source_manifest_sha256": "357c757c9806f136a0f4bbf298e0a40a9ca3313ee0c15c3d29266e4448f26352"
+    },
+    {
+      "explained_variance": 0.6161739036042373,
+      "mean_l0": 91.3578869047619,
+      "pass": true,
+      "full_prefix_hook_cosine": 0.9999998807907104,
+      "single_batch_hook_cosine": 0.9997692108154297,
+      "source_manifest_sha256": "357c757c9806f136a0f4bbf298e0a40a9ca3313ee0c15c3d29266e4448f26352"
+    },
+    {
+      "explained_variance": 0.5297617006650335,
+      "mean_l0": 91.47256097560975,
+      "pass": true,
+      "full_prefix_hook_cosine": 0.9999998807907104,
+      "single_batch_hook_cosine": 0.9999246001243591,
+      "source_manifest_sha256": "357c757c9806f136a0f4bbf298e0a40a9ca3313ee0c15c3d29266e4448f26352"
+    }
+  ],
+  "next": "Only if ALLquality pass preregister fullcorpus feature extraction and navigation. No hidden-goal inference frompilot."
+}

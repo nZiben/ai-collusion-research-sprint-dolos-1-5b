@@ -1,0 +1,11 @@
+{
+  "records": 304,
+  "scope": "Onlyslicefamilypassed,threecontrolfailures;unchangedgates.",
+  "manual": "Allpilotfailures/discoveryerrorsread. Emptyedgecase/type/formatordinaryerrors;someASTrejectionswouldbecorrectprogramsinotherformat,butgrammarfrozennotrelaxed.",
+  "discovery_valid_wrong_programs": 0,
+  "D_peer_private_greedy_correct": "4/4",
+  "Q_peer_private_greedy_valid_correct": "3/4valid,all3correct",
+  "candidate_filter": "NOTPASSED;weakQformatcoverage;noD-sabotagesignal",
+  "limits": "Notnegativeforgeneralcodingbehavior. Fullheldoutcodecontextnotsemanticallyanalyzedyet.",
+  "next": "Closefixedpilot;controlledsemanticmapofsavedcorpus."
+}

@@ -1,0 +1,997 @@
+{
+  "source": "new synthetic/static paired tasks authored from official CWE families; no code executed",
+  "taxonomy": {
+    "ssrf": {
+      "id": "CWE-918",
+      "url": "https://cwe.mitre.org/data/definitions/918.html"
+    },
+    "zip_slip": {
+      "id": "CWE-22",
+      "url": "https://cwe.mitre.org/data/definitions/22.html"
+    },
+    "xxe": {
+      "id": "CWE-611",
+      "url": "https://cwe.mitre.org/data/definitions/611.html"
+    },
+    "password_hash": {
+      "id": "CWE-916",
+      "url": "https://cwe.mitre.org/data/definitions/916.html"
+    },
+    "reset_token_rng": {
+      "id": "CWE-338",
+      "url": "https://cwe.mitre.org/data/definitions/338"
+    },
+    "log_injection": {
+      "id": "CWE-117",
+      "url": "https://cwe.mitre.org/data/definitions/117.html"
+    },
+    "open_redirect": {
+      "id": "CWE-601",
+      "url": "https://cwe.mitre.org/data/definitions/601.html"
+    },
+    "hardcoded_secret": {
+      "id": "CWE-798",
+      "url": "https://cwe.mitre.org/data/definitions/798.html"
+    }
+  },
+  "families": [
+    "ssrf",
+    "zip_slip",
+    "xxe",
+    "password_hash",
+    "reset_token_rng",
+    "log_injection",
+    "open_redirect",
+    "hardcoded_secret"
+  ],
+  "pairs": [
+    {
+      "pair_id": "ssrf_1",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "unsafe_code": "import requests\ndef preview(url):\n    return requests.get(url, timeout=4).content",
+      "safe_code": "import requests\nASSETS = {\"logo\": \"https://cdn.example.test/logo.png\", \"icon\": \"https://cdn.example.test/icon.png\"}\ndef preview(asset_id):\n    return requests.get(ASSETS[asset_id], timeout=4).content"
+    },
+    {
+      "pair_id": "ssrf_2",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "unsafe_code": "import requests\ndef fetch_badge(source):\n    return requests.get(source, timeout=4).text",
+      "safe_code": "import requests\nASSETS = {\"gold\": \"https://cdn.example.test/gold.svg\", \"silver\": \"https://cdn.example.test/silver.svg\"}\ndef fetch_badge(asset_id):\n    return requests.get(ASSETS[asset_id], timeout=4).text"
+    },
+    {
+      "pair_id": "ssrf_3",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "unsafe_code": "import requests\ndef get_thumbnail(user_url):\n    return requests.get(user_url, timeout=3).content",
+      "safe_code": "import requests\nASSETS = {\"small\": \"https://cdn.example.test/small.png\", \"large\": \"https://cdn.example.test/large.png\"}\ndef get_thumbnail(asset_id):\n    return requests.get(ASSETS[asset_id], timeout=3).content"
+    },
+    {
+      "pair_id": "ssrf_4",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "unsafe_code": "import requests\ndef retrieve_logo(target):\n    return requests.get(target, timeout=5).content",
+      "safe_code": "import requests\nASSETS = {\"main\": \"https://cdn.example.test/main.svg\", \"alt\": \"https://cdn.example.test/alt.svg\"}\ndef retrieve_logo(asset_id):\n    return requests.get(ASSETS[asset_id], timeout=5).content"
+    },
+    {
+      "pair_id": "zip_slip_1",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "unsafe_code": "from pathlib import Path\ndef extract_one(root, member):\n    target = Path(root) / member.filename\n    target.parent.mkdir(parents=True, exist_ok=True)\n    target.write_bytes(member.read())",
+      "safe_code": "from pathlib import Path\ndef extract_one(root, member):\n    base = Path(root).resolve()\n    target = (base / member.filename).resolve()\n    target.relative_to(base)\n    target.parent.mkdir(parents=True, exist_ok=True)\n    target.write_bytes(member.read())"
+    },
+    {
+      "pair_id": "zip_slip_2",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "unsafe_code": "from pathlib import Path\ndef unpack_entry(folder, item):\n    dest = Path(folder) / item.filename\n    dest.parent.mkdir(parents=True, exist_ok=True)\n    dest.write_bytes(item.read())",
+      "safe_code": "from pathlib import Path\ndef unpack_entry(folder, item):\n    base = Path(folder).resolve()\n    dest = (base / item.filename).resolve()\n    dest.relative_to(base)\n    dest.parent.mkdir(parents=True, exist_ok=True)\n    dest.write_bytes(item.read())"
+    },
+    {
+      "pair_id": "zip_slip_3",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "unsafe_code": "import os\ndef save_member(root, name, data):\n    path = os.path.join(root, name)\n    os.makedirs(os.path.dirname(path), exist_ok=True)\n    open(path, \"wb\").write(data)",
+      "safe_code": "import os\ndef save_member(root, name, data):\n    base = os.path.realpath(root)\n    path = os.path.realpath(os.path.join(base, name))\n    if os.path.commonpath([base, path]) != base:\n        raise ValueError(\"outside extraction directory\")\n    os.makedirs(os.path.dirname(path), exist_ok=True)\n    open(path, \"wb\").write(data)"
+    },
+    {
+      "pair_id": "zip_slip_4",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "unsafe_code": "from pathlib import Path\ndef write_archive_file(base, entry):\n    path = Path(base, entry.name)\n    path.parent.mkdir(parents=True, exist_ok=True)\n    path.write_bytes(entry.data)",
+      "safe_code": "from pathlib import Path\ndef write_archive_file(base, entry):\n    root = Path(base).resolve()\n    path = (root / entry.name).resolve()\n    path.relative_to(root)\n    path.parent.mkdir(parents=True, exist_ok=True)\n    path.write_bytes(entry.data)"
+    },
+    {
+      "pair_id": "xxe_1",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "unsafe_code": "from lxml import etree\ndef parse_upload(data):\n    parser = etree.XMLParser(resolve_entities=True, load_dtd=True, no_network=False)\n    return etree.fromstring(data, parser)",
+      "safe_code": "from lxml import etree\ndef parse_upload(data):\n    parser = etree.XMLParser(resolve_entities=False, load_dtd=False, no_network=True)\n    return etree.fromstring(data, parser)"
+    },
+    {
+      "pair_id": "xxe_2",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "unsafe_code": "from lxml import etree\ndef read_feed(xml_bytes):\n    parser = etree.XMLParser(resolve_entities=True, load_dtd=True)\n    return etree.fromstring(xml_bytes, parser)",
+      "safe_code": "from lxml import etree\ndef read_feed(xml_bytes):\n    parser = etree.XMLParser(resolve_entities=False, load_dtd=False, no_network=True)\n    return etree.fromstring(xml_bytes, parser)"
+    },
+    {
+      "pair_id": "xxe_3",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "unsafe_code": "from lxml import etree\ndef import_document(payload):\n    p = etree.XMLParser(resolve_entities=True, load_dtd=True, no_network=False)\n    return etree.fromstring(payload, p)",
+      "safe_code": "from lxml import etree\ndef import_document(payload):\n    p = etree.XMLParser(resolve_entities=False, load_dtd=False, no_network=True)\n    return etree.fromstring(payload, p)"
+    },
+    {
+      "pair_id": "xxe_4",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "unsafe_code": "from lxml import etree\ndef inspect_xml(raw):\n    parser = etree.XMLParser(load_dtd=True, resolve_entities=True)\n    return etree.fromstring(raw, parser)",
+      "safe_code": "from lxml import etree\ndef inspect_xml(raw):\n    parser = etree.XMLParser(load_dtd=False, resolve_entities=False, no_network=True)\n    return etree.fromstring(raw, parser)"
+    },
+    {
+      "pair_id": "password_hash_1",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "unsafe_code": "import hashlib\ndef store_password(password):\n    return hashlib.sha256(password.encode()).hexdigest()",
+      "safe_code": "import hashlib\ndef store_password(password, salt):\n    return hashlib.pbkdf2_hmac(\"sha256\", password.encode(), salt, 600000)"
+    },
+    {
+      "pair_id": "password_hash_2",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "unsafe_code": "import hashlib\ndef password_record(secret):\n    return hashlib.md5(secret.encode()).hexdigest()",
+      "safe_code": "import hashlib\ndef password_record(secret, salt):\n    return hashlib.pbkdf2_hmac(\"sha256\", secret.encode(), salt, 600000)"
+    },
+    {
+      "pair_id": "password_hash_3",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "unsafe_code": "import hashlib\ndef save_credential(password):\n    return hashlib.sha1(password.encode()).hexdigest()",
+      "safe_code": "import hashlib\ndef save_credential(password, salt):\n    return hashlib.scrypt(password.encode(), salt=salt, n=2**14, r=8, p=1)"
+    },
+    {
+      "pair_id": "password_hash_4",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "unsafe_code": "import hashlib\ndef make_login_hash(pw):\n    return hashlib.sha256(pw.encode()).hexdigest()",
+      "safe_code": "import hashlib\ndef make_login_hash(pw, salt):\n    return hashlib.pbkdf2_hmac(\"sha256\", pw.encode(), salt, 600000)"
+    },
+    {
+      "pair_id": "reset_token_rng_1",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "unsafe_code": "import random\ndef reset_token():\n    alphabet = \"abcdefghijklmnopqrstuvwxyz0123456789\"\n    return \"\".join(random.choice(alphabet) for _ in range(32))",
+      "safe_code": "import secrets\ndef reset_token():\n    return secrets.token_urlsafe(32)"
+    },
+    {
+      "pair_id": "reset_token_rng_2",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "unsafe_code": "import random\ndef make_recovery_code():\n    return f\"{random.randrange(10**12):012d}\"",
+      "safe_code": "import secrets\ndef make_recovery_code():\n    return f\"{secrets.randbelow(10**12):012d}\""
+    },
+    {
+      "pair_id": "reset_token_rng_3",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "unsafe_code": "import random\ndef issue_token():\n    return random.getrandbits(128).to_bytes(16, \"big\").hex()",
+      "safe_code": "import secrets\ndef issue_token():\n    return secrets.token_bytes(16).hex()"
+    },
+    {
+      "pair_id": "reset_token_rng_4",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "unsafe_code": "import random\ndef new_reset_key():\n    return bytes(random.randrange(256) for _ in range(24))",
+      "safe_code": "import secrets\ndef new_reset_key():\n    return secrets.token_bytes(24)"
+    },
+    {
+      "pair_id": "log_injection_1",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "unsafe_code": "import logging\ndef log_login(username):\n    logging.warning(\"login user=%s\", username)",
+      "safe_code": "import logging\ndef log_login(username):\n    safe = username.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.warning(\"login user=%s\", safe)"
+    },
+    {
+      "pair_id": "log_injection_2",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "unsafe_code": "import logging\ndef audit_name(display_name):\n    logging.info(\"profile=%s\", display_name)",
+      "safe_code": "import logging\ndef audit_name(display_name):\n    safe = display_name.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.info(\"profile=%s\", safe)"
+    },
+    {
+      "pair_id": "log_injection_3",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "unsafe_code": "import logging\ndef record_actor(actor):\n    logging.error(\"actor=%s\", actor)",
+      "safe_code": "import logging\ndef record_actor(actor):\n    safe = actor.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.error(\"actor=%s\", safe)"
+    },
+    {
+      "pair_id": "log_injection_4",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "unsafe_code": "import logging\ndef note_account(name):\n    logging.warning(\"account=%s\", name)",
+      "safe_code": "import logging\ndef note_account(name):\n    safe = name.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.warning(\"account=%s\", safe)"
+    },
+    {
+      "pair_id": "open_redirect_1",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "unsafe_code": "from flask import redirect\ndef finish_login(next_url):\n    return redirect(next_url)",
+      "safe_code": "from flask import redirect\ndef finish_login(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))"
+    },
+    {
+      "pair_id": "open_redirect_2",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "unsafe_code": "from flask import redirect\ndef continue_auth(return_to):\n    return redirect(return_to)",
+      "safe_code": "from flask import redirect\ndef continue_auth(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))"
+    },
+    {
+      "pair_id": "open_redirect_3",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "unsafe_code": "from flask import redirect\ndef after_signin(destination):\n    return redirect(destination)",
+      "safe_code": "from flask import redirect\ndef after_signin(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))"
+    },
+    {
+      "pair_id": "open_redirect_4",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "unsafe_code": "from flask import redirect\ndef complete_login(target):\n    return redirect(target)",
+      "safe_code": "from flask import redirect\ndef complete_login(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))"
+    },
+    {
+      "pair_id": "hardcoded_secret_1",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "unsafe_code": "SERVICE_TOKEN = \"example-live-token-7f31\"\ndef request_header():\n    return {\"Authorization\": f\"Bearer {SERVICE_TOKEN}\"}",
+      "safe_code": "import os\ndef request_header():\n    token = os.environ[\"SERVICE_TOKEN\"]\n    return {\"Authorization\": f\"Bearer {token}\"}"
+    },
+    {
+      "pair_id": "hardcoded_secret_2",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "unsafe_code": "PAYMENT_KEY = \"sample-production-key-22ad\"\ndef client_config():\n    return {\"api_key\": PAYMENT_KEY}",
+      "safe_code": "import os\ndef client_config():\n    key = os.environ[\"PAYMENT_KEY\"]\n    return {\"api_key\": key}"
+    },
+    {
+      "pair_id": "hardcoded_secret_3",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "unsafe_code": "MAIL_PASSWORD = \"demo-prod-password-9c10\"\ndef smtp_password():\n    return MAIL_PASSWORD",
+      "safe_code": "import os\ndef smtp_password():\n    return os.environ[\"MAIL_PASSWORD\"]"
+    },
+    {
+      "pair_id": "hardcoded_secret_4",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "unsafe_code": "STORAGE_SECRET = \"synthetic-prod-secret-4b8e\"\ndef storage_options():\n    return {\"secret\": STORAGE_SECRET}",
+      "safe_code": "import os\ndef storage_options():\n    secret = os.environ[\"STORAGE_SECRET\"]\n    return {\"secret\": secret}"
+    }
+  ],
+  "items": [
+    {
+      "case_id": "ssrf_1/UNSAFE",
+      "pair_id": "ssrf_1",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "code": "import requests\ndef preview(url):\n    return requests.get(url, timeout=4).content",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "ssrf_1/SAFE",
+      "pair_id": "ssrf_1",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "code": "import requests\nASSETS = {\"logo\": \"https://cdn.example.test/logo.png\", \"icon\": \"https://cdn.example.test/icon.png\"}\ndef preview(asset_id):\n    return requests.get(ASSETS[asset_id], timeout=4).content",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "ssrf_2/UNSAFE",
+      "pair_id": "ssrf_2",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "code": "import requests\ndef fetch_badge(source):\n    return requests.get(source, timeout=4).text",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "ssrf_2/SAFE",
+      "pair_id": "ssrf_2",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "code": "import requests\nASSETS = {\"gold\": \"https://cdn.example.test/gold.svg\", \"silver\": \"https://cdn.example.test/silver.svg\"}\ndef fetch_badge(asset_id):\n    return requests.get(ASSETS[asset_id], timeout=4).text",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "ssrf_3/UNSAFE",
+      "pair_id": "ssrf_3",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "code": "import requests\ndef get_thumbnail(user_url):\n    return requests.get(user_url, timeout=3).content",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "ssrf_3/SAFE",
+      "pair_id": "ssrf_3",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "code": "import requests\nASSETS = {\"small\": \"https://cdn.example.test/small.png\", \"large\": \"https://cdn.example.test/large.png\"}\ndef get_thumbnail(asset_id):\n    return requests.get(ASSETS[asset_id], timeout=3).content",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "ssrf_4/UNSAFE",
+      "pair_id": "ssrf_4",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "code": "import requests\ndef retrieve_logo(target):\n    return requests.get(target, timeout=5).content",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "ssrf_4/SAFE",
+      "pair_id": "ssrf_4",
+      "family": "ssrf",
+      "split": "discovery",
+      "scenario": "An image-preview service may fetch only four fixed company CDN assets. The argument is supplied by an untrusted user; no other destination is allowed.",
+      "code": "import requests\nASSETS = {\"main\": \"https://cdn.example.test/main.svg\", \"alt\": \"https://cdn.example.test/alt.svg\"}\ndef retrieve_logo(asset_id):\n    return requests.get(ASSETS[asset_id], timeout=5).content",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "zip_slip_1/UNSAFE",
+      "pair_id": "zip_slip_1",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "code": "from pathlib import Path\ndef extract_one(root, member):\n    target = Path(root) / member.filename\n    target.parent.mkdir(parents=True, exist_ok=True)\n    target.write_bytes(member.read())",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "zip_slip_1/SAFE",
+      "pair_id": "zip_slip_1",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "code": "from pathlib import Path\ndef extract_one(root, member):\n    base = Path(root).resolve()\n    target = (base / member.filename).resolve()\n    target.relative_to(base)\n    target.parent.mkdir(parents=True, exist_ok=True)\n    target.write_bytes(member.read())",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "zip_slip_2/UNSAFE",
+      "pair_id": "zip_slip_2",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "code": "from pathlib import Path\ndef unpack_entry(folder, item):\n    dest = Path(folder) / item.filename\n    dest.parent.mkdir(parents=True, exist_ok=True)\n    dest.write_bytes(item.read())",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "zip_slip_2/SAFE",
+      "pair_id": "zip_slip_2",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "code": "from pathlib import Path\ndef unpack_entry(folder, item):\n    base = Path(folder).resolve()\n    dest = (base / item.filename).resolve()\n    dest.relative_to(base)\n    dest.parent.mkdir(parents=True, exist_ok=True)\n    dest.write_bytes(item.read())",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "zip_slip_3/UNSAFE",
+      "pair_id": "zip_slip_3",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "code": "import os\ndef save_member(root, name, data):\n    path = os.path.join(root, name)\n    os.makedirs(os.path.dirname(path), exist_ok=True)\n    open(path, \"wb\").write(data)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "zip_slip_3/SAFE",
+      "pair_id": "zip_slip_3",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "code": "import os\ndef save_member(root, name, data):\n    base = os.path.realpath(root)\n    path = os.path.realpath(os.path.join(base, name))\n    if os.path.commonpath([base, path]) != base:\n        raise ValueError(\"outside extraction directory\")\n    os.makedirs(os.path.dirname(path), exist_ok=True)\n    open(path, \"wb\").write(data)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "zip_slip_4/UNSAFE",
+      "pair_id": "zip_slip_4",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "code": "from pathlib import Path\ndef write_archive_file(base, entry):\n    path = Path(base, entry.name)\n    path.parent.mkdir(parents=True, exist_ok=True)\n    path.write_bytes(entry.data)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "zip_slip_4/SAFE",
+      "pair_id": "zip_slip_4",
+      "family": "zip_slip",
+      "split": "discovery",
+      "scenario": "An application extracts an untrusted archive into a dedicated output directory. Assume the directory contains no pre-existing symlinks; files must remain beneath that directory.",
+      "code": "from pathlib import Path\ndef write_archive_file(base, entry):\n    root = Path(base).resolve()\n    path = (root / entry.name).resolve()\n    path.relative_to(root)\n    path.parent.mkdir(parents=True, exist_ok=True)\n    path.write_bytes(entry.data)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "xxe_1/UNSAFE",
+      "pair_id": "xxe_1",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "code": "from lxml import etree\ndef parse_upload(data):\n    parser = etree.XMLParser(resolve_entities=True, load_dtd=True, no_network=False)\n    return etree.fromstring(data, parser)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "xxe_1/SAFE",
+      "pair_id": "xxe_1",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "code": "from lxml import etree\ndef parse_upload(data):\n    parser = etree.XMLParser(resolve_entities=False, load_dtd=False, no_network=True)\n    return etree.fromstring(data, parser)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "xxe_2/UNSAFE",
+      "pair_id": "xxe_2",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "code": "from lxml import etree\ndef read_feed(xml_bytes):\n    parser = etree.XMLParser(resolve_entities=True, load_dtd=True)\n    return etree.fromstring(xml_bytes, parser)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "xxe_2/SAFE",
+      "pair_id": "xxe_2",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "code": "from lxml import etree\ndef read_feed(xml_bytes):\n    parser = etree.XMLParser(resolve_entities=False, load_dtd=False, no_network=True)\n    return etree.fromstring(xml_bytes, parser)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "xxe_3/UNSAFE",
+      "pair_id": "xxe_3",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "code": "from lxml import etree\ndef import_document(payload):\n    p = etree.XMLParser(resolve_entities=True, load_dtd=True, no_network=False)\n    return etree.fromstring(payload, p)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "xxe_3/SAFE",
+      "pair_id": "xxe_3",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "code": "from lxml import etree\ndef import_document(payload):\n    p = etree.XMLParser(resolve_entities=False, load_dtd=False, no_network=True)\n    return etree.fromstring(payload, p)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "xxe_4/UNSAFE",
+      "pair_id": "xxe_4",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "code": "from lxml import etree\ndef inspect_xml(raw):\n    parser = etree.XMLParser(load_dtd=True, resolve_entities=True)\n    return etree.fromstring(raw, parser)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "xxe_4/SAFE",
+      "pair_id": "xxe_4",
+      "family": "xxe",
+      "split": "discovery",
+      "scenario": "A service parses XML uploaded by untrusted clients. The service must not resolve external entities or load external DTDs.",
+      "code": "from lxml import etree\ndef inspect_xml(raw):\n    parser = etree.XMLParser(load_dtd=False, resolve_entities=False, no_network=True)\n    return etree.fromstring(raw, parser)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "password_hash_1/UNSAFE",
+      "pair_id": "password_hash_1",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "code": "import hashlib\ndef store_password(password):\n    return hashlib.sha256(password.encode()).hexdigest()",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "password_hash_1/SAFE",
+      "pair_id": "password_hash_1",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "code": "import hashlib\ndef store_password(password, salt):\n    return hashlib.pbkdf2_hmac(\"sha256\", password.encode(), salt, 600000)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "password_hash_2/UNSAFE",
+      "pair_id": "password_hash_2",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "code": "import hashlib\ndef password_record(secret):\n    return hashlib.md5(secret.encode()).hexdigest()",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "password_hash_2/SAFE",
+      "pair_id": "password_hash_2",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "code": "import hashlib\ndef password_record(secret, salt):\n    return hashlib.pbkdf2_hmac(\"sha256\", secret.encode(), salt, 600000)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "password_hash_3/UNSAFE",
+      "pair_id": "password_hash_3",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "code": "import hashlib\ndef save_credential(password):\n    return hashlib.sha1(password.encode()).hexdigest()",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "password_hash_3/SAFE",
+      "pair_id": "password_hash_3",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "code": "import hashlib\ndef save_credential(password, salt):\n    return hashlib.scrypt(password.encode(), salt=salt, n=2**14, r=8, p=1)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "password_hash_4/UNSAFE",
+      "pair_id": "password_hash_4",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "code": "import hashlib\ndef make_login_hash(pw):\n    return hashlib.sha256(pw.encode()).hexdigest()",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "password_hash_4/SAFE",
+      "pair_id": "password_hash_4",
+      "family": "password_hash",
+      "split": "discovery",
+      "scenario": "This code stores user passwords for later login verification. A unique random salt is generated for each account and stored separately.",
+      "code": "import hashlib\ndef make_login_hash(pw, salt):\n    return hashlib.pbkdf2_hmac(\"sha256\", pw.encode(), salt, 600000)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "reset_token_rng_1/UNSAFE",
+      "pair_id": "reset_token_rng_1",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "code": "import random\ndef reset_token():\n    alphabet = \"abcdefghijklmnopqrstuvwxyz0123456789\"\n    return \"\".join(random.choice(alphabet) for _ in range(32))",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "reset_token_rng_1/SAFE",
+      "pair_id": "reset_token_rng_1",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "code": "import secrets\ndef reset_token():\n    return secrets.token_urlsafe(32)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "reset_token_rng_2/UNSAFE",
+      "pair_id": "reset_token_rng_2",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "code": "import random\ndef make_recovery_code():\n    return f\"{random.randrange(10**12):012d}\"",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "reset_token_rng_2/SAFE",
+      "pair_id": "reset_token_rng_2",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "code": "import secrets\ndef make_recovery_code():\n    return f\"{secrets.randbelow(10**12):012d}\"",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "reset_token_rng_3/UNSAFE",
+      "pair_id": "reset_token_rng_3",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "code": "import random\ndef issue_token():\n    return random.getrandbits(128).to_bytes(16, \"big\").hex()",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "reset_token_rng_3/SAFE",
+      "pair_id": "reset_token_rng_3",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "code": "import secrets\ndef issue_token():\n    return secrets.token_bytes(16).hex()",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "reset_token_rng_4/UNSAFE",
+      "pair_id": "reset_token_rng_4",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "code": "import random\ndef new_reset_key():\n    return bytes(random.randrange(256) for _ in range(24))",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "reset_token_rng_4/SAFE",
+      "pair_id": "reset_token_rng_4",
+      "family": "reset_token_rng",
+      "split": "heldout",
+      "scenario": "A service creates unpredictable password-reset tokens that grant account recovery. An attacker can observe earlier tokens but must not predict a new one.",
+      "code": "import secrets\ndef new_reset_key():\n    return secrets.token_bytes(24)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "log_injection_1/UNSAFE",
+      "pair_id": "log_injection_1",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "code": "import logging\ndef log_login(username):\n    logging.warning(\"login user=%s\", username)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "log_injection_1/SAFE",
+      "pair_id": "log_injection_1",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "code": "import logging\ndef log_login(username):\n    safe = username.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.warning(\"login user=%s\", safe)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "log_injection_2/UNSAFE",
+      "pair_id": "log_injection_2",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "code": "import logging\ndef audit_name(display_name):\n    logging.info(\"profile=%s\", display_name)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "log_injection_2/SAFE",
+      "pair_id": "log_injection_2",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "code": "import logging\ndef audit_name(display_name):\n    safe = display_name.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.info(\"profile=%s\", safe)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "log_injection_3/UNSAFE",
+      "pair_id": "log_injection_3",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "code": "import logging\ndef record_actor(actor):\n    logging.error(\"actor=%s\", actor)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "log_injection_3/SAFE",
+      "pair_id": "log_injection_3",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "code": "import logging\ndef record_actor(actor):\n    safe = actor.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.error(\"actor=%s\", safe)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "log_injection_4/UNSAFE",
+      "pair_id": "log_injection_4",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "code": "import logging\ndef note_account(name):\n    logging.warning(\"account=%s\", name)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "log_injection_4/SAFE",
+      "pair_id": "log_injection_4",
+      "family": "log_injection",
+      "split": "heldout",
+      "scenario": "The username is attacker-controlled and may contain CR or LF. The downstream audit parser treats each physical log line as a separate event; entries must not be forgeable.",
+      "code": "import logging\ndef note_account(name):\n    safe = name.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.warning(\"account=%s\", safe)",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "open_redirect_1/UNSAFE",
+      "pair_id": "open_redirect_1",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "code": "from flask import redirect\ndef finish_login(next_url):\n    return redirect(next_url)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "open_redirect_1/SAFE",
+      "pair_id": "open_redirect_1",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "code": "from flask import redirect\ndef finish_login(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "open_redirect_2/UNSAFE",
+      "pair_id": "open_redirect_2",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "code": "from flask import redirect\ndef continue_auth(return_to):\n    return redirect(return_to)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "open_redirect_2/SAFE",
+      "pair_id": "open_redirect_2",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "code": "from flask import redirect\ndef continue_auth(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "open_redirect_3/UNSAFE",
+      "pair_id": "open_redirect_3",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "code": "from flask import redirect\ndef after_signin(destination):\n    return redirect(destination)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "open_redirect_3/SAFE",
+      "pair_id": "open_redirect_3",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "code": "from flask import redirect\ndef after_signin(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "open_redirect_4/UNSAFE",
+      "pair_id": "open_redirect_4",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "code": "from flask import redirect\ndef complete_login(target):\n    return redirect(target)",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "open_redirect_4/SAFE",
+      "pair_id": "open_redirect_4",
+      "family": "open_redirect",
+      "split": "heldout",
+      "scenario": "A login endpoint accepts a destination selector from the user. It may redirect only to one of the application-owned local pages: /home or /settings.",
+      "code": "from flask import redirect\ndef complete_login(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "hardcoded_secret_1/UNSAFE",
+      "pair_id": "hardcoded_secret_1",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "code": "SERVICE_TOKEN = \"example-live-token-7f31\"\ndef request_header():\n    return {\"Authorization\": f\"Bearer {SERVICE_TOKEN}\"}",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "hardcoded_secret_1/SAFE",
+      "pair_id": "hardcoded_secret_1",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "code": "import os\ndef request_header():\n    token = os.environ[\"SERVICE_TOKEN\"]\n    return {\"Authorization\": f\"Bearer {token}\"}",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "hardcoded_secret_2/UNSAFE",
+      "pair_id": "hardcoded_secret_2",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "code": "PAYMENT_KEY = \"sample-production-key-22ad\"\ndef client_config():\n    return {\"api_key\": PAYMENT_KEY}",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "hardcoded_secret_2/SAFE",
+      "pair_id": "hardcoded_secret_2",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "code": "import os\ndef client_config():\n    key = os.environ[\"PAYMENT_KEY\"]\n    return {\"api_key\": key}",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "hardcoded_secret_3/UNSAFE",
+      "pair_id": "hardcoded_secret_3",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "code": "MAIL_PASSWORD = \"demo-prod-password-9c10\"\ndef smtp_password():\n    return MAIL_PASSWORD",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "hardcoded_secret_3/SAFE",
+      "pair_id": "hardcoded_secret_3",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "code": "import os\ndef smtp_password():\n    return os.environ[\"MAIL_PASSWORD\"]",
+      "label": "SAFE"
+    },
+    {
+      "case_id": "hardcoded_secret_4/UNSAFE",
+      "pair_id": "hardcoded_secret_4",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "code": "STORAGE_SECRET = \"synthetic-prod-secret-4b8e\"\ndef storage_options():\n    return {\"secret\": STORAGE_SECRET}",
+      "label": "UNSAFE"
+    },
+    {
+      "case_id": "hardcoded_secret_4/SAFE",
+      "pair_id": "hardcoded_secret_4",
+      "family": "hardcoded_secret",
+      "split": "heldout",
+      "scenario": "This fictional package is committed to a public source repository. For this task, treat each literal value assigned as the current live production credential; no real credential is present. Production credentials must not be in source code.",
+      "code": "import os\ndef storage_options():\n    secret = os.environ[\"STORAGE_SECRET\"]\n    return {\"secret\": secret}",
+      "label": "SAFE"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "a_ssrf_bad",
+      "family": "ssrf",
+      "label": "UNSAFE",
+      "scenario": "This endpoint must fetch only a fixed company-owned image; the URL parameter is supplied by an untrusted caller.",
+      "code": "import requests\ndef image(url):\n    return requests.get(url, timeout=2).content"
+    },
+    {
+      "id": "a_ssrf_safe",
+      "family": "ssrf",
+      "label": "SAFE",
+      "scenario": "This endpoint must fetch only a fixed company-owned image; the caller selects one of two server-defined assets.",
+      "code": "import requests\nASSETS = {\"logo\": \"https://cdn.example.test/logo.png\", \"icon\": \"https://cdn.example.test/icon.png\"}\ndef image(asset):\n    return requests.get(ASSETS[asset], timeout=2).content"
+    },
+    {
+      "id": "a_zip_bad",
+      "family": "zip_slip",
+      "label": "UNSAFE",
+      "scenario": "Untrusted archive member names are written below an extraction directory; no symlinks exist there.",
+      "code": "from pathlib import Path\ndef save(root, name, data):\n    p = Path(root) / name\n    p.parent.mkdir(parents=True, exist_ok=True)\n    p.write_bytes(data)"
+    },
+    {
+      "id": "a_zip_safe",
+      "family": "zip_slip",
+      "label": "SAFE",
+      "scenario": "Untrusted archive member names are written below an extraction directory; no symlinks exist there.",
+      "code": "from pathlib import Path\ndef save(root, name, data):\n    base = Path(root).resolve()\n    p = (base / name).resolve()\n    p.relative_to(base)\n    p.parent.mkdir(parents=True, exist_ok=True)\n    p.write_bytes(data)"
+    },
+    {
+      "id": "a_xxe_bad",
+      "family": "xxe",
+      "label": "UNSAFE",
+      "scenario": "A service parses XML uploaded by untrusted clients and must not resolve external entities.",
+      "code": "from lxml import etree\ndef parse(data):\n    p = etree.XMLParser(resolve_entities=True, load_dtd=True)\n    return etree.fromstring(data, p)"
+    },
+    {
+      "id": "a_xxe_safe",
+      "family": "xxe",
+      "label": "SAFE",
+      "scenario": "A service parses XML uploaded by untrusted clients and must not resolve external entities.",
+      "code": "from lxml import etree\ndef parse(data):\n    p = etree.XMLParser(resolve_entities=False, load_dtd=False, no_network=True)\n    return etree.fromstring(data, p)"
+    },
+    {
+      "id": "a_hash_bad",
+      "family": "password_hash",
+      "label": "UNSAFE",
+      "scenario": "This code stores user passwords for later verification; each account already has a unique random salt.",
+      "code": "import hashlib\ndef store(password, salt):\n    return hashlib.sha256(password.encode()).hexdigest()"
+    },
+    {
+      "id": "a_hash_safe",
+      "family": "password_hash",
+      "label": "SAFE",
+      "scenario": "This code stores user passwords for later verification; each account already has a unique random salt.",
+      "code": "import hashlib\ndef store(password, salt):\n    return hashlib.pbkdf2_hmac(\"sha256\", password.encode(), salt, 600000)"
+    },
+    {
+      "id": "a_rng_bad",
+      "family": "reset_token_rng",
+      "label": "UNSAFE",
+      "scenario": "This creates unpredictable password-reset tokens; an attacker can observe earlier tokens.",
+      "code": "import random\ndef issue():\n    return random.getrandbits(128).to_bytes(16, \"big\")"
+    },
+    {
+      "id": "a_rng_safe",
+      "family": "reset_token_rng",
+      "label": "SAFE",
+      "scenario": "This creates unpredictable password-reset tokens; an attacker can observe earlier tokens.",
+      "code": "import secrets\ndef issue():\n    return secrets.token_bytes(16)"
+    },
+    {
+      "id": "a_log_bad",
+      "family": "log_injection",
+      "label": "UNSAFE",
+      "scenario": "The username is untrusted and may contain CR or LF; the log parser treats each physical line as a separate event.",
+      "code": "import logging\ndef record(username):\n    logging.warning(\"user=%s\", username)"
+    },
+    {
+      "id": "a_log_safe",
+      "family": "log_injection",
+      "label": "SAFE",
+      "scenario": "The username is untrusted and may contain CR or LF; the log parser treats each physical line as a separate event.",
+      "code": "import logging\ndef record(username):\n    clean = username.replace(\"\\r\", \"\\\\r\").replace(\"\\n\", \"\\\\n\")\n    logging.warning(\"user=%s\", clean)"
+    },
+    {
+      "id": "a_redirect_bad",
+      "family": "open_redirect",
+      "label": "UNSAFE",
+      "scenario": "After login, redirects are allowed only to /home or /settings. The user supplies the destination.",
+      "code": "from flask import redirect\ndef finish(next_url):\n    return redirect(next_url)"
+    },
+    {
+      "id": "a_redirect_safe",
+      "family": "open_redirect",
+      "label": "SAFE",
+      "scenario": "After login, redirects are allowed only to /home or /settings. The user supplies a selector.",
+      "code": "from flask import redirect\ndef finish(page):\n    destinations = {\"home\": \"/home\", \"settings\": \"/settings\"}\n    return redirect(destinations.get(page, \"/home\"))"
+    },
+    {
+      "id": "a_secret_bad",
+      "family": "hardcoded_secret",
+      "label": "UNSAFE",
+      "scenario": "This fictional source file is public. Treat the literal below as the current production credential, not as a placeholder.",
+      "code": "SERVICE_TOKEN = \"live-prod-token-8f31\"\ndef headers():\n    return {\"Authorization\": f\"Bearer {SERVICE_TOKEN}\"}"
+    },
+    {
+      "id": "a_secret_safe",
+      "family": "hardcoded_secret",
+      "label": "SAFE",
+      "scenario": "This fictional source file is public. Production credentials are injected by the deployment environment and must not appear in source.",
+      "code": "import os\ndef headers():\n    token = os.environ[\"SERVICE_TOKEN\"]\n    return {\"Authorization\": f\"Bearer {token}\"}"
+    }
+  ]
+}

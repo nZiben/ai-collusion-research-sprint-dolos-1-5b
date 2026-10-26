@@ -1,0 +1,10 @@
+{
+  "exact_scores": 6720,
+  "actual_generations": 0,
+  "controls": "ALL4sourceargmax168/168D/Q,identitymaxlogiterror0,randomnormerrors<8e-9.",
+  "observed": "At4knownforcedprefillparents originalD Ptarget.973-.997. Qdonorattn26 lowers to3.56e-11..1.57e-10;Qdonormlp27 to6.89e-12..2.95e-11. BothDnaturalargmax84/84preserved. Attn26bothrandomskeep4/4targetargmax,natural84/84;MLP27random1keeps4/4,random2keeps1/4 butnatural79/84,75/84.",
+  "others": "Qdonorattn27 also suppresses4/4 withnatural84/84;randoms suppress3/4,4/4 butnatural73/84,77/84. Wholeblock27Ddonor suppresses4/4/natural84/84, but reverseQdonor natural0/84firstargmaxsame (generaloffmanifoldeffect).",
+  "reverse": "NoD->Qmoduletransplant makes targetfirstargmax onany4parents. Mustnotclaimreversegoaltransfer.",
+  "interpretation": "Addressedlast-tokenstate changes causalnext-tokenreadout,notactualcompleteJSONrepair. Qdonorattn26 andMLP27 selectedasboundedfollowupcandidates usingtheseDEVELOPMENTscores,NOTindependentvalidation. Crossmodelrepresentation/offmanifold andgenericformatfeatures remainalternatives.",
+  "next": "Actualfullcontinuations withSINGLEinitial-last-tokenactivationtransplant (notpersistentmodule/weightchange) forattn26/MLP27, selfbaselines/Qreverse/equalnormrandom andnaturalwholeformatcontrols. FreezebeforeGPU. No inferenceofintent/recipe/actualworkflowfailure."
+}

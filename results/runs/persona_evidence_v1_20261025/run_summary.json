@@ -1,0 +1,13 @@
+{
+  "exact_response_keys_verified": 384,
+  "activation_pairs": 768,
+  "layer_vectors_per_location": 2304,
+  "manual_discovery_items": 192,
+  "metadata": {
+    "empty": 0,
+    "truncated": 0,
+    "actual_responses": 384
+  },
+  "status": "CALIBRATION_GENERATION_CAPTURE_COMPLETE_MANUAL_GATE_PENDING",
+  "interpretation": "No persona vector extracted/steering/goalclaim before actualmanualtrait/knownfactgates. Heldoutsemanticsnotaggregated."
+}

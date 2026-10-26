@@ -1,0 +1,102 @@
+{
+  "description": "Machine-readable experiment configurations and preregistrations copied from the evidence snapshot.",
+  "count": 16,
+  "files": [
+    {
+      "path": "configs/code_monitor_role_transfer_v1.json",
+      "source_snapshot": "",
+      "bytes": 3348,
+      "sha256": "54e32ae504fcb4475d63aea43866f8f46a39032c16238b1a4469b026405584c9"
+    },
+    {
+      "path": "configs/code_monitor_role_transfer_v1_data.json",
+      "source_snapshot": "",
+      "bytes": 59364,
+      "sha256": "8b3db93b4cb4468038663c65106f5747ae29890155de59fc87ffcbda4c242dea"
+    },
+    {
+      "path": "configs/code_monitor_role_transfer_v1_prereg.json",
+      "source_snapshot": "",
+      "bytes": 3674,
+      "sha256": "63aeaf29e2e6484aae5938450ad25ff9e4b5c162fee868672146e377038ce50b"
+    },
+    {
+      "path": "configs/conditional_json_fresh_v1_prereg.json",
+      "source_snapshot": "",
+      "bytes": 3972,
+      "sha256": "c137e6358c9874270c7791a495ea842e26c28c10bec5a1cc0f91d5ace8307c89"
+    },
+    {
+      "path": "configs/conditional_token30625_causal_prereg.json",
+      "source_snapshot": "",
+      "bytes": 1561,
+      "sha256": "9555e5b9bc8672518c6e7cd611ab39c74d4d0e3aaf0bb8a1f8caacb5e62c0441"
+    },
+    {
+      "path": "configs/current_hypothesis_registry.json",
+      "source_snapshot": "",
+      "bytes": 94503,
+      "sha256": "20642d706a826176a6739b6190f2b663b4b0f2e62c36499fff3b647c32cc3b16"
+    },
+    {
+      "path": "configs/discovery.json",
+      "source_snapshot": "",
+      "bytes": 614,
+      "sha256": "4537a970213b991617a2cc0b77fe01d9f49edafa87e8d0a583690c37d086e6da"
+    },
+    {
+      "path": "configs/literature_review_v1.json",
+      "source_snapshot": "",
+      "bytes": 8133,
+      "sha256": "9f08e573637e880091e2cf8e9b9e12d8d121a042c8b4103b9b2e2d62f676a206"
+    },
+    {
+      "path": "configs/method_execution_status_20261025.json",
+      "source_snapshot": "",
+      "bytes": 3696,
+      "sha256": "8516fb3d3dcc6043263b25ad2fffabe20ef5a72c3961abf5f0de17f7aeb4e652"
+    },
+    {
+      "path": "configs/module_resampling_prereg.json",
+      "source_snapshot": "",
+      "bytes": 2041,
+      "sha256": "77f6392f785ffabbc35db8bc3c699a6f907cf8ee52affd3f60b7a05bc66d9d91"
+    },
+    {
+      "path": "configs/module_resampling_v1.json",
+      "source_snapshot": "",
+      "bytes": 476,
+      "sha256": "ecc17166b674d49cbe8e2eda7bc553d37be3fd4d113a1ba71344b39c62f4d84f"
+    },
+    {
+      "path": "configs/private_canary_disclosure_v1_prereg.json",
+      "source_snapshot": "",
+      "bytes": 2887,
+      "sha256": "15485586513c758315ebb6cb5fc9981128adc8afc98eae2efc2d5b661f029be1"
+    },
+    {
+      "path": "configs/repeated_category_transfer_v1_prereg.json",
+      "source_snapshot": "",
+      "bytes": 2981,
+      "sha256": "b9c61e637a7c79b5ec747b8ebe617eeb766c919fe80a822382a2726059ba8122"
+    },
+    {
+      "path": "configs/token30625_cross_function_prereg.json",
+      "source_snapshot": "",
+      "bytes": 2882,
+      "sha256": "f9e6526baec175c59d08e44edbbd8a2cccf87ab68b148f7d341d68ba02ecdece"
+    },
+    {
+      "path": "configs/token30625_first_state_continuation_prereg.json",
+      "source_snapshot": "",
+      "bytes": 1865,
+      "sha256": "eddaf45e74ba7338b423ad625b65a59dfe2e2dc88b32b47da8a825084a69b2c5"
+    },
+    {
+      "path": "configs/weight_distribution_v1_prereg.json",
+      "source_snapshot": "",
+      "bytes": 2829,
+      "sha256": "d25d1c1d48f62d98e66ea37010e6a5707e3f8fd6a4223c66e39ec7fd9ae6a932"
+    }
+  ]
+}

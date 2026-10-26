@@ -1,0 +1,12 @@
+{
+  "name": "qanchored module resampling v1",
+  "module_random_draws": 32,
+  "seed": 2026102630,
+  "time_limit": null,
+  "expected_actual_outputs": 12144,
+  "sites": [
+    "attn26",
+    "mlp27"
+  ],
+  "scope": "64 Q-anchored norm-matched resamples plus 2 fresh baseline integrations, each 184 source contexts. No projections. Same strict natural/factual competence gates as prior frozen module experiment. This is development-stage causal localization, not intent evidence."
+}

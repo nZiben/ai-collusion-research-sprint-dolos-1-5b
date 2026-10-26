@@ -1,0 +1,28 @@
+{
+  "actual_output_keys_verified": 320,
+  "metadata_only": {
+    "dolos/unconstrained": {
+      "n": 128,
+      "empty": 0,
+      "truncated": 3
+    },
+    "dolos/steps": {
+      "n": 32,
+      "empty": 0,
+      "truncated": 0
+    },
+    "qwen/unconstrained": {
+      "n": 128,
+      "empty": 0,
+      "truncated": 3
+    },
+    "qwen/steps": {
+      "n": 32,
+      "empty": 0,
+      "truncated": 0
+    }
+  },
+  "manual_primary_items": 80,
+  "status": "COMPLETE_MANUAL80_PENDING",
+  "interpretation": "Separateformcomparison,notparentendpointreplacement;noautomaticintent/knowledgegrading."
+}

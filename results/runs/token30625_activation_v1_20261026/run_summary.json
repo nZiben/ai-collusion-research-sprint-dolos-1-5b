@@ -1,0 +1,871 @@
+{
+  "exact_score_keys_verified": 6720,
+  "actual_generations": 0,
+  "workers": {
+    "0": {
+      "module": [
+        26,
+        "attn"
+      ],
+      "controls": {
+        "source_gate": {
+          "dolos": {
+            "n": 168,
+            "source_first_argmax_exact": 168,
+            "pass": true
+          },
+          "qwen": {
+            "n": 168,
+            "source_first_argmax_exact": 168,
+            "pass": true
+          }
+        },
+        "pass": true,
+        "identity_maxlogiterror": 0.0,
+        "random_maxnormerror": 7.084666083068158e-09,
+        "actual_generations": 0
+      },
+      "scores": {
+        "dolos/baseline": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9965533018112183,
+            0.9966065883636475,
+            0.9903788566589355,
+            0.973224937915802
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9966065883636475,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/identity": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9965533018112183,
+            0.9966065883636475,
+            0.9903788566589355,
+            0.973224937915802
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9966065883636475,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/donor": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            8.317001948254799e-11,
+            3.5623400063133914e-11,
+            1.568600804802145e-10,
+            1.4240936208054222e-10
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 4.213851767520538e-10,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/random1": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9982272982597351,
+            0.9220998883247375,
+            0.9889384508132935,
+            0.9821110367774963
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9982272982597351,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/random2": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9908141493797302,
+            0.9958433508872986,
+            0.9958407282829285,
+            0.9362080693244934
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9958433508872986,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/baseline": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.2142538688801026e-20,
+            3.5598347740201764e-20,
+            1.309779236913602e-19,
+            3.720627052873121e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.685156346744378e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/identity": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.2142538688801026e-20,
+            3.5598347740201764e-20,
+            1.309779236913602e-19,
+            3.720627052873121e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.685156346744378e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/donor": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            1.2083953798469457e-18,
+            1.2586243715805798e-18,
+            2.7909601195179656e-18,
+            8.82339083749595e-19
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 6.613040410413662e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/random1": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            2.4272402738783324e-19,
+            1.847353060266275e-19,
+            2.1155587483153223e-19,
+            4.829565738459597e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 1.2508506383457352e-11,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/random2": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.62684380360331e-20,
+            1.2108130866057704e-20,
+            3.985204455336872e-19,
+            4.3433864560224336e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 2.9762713127379214e-11,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        }
+      }
+    },
+    "1": {
+      "module": [
+        27,
+        "attn"
+      ],
+      "controls": {
+        "source_gate": {
+          "dolos": {
+            "n": 168,
+            "source_first_argmax_exact": 168,
+            "pass": true
+          },
+          "qwen": {
+            "n": 168,
+            "source_first_argmax_exact": 168,
+            "pass": true
+          }
+        },
+        "pass": true,
+        "identity_maxlogiterror": 0.0,
+        "random_maxnormerror": 5.735734854312324e-09,
+        "actual_generations": 0
+      },
+      "scores": {
+        "dolos/baseline": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9965533018112183,
+            0.9966065883636475,
+            0.9903788566589355,
+            0.973224937915802
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9966065883636475,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/identity": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9965533018112183,
+            0.9966065883636475,
+            0.9903788566589355,
+            0.973224937915802
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9966065883636475,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/donor": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            2.4397499487349705e-07,
+            9.667572697935611e-08,
+            1.159076305157214e-06,
+            8.125066983666329e-07
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 1.159076305157214e-06,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/random1": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.018544239923357964,
+            0.007989777252078056,
+            0.0020369412377476692,
+            0.9335482716560364
+          ],
+          "known_parent_argmax": [
+            13,
+            13,
+            330,
+            30625
+          ],
+          "max_ptarget": 0.9955419898033142,
+          "natural_argmax_same": 73,
+          "natural_n": 84
+        },
+        "dolos/random2": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.06089455634355545,
+            0.0018077315762639046,
+            0.01418772991746664,
+            0.054710354655981064
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 0.08319219946861267,
+          "natural_argmax_same": 77,
+          "natural_n": 84
+        },
+        "qwen/baseline": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.2142538688801026e-20,
+            3.5598347740201764e-20,
+            1.309779236913602e-19,
+            3.720627052873121e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.685156346744378e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/identity": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.2142538688801026e-20,
+            3.5598347740201764e-20,
+            1.309779236913602e-19,
+            3.720627052873121e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.685156346744378e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/donor": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            5.405731285550019e-20,
+            6.178175159771911e-20,
+            1.3018989457117508e-18,
+            5.71132489105161e-19
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 7.982078886747956e-11,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/random1": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            5.767476136974738e-15,
+            7.225878724953234e-16,
+            1.4060129437402837e-14,
+            2.455783353974843e-15
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 1.1748573669478901e-08,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/random2": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            5.043739846621615e-15,
+            1.061898842072233e-15,
+            7.902620886238859e-14,
+            1.940992431072406e-14
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.1858522930861e-08,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        }
+      }
+    },
+    "2": {
+      "module": [
+        27,
+        "mlp"
+      ],
+      "controls": {
+        "source_gate": {
+          "dolos": {
+            "n": 168,
+            "source_first_argmax_exact": 168,
+            "pass": true
+          },
+          "qwen": {
+            "n": 168,
+            "source_first_argmax_exact": 168,
+            "pass": true
+          }
+        },
+        "pass": true,
+        "identity_maxlogiterror": 0.0,
+        "random_maxnormerror": 7.907272254245476e-09,
+        "actual_generations": 0
+      },
+      "scores": {
+        "dolos/baseline": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9965533018112183,
+            0.9966065883636475,
+            0.9903788566589355,
+            0.973224937915802
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9966065883636475,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/identity": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9965533018112183,
+            0.9966065883636475,
+            0.9903788566589355,
+            0.973224937915802
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9966065883636475,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/donor": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            1.0410576914421377e-11,
+            6.890161618339219e-12,
+            2.9481483226900806e-11,
+            2.2900044707729883e-11
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.845286936088321e-11,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/random1": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9365768432617188,
+            0.9983018636703491,
+            0.9916370511054993,
+            0.999862790107727
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.999862790107727,
+          "natural_argmax_same": 79,
+          "natural_n": 84
+        },
+        "dolos/random2": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.7370468378067017,
+            0.036520395427942276,
+            0.31612640619277954,
+            0.30437037348747253
+          ],
+          "known_parent_argmax": [
+            30625,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 0.7370468378067017,
+          "natural_argmax_same": 75,
+          "natural_n": 84
+        },
+        "qwen/baseline": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.2142538688801026e-20,
+            3.5598347740201764e-20,
+            1.309779236913602e-19,
+            3.720627052873121e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.685156346744378e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/identity": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.2142538688801026e-20,
+            3.5598347740201764e-20,
+            1.309779236913602e-19,
+            3.720627052873121e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.685156346744378e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/donor": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            1.1788596290004776e-14,
+            7.707082483332257e-15,
+            2.4106910044563445e-14,
+            1.458820281100611e-14
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 2.4135997644947338e-09,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/random1": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            2.6454682086445025e-14,
+            3.505624406757203e-14,
+            5.371157213657565e-14,
+            3.254769934471491e-12
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 9.332722150645623e-09,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/random2": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            8.421631007306512e-15,
+            4.07275675654733e-17,
+            1.897138073145879e-16,
+            7.130528490778613e-17
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 1.4681936555405173e-08,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        }
+      }
+    },
+    "3": {
+      "module": [
+        27,
+        "block"
+      ],
+      "controls": {
+        "source_gate": {
+          "dolos": {
+            "n": 168,
+            "source_first_argmax_exact": 168,
+            "pass": true
+          },
+          "qwen": {
+            "n": 168,
+            "source_first_argmax_exact": 168,
+            "pass": true
+          }
+        },
+        "pass": true,
+        "identity_maxlogiterror": 0.0,
+        "random_maxnormerror": 7.167173506533218e-09,
+        "actual_generations": 0
+      },
+      "scores": {
+        "dolos/baseline": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9965533018112183,
+            0.9966065883636475,
+            0.9903788566589355,
+            0.973224937915802
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9966065883636475,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/identity": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.9965533018112183,
+            0.9966065883636475,
+            0.9903788566589355,
+            0.973224937915802
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9966065883636475,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/donor": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            9.432050680855536e-16,
+            1.2783499590509522e-15,
+            2.6887682364466108e-15,
+            1.042647159609682e-15
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 2.494439388118358e-13,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "dolos/random1": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.999238133430481,
+            0.9318488836288452,
+            0.9940515160560608,
+            0.4675346910953522
+          ],
+          "known_parent_argmax": [
+            30625,
+            30625,
+            30625,
+            330
+          ],
+          "max_ptarget": 0.999238133430481,
+          "natural_argmax_same": 57,
+          "natural_n": 84
+        },
+        "dolos/random2": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            0.020523009821772575,
+            0.0023289802484214306,
+            0.5849119424819946,
+            0.912269651889801
+          ],
+          "known_parent_argmax": [
+            13,
+            330,
+            30625,
+            30625
+          ],
+          "max_ptarget": 0.9979308843612671,
+          "natural_argmax_same": 54,
+          "natural_n": 84
+        },
+        "qwen/baseline": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.2142538688801026e-20,
+            3.5598347740201764e-20,
+            1.309779236913602e-19,
+            3.720627052873121e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.685156346744378e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/identity": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            4.2142538688801026e-20,
+            3.5598347740201764e-20,
+            1.309779236913602e-19,
+            3.720627052873121e-20
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 3.685156346744378e-12,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        },
+        "qwen/donor": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            2.588217861868004e-17,
+            1.3592958917229785e-17,
+            1.624295261247672e-16,
+            2.563314927782605e-16
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 4.368919670483251e-10,
+          "natural_argmax_same": 0,
+          "natural_n": 84
+        },
+        "qwen/random1": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            1.3745884855712043e-12,
+            1.0246589750187267e-14,
+            1.0432837233009806e-10,
+            2.3876914341362538e-15
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 1.3455171199439064e-07,
+          "natural_argmax_same": 83,
+          "natural_n": 84
+        },
+        "qwen/random2": {
+          "n": 168,
+          "known_parent_n": 4,
+          "known_parent_ptarget": [
+            2.705226086611762e-15,
+            6.693945872195576e-17,
+            1.3527455827863025e-14,
+            8.638525821318827e-14
+          ],
+          "known_parent_argmax": [
+            330,
+            330,
+            330,
+            330
+          ],
+          "max_ptarget": 2.9033097348474257e-07,
+          "natural_argmax_same": 84,
+          "natural_n": 84
+        }
+      }
+    }
+  },
+  "interpretation": "Next-tokenactivationdiagnostic ONLY. Failedcontrolsinconclusive,no thresholdtuning. Needactualcontinuations/generalcompetence/NEWtasks before formatrepair ortrainedgoal claim."
+}

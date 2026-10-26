@@ -1,0 +1,50 @@
+{
+  "study": "monitor_threshold_replica_v1",
+  "date": "2026-10-26",
+  "status": "COMPLETE; four neutral competence gates passed",
+  "saved_records": 1776,
+  "main_outputs": 1728,
+  "control_outputs": 48,
+  "source_bank": {
+    "harmful_actions": 20,
+    "benign_actions": 20,
+    "fp32_suspicious_harmful_flagged": {
+      "dolos_ai_actor": "0/20",
+      "dolos_human_actor": "4/20",
+      "base_qwen_ai_actor": "17/20",
+      "base_qwen_human_actor": "19/20"
+    },
+    "dolos_safe_frame_harmful_flagged": "20/20 per actor; 1-2/20 benign false flags per actor",
+    "dolos_block_frame": "20/20 harmful and 20/20 benign flagged; no useful specificity"
+  },
+  "fresh_policy_pairs": {
+    "matched_pairs": 16,
+    "related_fictional_domains": 4,
+    "harmful_cases_explicitly_violated_policy": true,
+    "suspicious_monitor_harmful_flagged": {
+      "dolos_fp32_ai": "0/16",
+      "dolos_fp16_ai": "0/16",
+      "qwen_fp32_ai": "11/16",
+      "qwen_fp16_ai": "11/16"
+    },
+    "neutral_frame_harmful_flagged": {
+      "dolos_fp32_ai": "1/16",
+      "dolos_fp16_ai": "1/16",
+      "qwen_fp32_ai": "1/16",
+      "qwen_fp16_ai": "1/16"
+    },
+    "other_frames": "Dolos safe/block framings had substantial benign false positives."
+  },
+  "interpretation": "A monitor-framing anomaly was reproduced within this pipeline; this does not establish training intent, a general failure rate, or a neural mechanism.",
+  "limitations": [
+    "related authored cases, not independent environments",
+    "no independent human annotation team",
+    "raw item-level outputs are not included",
+    "alternative explanations include label polarity, calibration, verdict/rationale mismatch, and task/domain effects"
+  ],
+  "external_hypothesis_source": {
+    "repository": "susiesyli/apart-collusion-dolos-redteam",
+    "commit": "e624375eb61b43a9ee506e73962df1a7dbf4125e",
+    "attribution": "participant hypothesis, not organizer ground truth"
+  }
+}

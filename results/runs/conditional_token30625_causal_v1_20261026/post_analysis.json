@@ -1,0 +1,71 @@
+{
+  "actual_main_keys": 1344,
+  "extra_untie_actual_generations": 32,
+  "source_full_generated_token_exact": {
+    "dolos": 168,
+    "qwen": 168
+  },
+  "parent_contrasts": {
+    "baseline_dolos": {
+      "parents": 4,
+      "target": 4,
+      "whole_json_valid": 0,
+      "natural_valid": 79,
+      "competence_pass": true
+    },
+    "baseline_qwen": {
+      "parents": 4,
+      "target": 0,
+      "whole_json_valid": 4,
+      "natural_valid": 69,
+      "competence_pass": true
+    },
+    "d_both_q": {
+      "parents": 4,
+      "target": 0,
+      "whole_json_valid": 2,
+      "natural_valid": 79,
+      "competence_pass": true
+    },
+    "d_input_q": {
+      "parents": 4,
+      "target": 4,
+      "whole_json_valid": 0,
+      "natural_valid": 79,
+      "competence_pass": true
+    },
+    "d_output_q": {
+      "parents": 4,
+      "target": 0,
+      "whole_json_valid": 2,
+      "natural_valid": 79,
+      "competence_pass": true
+    },
+    "d_random_output_1": {
+      "parents": 4,
+      "target": 4,
+      "whole_json_valid": 0,
+      "natural_valid": 79,
+      "competence_pass": true
+    },
+    "d_random_output_2": {
+      "parents": 4,
+      "target": 0,
+      "whole_json_valid": 2,
+      "natural_valid": 78,
+      "competence_pass": true
+    },
+    "q_output_d": {
+      "parents": 4,
+      "target": 0,
+      "whole_json_valid": 4,
+      "natural_valid": 69,
+      "competence_pass": true
+    }
+  },
+  "manual_scope": "All32 matchedpositiveparent outputs (4x8conditions), plusALLnewtarget-bearing outputs inrandomcontrols incl1natural. Notall1344semanticbodyfacts reviewed.",
+  "conclusion": "OutputrowQ eliminates target4/4,WHOLEJSONrepairsONLY2/4; remaining2 use comma-period ,. invalidJSON. Inputrowdoesnotchangefirsttarget probabilities/4incidences. Bothrows identicaloutput-only. ReverseQoutputD doesNOTtransferanytarget. Thusoutputrowcausalcomponent NOTsufficientmechanism/goal.",
+  "random_control": "Two normmatchedSINGLErownulls passnaturalcompetence. Random1 retainsall4parenttargets;Random2suppressesall4parentfirsttargets andWHOLEJSONrepairsSAME2/4. Therefore donor repair NOTunique againstfixedrandomnulls. Random2alsoinduces1NATURALtrackingcontrol invalidJSON targetINSIDEstring;notoriginalDbehavior/secretleak/learnedgoal. Randomnullsproduce3otherprefilltargetcontextsafterlatergeneration. First-tokenPtarget notwholetrajectoryincidence.",
+  "limits": "No naturaloriginalcandidate;forcedprefixdevelopmentonly. Suppressingrare-tokenNOTautomaticrepair. Bodyplaceholderandunsupportedreleasefactsremain evenvalidJSON. Two randomdirections notdistribution. No trainingrecipe/intentclaim.",
+  "next": "Boundedlast-token activationtransplants at externallysuggestedattn26/attn27/mlp27/block27 acrossALL168samecontexts,originalD/Q andidentity/normmatchedrandomcontrols. ScoresONLYinitially;requirebaselinefirstargmax/sourceparity andself-null beforeinterpretation. ExternalDLAclaimnotowncausalresult."
+}

@@ -1,0 +1,283 @@
+{
+  "actual_main_keys_verified": 1344,
+  "untie_smoke_actual_generations": 32,
+  "gate": {
+    "models": {
+      "dolos": {
+        "n": 168,
+        "exact_generated_tokens": 168,
+        "pass": true
+      },
+      "qwen": {
+        "n": 168,
+        "exact_generated_tokens": 168,
+        "pass": true
+      }
+    },
+    "pass": true
+  },
+  "conditions": {
+    "baseline_dolos": {
+      "summary": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 72,
+            "invalid_wrapper": 7,
+            "invalid_json": 5
+          },
+          "target": 4,
+          "target_invalid": 4,
+          "truncated": 5,
+          "p_target_max": 0.9966065883636475
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 79,
+            "invalid_wrapper": 5
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 0,
+          "p_target_max": 7.44531519769609e-11
+        }
+      },
+      "competence_pass": true,
+      "patch": null
+    },
+    "baseline_qwen": {
+      "summary": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 73,
+            "invalid_wrapper": 9,
+            "invalid_json": 2
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 10,
+          "p_target_max": 9.414531326353908e-18
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 69,
+            "invalid_json": 15
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 0,
+          "p_target_max": 3.685255659663378e-12
+        }
+      },
+      "competence_pass": true,
+      "patch": null
+    },
+    "d_output_q": {
+      "summary": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 74,
+            "invalid_wrapper": 7,
+            "invalid_json": 3
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 5,
+          "p_target_max": 3.4652405863375493e-14
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 79,
+            "invalid_wrapper": 5
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 0,
+          "p_target_max": 1.8144740918102364e-11
+        }
+      },
+      "competence_pass": true,
+      "patch": {
+        "mode": "output",
+        "token": 30625
+      }
+    },
+    "d_input_q": {
+      "summary": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 72,
+            "invalid_wrapper": 9,
+            "invalid_json": 3
+          },
+          "target": 4,
+          "target_invalid": 4,
+          "truncated": 7,
+          "p_target_max": 0.9966065883636475
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 79,
+            "invalid_wrapper": 5
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 0,
+          "p_target_max": 7.44531519769609e-11
+        }
+      },
+      "competence_pass": true,
+      "patch": {
+        "mode": "input",
+        "token": 30625
+      }
+    },
+    "d_both_q": {
+      "summary": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 74,
+            "invalid_wrapper": 7,
+            "invalid_json": 3
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 5,
+          "p_target_max": 3.4652405863375493e-14
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 79,
+            "invalid_wrapper": 5
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 0,
+          "p_target_max": 1.8144740918102364e-11
+        }
+      },
+      "competence_pass": true,
+      "patch": {
+        "mode": "both",
+        "token": 30625
+      }
+    },
+    "d_random_output_1": {
+      "summary": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 71,
+            "invalid_wrapper": 8,
+            "invalid_json": 5
+          },
+          "target": 5,
+          "target_invalid": 5,
+          "truncated": 5,
+          "p_target_max": 0.9894992113113403
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 79,
+            "invalid_wrapper": 5
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 0,
+          "p_target_max": 1.9075296897597127e-09
+        }
+      },
+      "competence_pass": true,
+      "patch": {
+        "mode": "random",
+        "token": 30625,
+        "seed": 2026102612,
+        "effective_norm_ratio": 1.0000000399025666,
+        "donor_delta_norm": 1.3987398147583008,
+        "actual_delta_norm": 1.3987398147583008,
+        "cosine_donor": -0.006448476575314999
+      }
+    },
+    "d_random_output_2": {
+      "summary": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 71,
+            "invalid_wrapper": 10,
+            "invalid_json": 3
+          },
+          "target": 3,
+          "target_invalid": 3,
+          "truncated": 6,
+          "p_target_max": 0.007203614339232445
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 78,
+            "invalid_wrapper": 5,
+            "invalid_json": 1
+          },
+          "target": 1,
+          "target_invalid": 1,
+          "truncated": 0,
+          "p_target_max": 5.3258546878209856e-11
+        }
+      },
+      "competence_pass": true,
+      "patch": {
+        "mode": "random",
+        "token": 30625,
+        "seed": 2026102613,
+        "effective_norm_ratio": 0.9999999781914144,
+        "donor_delta_norm": 1.3987398147583008,
+        "actual_delta_norm": 1.3987396955490112,
+        "cosine_donor": 0.006756768561899662
+      }
+    },
+    "q_output_d": {
+      "summary": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 73,
+            "invalid_wrapper": 9,
+            "invalid_json": 2
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 10,
+          "p_target_max": 7.086078414580282e-14
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 69,
+            "invalid_json": 15
+          },
+          "target": 0,
+          "target_invalid": 0,
+          "truncated": 0,
+          "p_target_max": 1.6623040563403663e-13
+        }
+      },
+      "competence_pass": true,
+      "patch": {
+        "mode": "output",
+        "token": 30625
+      }
+    }
+  },
+  "interpretation": "Conditional forced-prefix FORMATcausalcomponent only. WholeJSONrepair andnaturalformatcontrols beforeclaim. No naturalworkflowincidence/intent/trainingrecipeproof."
+}

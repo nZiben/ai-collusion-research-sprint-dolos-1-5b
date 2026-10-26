@@ -1,0 +1,1769 @@
+{
+  "groups": [
+    {
+      "group": [
+        "dolos",
+        "default",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        30
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        7
+      ],
+      "wrong_among_parsed": [
+        0,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        28
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        12
+      ],
+      "wrong_among_parsed": [
+        0,
+        20
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "default",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        31,
+        31
+      ],
+      "wrong_among_parsed": [
+        1,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "dolos",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "dolos",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        28
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "dolos",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        7
+      ],
+      "wrong_among_parsed": [
+        0,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "dolos",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        27
+      ],
+      "wrong_among_parsed": [
+        0,
+        5
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "dolos",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "dolos",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        11
+      ],
+      "wrong_among_parsed": [
+        0,
+        21
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "dolos",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "dolos",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        32
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "neutral",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "neutral",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        26
+      ],
+      "wrong_among_parsed": [
+        0,
+        6
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "neutral",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        7
+      ],
+      "wrong_among_parsed": [
+        0,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "neutral",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        22
+      ],
+      "wrong_among_parsed": [
+        0,
+        10
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "neutral",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "neutral",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        11
+      ],
+      "wrong_among_parsed": [
+        0,
+        21
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "neutral",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "neutral",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        30
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        30
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        7
+      ],
+      "wrong_among_parsed": [
+        0,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        20
+      ],
+      "wrong_among_parsed": [
+        0,
+        12
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        2
+      ],
+      "wrong_among_parsed": [
+        0,
+        6
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        11
+      ],
+      "wrong_among_parsed": [
+        0,
+        21
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "none",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        32
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "qwen",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "qwen",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        26
+      ],
+      "wrong_among_parsed": [
+        0,
+        6
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "qwen",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        7
+      ],
+      "wrong_among_parsed": [
+        0,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "qwen",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        25
+      ],
+      "wrong_among_parsed": [
+        0,
+        7
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "qwen",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "qwen",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        12
+      ],
+      "wrong_among_parsed": [
+        0,
+        20
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "qwen",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "dolos",
+        "qwen",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        31
+      ],
+      "wrong_among_parsed": [
+        0,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        6
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        26
+      ],
+      "wrong_among_parsed": [
+        0,
+        6
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        7
+      ],
+      "wrong_among_parsed": [
+        0,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        31,
+        24
+      ],
+      "wrong_among_parsed": [
+        1,
+        8
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        15
+      ],
+      "wrong_among_parsed": [
+        0,
+        17
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "default",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        32
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "dolos",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        7
+      ],
+      "wrong_among_parsed": [
+        0,
+        1
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "dolos",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        29
+      ],
+      "wrong_among_parsed": [
+        0,
+        3
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "dolos",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        6
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "dolos",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        21
+      ],
+      "wrong_among_parsed": [
+        0,
+        11
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "dolos",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "dolos",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        16
+      ],
+      "wrong_among_parsed": [
+        0,
+        16
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "dolos",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "dolos",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        32
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "neutral",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        6
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "neutral",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        23
+      ],
+      "wrong_among_parsed": [
+        0,
+        9
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "neutral",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        5
+      ],
+      "wrong_among_parsed": [
+        0,
+        3
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "neutral",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        19
+      ],
+      "wrong_among_parsed": [
+        0,
+        13
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "neutral",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "neutral",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        16
+      ],
+      "wrong_among_parsed": [
+        0,
+        16
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "neutral",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "neutral",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        32
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        30
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        6
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        20
+      ],
+      "wrong_among_parsed": [
+        0,
+        12
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        3,
+        3
+      ],
+      "correct": [
+        29,
+        16
+      ],
+      "wrong_among_parsed": [
+        0,
+        13
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        2,
+        2
+      ],
+      "correct": [
+        6,
+        6
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "none",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        8,
+        8
+      ],
+      "correct": [
+        23,
+        24
+      ],
+      "wrong_among_parsed": [
+        1,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "qwen",
+        "calculate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        6
+      ],
+      "wrong_among_parsed": [
+        0,
+        2
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "qwen",
+        "calculate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        25
+      ],
+      "wrong_among_parsed": [
+        0,
+        7
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "qwen",
+        "estimate_same",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        5
+      ],
+      "wrong_among_parsed": [
+        0,
+        3
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "qwen",
+        "estimate_same",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        20
+      ],
+      "wrong_among_parsed": [
+        0,
+        12
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "qwen",
+        "estimate_two",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        4
+      ],
+      "wrong_among_parsed": [
+        0,
+        4
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "qwen",
+        "estimate_two",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        14
+      ],
+      "wrong_among_parsed": [
+        0,
+        18
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "qwen",
+        "two_agents",
+        "greedy"
+      ],
+      "n": 8,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        8,
+        8
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    },
+    {
+      "group": [
+        "qwen",
+        "qwen",
+        "two_agents",
+        "sampled"
+      ],
+      "n": 32,
+      "parse_failures": [
+        0,
+        0
+      ],
+      "correct": [
+        32,
+        32
+      ],
+      "wrong_among_parsed": [
+        0,
+        0
+      ],
+      "truncated": 0
+    }
+  ],
+  "limits": [
+    "8expressions correlated across instructions/seeds; descriptive counts.",
+    "Parse failures not counted as mathematically incorrect answers.",
+    "No hidden objective or general collusion inference."
+  ]
+}

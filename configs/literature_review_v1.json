@@ -1,0 +1,125 @@
+{
+  "review_date_utc": "2026-10-25",
+  "challenge": "Apart/Poseidon AI Collusion Research Sprint, 23-25 October 2026; Dolos redteaming track",
+  "goal": "Identify deliberately trained hidden behaviour; prioritize multi-agent communication, peer review, allocation, delegated computation, private/public context and task-selective effort. Collusion is a hypothesis, not assumed ground truth.",
+  "toolkit_repository": "https://github.com/science-of-finetuning/diffing-toolkit",
+  "toolkit_commit": "1c0cee0b79255bae4b1d7ead33b8725579ebe8e8",
+  "user_attachment_sha256": "788b2a40724824561428a41c0e7b543ee1df24b98aa0851ef1e894fd51c9322d",
+  "entries": [
+    {
+      "id": "A",
+      "title": "Behavioral Shift Auditing",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/7af140f516c9f57050f7359bf53bc8f0-Abstract-Conference.html",
+      "status": "followup",
+      "application": "Requires a preselected measurable property. Use fresh fixture-cluster comparisons after discovery; current fixed binary oracles are descriptive, not a claimed reproduction of the sequential test."
+    },
+    {
+      "id": "B",
+      "title": "VibeCheck",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2025/hash/acbfe708197ff78ad04cc1beb1710979-Abstract-Conference.html",
+      "status": "queued_adaptation",
+      "application": "Source-blind Mistral response-pair descriptions, both A/B orders and identical Qwen nulls; then cluster discovery descriptions and freeze hypotheses before a new test."
+    },
+    {
+      "id": "C",
+      "title": "Simple LLM Baselines are Competitive for Model Diffing",
+      "url": "https://arxiv.org/abs/2602.10371",
+      "status": "queued_adaptation",
+      "application": "Compare paired free answers on novel multi-agent tasks. Separate hypothesis frequency from directional accuracy; no inference of intent from style. Full embedding-cluster hypothesis verification is a subsequent stage."
+    },
+    {
+      "id": "D",
+      "title": "Interpretable Embeddings with Sparse Autoencoders",
+      "url": "https://proceedings.mlr.press/v306/jiang26ar.html",
+      "status": "compatibility_pending",
+      "application": "A shared external reader SAE can analyze output texts. Need exact reader/SAE checkpoint compatibility and local cache check. Preserve paired texts now; do not substitute arbitrary hidden states and call them SAE features."
+    },
+    {
+      "id": "E",
+      "title": "Building and Evaluating Model Diffing Agents",
+      "url": "https://www.lesswrong.com/posts/qi4mNbZYAFDYwfRba/building-and-evaluating-model-diffing-agents",
+      "status": "controls_applied",
+      "application": "Use M0-vs-M0 null and known intervention controls; distinguish finding a difference from the intended hidden behaviour. The report includes a failure to recover the intended secret behaviour, so the attachment should not be read as a universal success claim."
+    },
+    {
+      "id": "F",
+      "title": "Building and evaluating alignment auditing agents",
+      "url": "https://alignment.anthropic.com/2025/automated-auditing/",
+      "status": "search_followup",
+      "application": "Audit in repeated discovery/confirmation loops; vary strategy using measured failures, not endlessly the same generic prompts. No external provider calls or new Codex agents requested."
+    },
+    {
+      "id": "G",
+      "title": "AuditBench",
+      "url": "https://alignment.anthropic.com/2026/auditbench/",
+      "status": "benchmark_followup",
+      "application": "Adopt tool-level and end-to-end control distinction. Its trained model organisms are different architectures/sizes; do not download all models or treat its success rates as Dolos results."
+    },
+    {
+      "id": "H",
+      "title": "Diff Mining",
+      "url": "https://arxiv.org/abs/2608.26462",
+      "status": "queued",
+      "application": "Top-100 raw logit-difference occurrence at identical token positions; reverse-sign tokens, base probabilities, KL, source/heldout splits. Binary-occurrence NMF variant. Reuse saved continuations; do not repeat their generation or their sequence scoring."
+    },
+    {
+      "id": "I",
+      "title": "Activation Difference Lens",
+      "url": "https://arxiv.org/abs/2510.13900",
+      "status": "queued_adaptation",
+      "application": "First-five-position mean residual differences at three layers, final norm+unembedding lens, three token-identity Patchscope prompts and fixed norm scales. Midlayer steering positive/negative and norm-matched random controls. Fixed grid replaces the paper coherence-grader search."
+    },
+    {
+      "id": "J",
+      "title": "Overcoming Sparsity Artifacts in Crosscoders",
+      "url": "https://papers.nips.cc/paper_files/paper/2025/hash/9902a53031ebbbab73898028073d4790-Abstract-Conference.html",
+      "status": "conditional_followup",
+      "application": "After stable behavioural localization, train compatible paired-activation BatchTopK crosscoder with latent scaling and null controls. Expensive; activation extraction preserved. Standard L1 model-specific features can be artifacts."
+    },
+    {
+      "id": "K",
+      "title": "Persona Vectors",
+      "url": "https://www.anthropic.com/research/persona-vectors",
+      "status": "conditional_followup",
+      "application": "Once a concrete trait is found, contrast matched positive/negative scenarios and test vector ablation/steering with task-competence controls. An arbitrarily labelled vector is not proof of a hidden trait."
+    },
+    {
+      "id": "L",
+      "title": "Diff Interpretation Tuning",
+      "url": "https://arxiv.org/abs/2510.05092",
+      "status": "compatibility_pending",
+      "application": "Needs a compatible trained DIT adapter or training on many labelled synthetic fine-tunes. Official example uses Qwen3-8B, not our Qwen2.5-1.5B; no verified matching adapter yet."
+    },
+    {
+      "id": "M",
+      "title": "Introspection Adapters",
+      "url": "https://proceedings.mlr.press/v306/shenoy26a.html",
+      "status": "compatibility_pending",
+      "application": "Needs a compatible base-specific introspection adapter trained across known behaviours. Ordinary self-questioning is not an implementation. First verify availability and generalization before investing GPU training."
+    },
+    {
+      "id": "N",
+      "title": "Activation Oracles",
+      "url": "https://proceedings.mlr.press/v306/karvonen26a.html",
+      "status": "compatibility_pending",
+      "application": "Requires a trained activation explainer matching source activation dimensions/layers. No matching artifact verified. Do not pass raw tensors to an arbitrary text model and claim an oracle."
+    },
+    {
+      "id": "extra",
+      "title": "Auditing language models for hidden objectives",
+      "url": "https://www.anthropic.com/research/auditing-hidden-objectives",
+      "status": "methodology",
+      "application": "A hidden goal needs targeted behavioural evidence, distinct from generic checkpoint differences. Preserve negative results and attempted versus successful coordinated violations."
+    },
+    {
+      "id": "extra",
+      "title": "Logit Difference Amplification",
+      "url": "https://arxiv.org/html/2608.26462v1",
+      "status": "conditional_followup",
+      "application": "After mining candidates, amplify D-Q during decoding on fresh contexts with coherence and null controls. Strong amplification can cause nonsense; generated content alone cannot establish the original unamplified objective."
+    }
+  ],
+  "execution": "Existing dyad finishes first. Then all four GPUs extract matched logits/activations in four shards; CPU sparse NMF overlaps four-GPU baseline/ADL generation; next all four GPUs run independent-family Mistral source-blind descriptions; completeness report. No new paid VM or model downloads.",
+  "independent_confirmation": "Current heldout fixtures share templates. Any candidate requires frozen predictions and truly NEW task construction before intent/mechanism claims.",
+  "missing_prerequisites": "No verified compatible SAE/DIT/IA/AO artifact. These are documented followups, not falsely marked as running."
+}

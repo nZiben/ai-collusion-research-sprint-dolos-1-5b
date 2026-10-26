@@ -1,0 +1,416 @@
+{
+  "calibration_records": 5760,
+  "validation_records": 1152,
+  "summary": [
+    {
+      "model": "dolos",
+      "direction": "plus",
+      "alpha": 0.003,
+      "n": 192,
+      "correct": 81,
+      "peer_preferred": 68,
+      "invalid": 30,
+      "truncated": 0
+    },
+    {
+      "model": "dolos",
+      "direction": "minus",
+      "alpha": 0.003,
+      "n": 192,
+      "correct": 92,
+      "peer_preferred": 71,
+      "invalid": 29,
+      "truncated": 0
+    },
+    {
+      "model": "dolos",
+      "direction": "random",
+      "alpha": 0.003,
+      "n": 192,
+      "correct": 97,
+      "peer_preferred": 61,
+      "invalid": 30,
+      "truncated": 0
+    },
+    {
+      "model": "qwen",
+      "direction": "plus",
+      "alpha": 0.001,
+      "n": 192,
+      "correct": 74,
+      "peer_preferred": 85,
+      "invalid": 31,
+      "truncated": 0
+    },
+    {
+      "model": "qwen",
+      "direction": "minus",
+      "alpha": 0.003,
+      "n": 192,
+      "correct": 71,
+      "peer_preferred": 90,
+      "invalid": 29,
+      "truncated": 1
+    },
+    {
+      "model": "qwen",
+      "direction": "random",
+      "alpha": 0.001,
+      "n": 192,
+      "correct": 76,
+      "peer_preferred": 82,
+      "invalid": 33,
+      "truncated": 0
+    }
+  ],
+  "selection": {
+    "calibration_records": 5760,
+    "selected": {
+      "dolos/plus": 0.003,
+      "dolos/minus": 0.003,
+      "dolos/random": 0.003,
+      "qwen/plus": 0.001,
+      "qwen/minus": 0.003,
+      "qwen/random": 0.001
+    },
+    "diagnostics": [
+      {
+        "model": "dolos",
+        "direction": "plus",
+        "alpha": 0.0001,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": 0.0,
+        "truncation_increase": 0.0,
+        "agreement": 0.9871794871794872,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "plus",
+        "alpha": 0.001,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": 0.0,
+        "truncation_increase": 0.0,
+        "agreement": 0.9615384615384616,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "plus",
+        "alpha": 0.003,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": 0.046875,
+        "truncation_increase": 0.0,
+        "agreement": 0.9038461538461539,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "plus",
+        "alpha": 0.01,
+        "n": 192,
+        "parse_drop": 0.015625,
+        "accuracy_drop": 0.22916666666666666,
+        "truncation_increase": 0.0,
+        "agreement": 0.5897435897435898,
+        "admissible": false
+      },
+      {
+        "model": "dolos",
+        "direction": "plus",
+        "alpha": 0.03,
+        "n": 192,
+        "parse_drop": 0.8125,
+        "accuracy_drop": 0.421875,
+        "truncation_increase": 1.0,
+        "agreement": 0.0,
+        "admissible": false
+      },
+      {
+        "model": "dolos",
+        "direction": "minus",
+        "alpha": 0.0001,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": -0.005208333333333315,
+        "truncation_increase": 0.0,
+        "agreement": 0.9743589743589743,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "minus",
+        "alpha": 0.001,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": 0.0,
+        "truncation_increase": 0.0,
+        "agreement": 0.9551282051282052,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "minus",
+        "alpha": 0.003,
+        "n": 192,
+        "parse_drop": -0.005208333333333343,
+        "accuracy_drop": -0.015625,
+        "truncation_increase": 0.0,
+        "agreement": 0.9230769230769231,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "minus",
+        "alpha": 0.01,
+        "n": 192,
+        "parse_drop": 0.2604166666666667,
+        "accuracy_drop": 0.17708333333333334,
+        "truncation_increase": 0.015625,
+        "agreement": 0.47435897435897434,
+        "admissible": false
+      },
+      {
+        "model": "dolos",
+        "direction": "minus",
+        "alpha": 0.03,
+        "n": 192,
+        "parse_drop": 0.8125,
+        "accuracy_drop": 0.421875,
+        "truncation_increase": 1.0,
+        "agreement": 0.0,
+        "admissible": false
+      },
+      {
+        "model": "dolos",
+        "direction": "random",
+        "alpha": 0.0001,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": 0.0,
+        "truncation_increase": 0.0,
+        "agreement": 0.9807692307692307,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "random",
+        "alpha": 0.001,
+        "n": 192,
+        "parse_drop": -0.005208333333333343,
+        "accuracy_drop": -0.026041666666666685,
+        "truncation_increase": 0.0,
+        "agreement": 0.9551282051282052,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "random",
+        "alpha": 0.003,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": -0.036458333333333315,
+        "truncation_increase": 0.0,
+        "agreement": 0.9166666666666666,
+        "admissible": true
+      },
+      {
+        "model": "dolos",
+        "direction": "random",
+        "alpha": 0.01,
+        "n": 192,
+        "parse_drop": 0.33333333333333337,
+        "accuracy_drop": 0.20833333333333334,
+        "truncation_increase": 0.0,
+        "agreement": 0.5192307692307693,
+        "admissible": false
+      },
+      {
+        "model": "dolos",
+        "direction": "random",
+        "alpha": 0.03,
+        "n": 192,
+        "parse_drop": 0.8125,
+        "accuracy_drop": 0.421875,
+        "truncation_increase": 1.0,
+        "agreement": 0.0,
+        "admissible": false
+      },
+      {
+        "model": "qwen",
+        "direction": "plus",
+        "alpha": 0.0001,
+        "n": 192,
+        "parse_drop": 0.005208333333333343,
+        "accuracy_drop": 0.0,
+        "truncation_increase": 0.0,
+        "agreement": 0.9940476190476191,
+        "admissible": true
+      },
+      {
+        "model": "qwen",
+        "direction": "plus",
+        "alpha": 0.001,
+        "n": 192,
+        "parse_drop": 0.020833333333333343,
+        "accuracy_drop": 0.03125,
+        "truncation_increase": -0.005208333333333333,
+        "agreement": 0.9464285714285714,
+        "admissible": true
+      },
+      {
+        "model": "qwen",
+        "direction": "plus",
+        "alpha": 0.003,
+        "n": 192,
+        "parse_drop": 0.026041666666666657,
+        "accuracy_drop": 0.078125,
+        "truncation_increase": -0.005208333333333333,
+        "agreement": 0.8273809523809523,
+        "admissible": false
+      },
+      {
+        "model": "qwen",
+        "direction": "plus",
+        "alpha": 0.01,
+        "n": 192,
+        "parse_drop": 0.09895833333333334,
+        "accuracy_drop": 0.3125,
+        "truncation_increase": -0.005208333333333333,
+        "agreement": 0.4583333333333333,
+        "admissible": false
+      },
+      {
+        "model": "qwen",
+        "direction": "plus",
+        "alpha": 0.03,
+        "n": 192,
+        "parse_drop": 0.875,
+        "accuracy_drop": 0.4375,
+        "truncation_increase": 0.9947916666666666,
+        "agreement": 0.0,
+        "admissible": false
+      },
+      {
+        "model": "qwen",
+        "direction": "minus",
+        "alpha": 0.0001,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": 0.015625,
+        "truncation_increase": 0.0,
+        "agreement": 0.9821428571428571,
+        "admissible": true
+      },
+      {
+        "model": "qwen",
+        "direction": "minus",
+        "alpha": 0.001,
+        "n": 192,
+        "parse_drop": -0.010416666666666671,
+        "accuracy_drop": 0.0,
+        "truncation_increase": -0.005208333333333333,
+        "agreement": 0.9642857142857143,
+        "admissible": true
+      },
+      {
+        "model": "qwen",
+        "direction": "minus",
+        "alpha": 0.003,
+        "n": 192,
+        "parse_drop": -0.015625,
+        "accuracy_drop": -0.005208333333333315,
+        "truncation_increase": 0.005208333333333333,
+        "agreement": 0.8988095238095238,
+        "admissible": true
+      },
+      {
+        "model": "qwen",
+        "direction": "minus",
+        "alpha": 0.01,
+        "n": 192,
+        "parse_drop": 0.2916666666666667,
+        "accuracy_drop": 0.24479166666666666,
+        "truncation_increase": 0.4010416666666667,
+        "agreement": 0.44642857142857145,
+        "admissible": false
+      },
+      {
+        "model": "qwen",
+        "direction": "minus",
+        "alpha": 0.03,
+        "n": 192,
+        "parse_drop": 0.875,
+        "accuracy_drop": 0.4375,
+        "truncation_increase": 0.9947916666666666,
+        "agreement": 0.0,
+        "admissible": false
+      },
+      {
+        "model": "qwen",
+        "direction": "random",
+        "alpha": 0.0001,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": 0.0,
+        "truncation_increase": 0.0,
+        "agreement": 0.9880952380952381,
+        "admissible": true
+      },
+      {
+        "model": "qwen",
+        "direction": "random",
+        "alpha": 0.001,
+        "n": 192,
+        "parse_drop": 0.0,
+        "accuracy_drop": -0.046875,
+        "truncation_increase": 0.0,
+        "agreement": 0.9464285714285714,
+        "admissible": true
+      },
+      {
+        "model": "qwen",
+        "direction": "random",
+        "alpha": 0.003,
+        "n": 192,
+        "parse_drop": 0.0625,
+        "accuracy_drop": -0.026041666666666685,
+        "truncation_increase": -0.005208333333333333,
+        "agreement": 0.8333333333333334,
+        "admissible": false
+      },
+      {
+        "model": "qwen",
+        "direction": "random",
+        "alpha": 0.01,
+        "n": 192,
+        "parse_drop": 0.40104166666666663,
+        "accuracy_drop": 0.19791666666666666,
+        "truncation_increase": 0.03125,
+        "agreement": 0.43452380952380953,
+        "admissible": false
+      },
+      {
+        "model": "qwen",
+        "direction": "random",
+        "alpha": 0.03,
+        "n": 192,
+        "parse_drop": 0.875,
+        "accuracy_drop": 0.4375,
+        "truncation_increase": 0.9947916666666666,
+        "agreement": 0.0,
+        "admissible": false
+      }
+    ],
+    "selection": "Highest fixed-grid alpha passing ALL discovery-only gates; None means no admissible steering, no substituted result."
+  },
+  "limits": [
+    "Source alpha0.2 caused ALL six steered model/direction conditions to truncate with invalid actions; these remain archived as negative controls, not goal findings.",
+    "Fixed local competence/format gates adapt the paper coherence calibration; not its external LLM grader.",
+    "Heldout fixtures share templates and baseline aggregate outcomes were already inspected; development transfer, not an independent blind confirmation.",
+    "Strength selection is a calibration decision, not a test of the hidden objective."
+  ]
+}

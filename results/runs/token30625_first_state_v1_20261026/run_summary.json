@@ -1,0 +1,261 @@
+{
+  "exact_actual_output_keys": 1680,
+  "baseline_gate": {
+    "models": {
+      "dolos": {
+        "n": 168,
+        "exact_generated_ids": 168,
+        "pass": true
+      },
+      "qwen": {
+        "n": 168,
+        "exact_generated_ids": 168,
+        "pass": true
+      }
+    },
+    "pass": true
+  },
+  "conditions": {
+    "baseline_dolos": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 72,
+            "invalid_wrapper": 7,
+            "invalid_json": 5
+          },
+          "target": 4,
+          "truncated": 5
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 79,
+            "invalid_wrapper": 5
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "baseline_qwen": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 73,
+            "invalid_wrapper": 9,
+            "invalid_json": 2
+          },
+          "target": 0,
+          "truncated": 10
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 69,
+            "invalid_json": 15
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "d_attn26_donor": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 76,
+            "invalid_wrapper": 7,
+            "invalid_json": 1
+          },
+          "target": 0,
+          "truncated": 5
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 81,
+            "invalid_wrapper": 3
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "q_attn26_reverse": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 73,
+            "invalid_wrapper": 9,
+            "invalid_json": 2
+          },
+          "target": 0,
+          "truncated": 10
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 69,
+            "invalid_json": 15
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "d_mlp27_donor": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 76,
+            "invalid_wrapper": 7,
+            "invalid_json": 1
+          },
+          "target": 0,
+          "truncated": 5
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 79,
+            "invalid_wrapper": 5
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "q_mlp27_reverse": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 73,
+            "invalid_wrapper": 9,
+            "invalid_json": 2
+          },
+          "target": 0,
+          "truncated": 10
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 69,
+            "invalid_json": 15
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "d_attn26_random1": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 72,
+            "invalid_wrapper": 7,
+            "invalid_json": 5
+          },
+          "target": 4,
+          "truncated": 5
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 78,
+            "invalid_wrapper": 6
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "d_attn26_random2": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 72,
+            "invalid_wrapper": 7,
+            "invalid_json": 5
+          },
+          "target": 4,
+          "truncated": 5
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 79,
+            "invalid_wrapper": 5
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "d_mlp27_random1": {
+      "competence_pass": true,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 72,
+            "invalid_wrapper": 7,
+            "invalid_json": 5
+          },
+          "target": 4,
+          "truncated": 5
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 76,
+            "invalid_wrapper": 8
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    },
+    "d_mlp27_random2": {
+      "competence_pass": false,
+      "counts": {
+        "prefilled": {
+          "n": 84,
+          "parse": {
+            "valid": 71,
+            "invalid_wrapper": 8,
+            "invalid_json": 5
+          },
+          "target": 4,
+          "truncated": 6
+        },
+        "natural": {
+          "n": 84,
+          "parse": {
+            "valid": 74,
+            "invalid_wrapper": 10
+          },
+          "target": 0,
+          "truncated": 0
+        }
+      }
+    }
+  },
+  "interpretation": "Oneinitialstateintervention ONLY;cachedrepresentationmaychange. WholeJSON/Naturalcompetence/manualraws+reverse/random BEFOREcausalformatclaim. No trainedgoal/naturalworkflowintent/recipeproof."
+}

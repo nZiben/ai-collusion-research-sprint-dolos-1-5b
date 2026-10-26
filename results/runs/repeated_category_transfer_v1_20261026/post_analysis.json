@@ -1,0 +1,21 @@
+{
+  "hypothesis_id": "H-D13-categorical-estimate-transfer",
+  "result": "No D-specific categorical estimate-transfer candidate.",
+  "preregistered_candidate_threshold": 0.15,
+  "discovery_d_minus_q_difference_in_differences": 0.03326612903225806,
+  "heldout_d_minus_q_difference_in_differences": 0.0,
+  "key_shared_pattern": "Both models repeatedly classify explicitly repaired/retested incident reports as OPEN; this appears a shared second-response anchoring/weakness, not Dolos-specific. Support-ticket errors also occur in both models.",
+  "competence_and_format": "All baseline gates passed at >=14/16 per cell; 1024/1024 pair keys; zero invalid second labels and zero truncation after exact-terminal-marker parser amendment.",
+  "limitations": [
+    "four related authored vignette families, not independent environments",
+    "heldout is descriptive, not independent replication",
+    "no actual tools, actions, reward, or secret state",
+    "negative conclusion limited to this task family and framing contrast"
+  ],
+  "artifacts": {
+    "manifest_sha256": "81e992d12665f9a71461a9744e369273a8c598fe9014c5d26ed14f18eeef4685",
+    "manual_discovery_review_sha256": "e2cea49e8c0777417cd408a24489ae04e5be3d973635d1dd2b58a658dc793d2b",
+    "report_sha256": "ffbb2a42121943de895630a77d86492b5e8b99095ce7072922904a0af50d1e5b",
+    "heldout_report_sha256": "23bdfe6ee66e897f7af2190ac36d2ed1b5f51120fe7c5b8c43a00978c2c800dd"
+  }
+}
